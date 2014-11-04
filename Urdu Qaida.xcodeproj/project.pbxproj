@@ -69,6 +69,46 @@
 		29042A5C1A066A5200EF14B2 /* saib.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A1E1A066A5200EF14B2 /* saib.png */; };
 		29042A5D1A066A5200EF14B2 /* strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A1F1A066A5200EF14B2 /* strawberry.png */; };
 		29042A5E1A066A5200EF14B2 /* trbooz.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A201A066A5200EF14B2 /* trbooz.png */; };
+		29DCD8641A08E6DB001CFE2E /* آ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD83E1A08E6DB001CFE2E /* آ.caf */; };
+		29DCD8651A08E6DB001CFE2E /* ا.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD83F1A08E6DB001CFE2E /* ا.caf */; };
+		29DCD8661A08E6DB001CFE2E /* ب.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8401A08E6DB001CFE2E /* ب.caf */; };
+		29DCD8671A08E6DB001CFE2E /* پ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8411A08E6DB001CFE2E /* پ.caf */; };
+		29DCD8681A08E6DB001CFE2E /* ت.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8421A08E6DB001CFE2E /* ت.caf */; };
+		29DCD8691A08E6DB001CFE2E /* ث.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8431A08E6DB001CFE2E /* ث.caf */; };
+		29DCD86A1A08E6DB001CFE2E /* ٹ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8441A08E6DB001CFE2E /* ٹ.caf */; };
+		29DCD86B1A08E6DB001CFE2E /* ج.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8451A08E6DB001CFE2E /* ج.caf */; };
+		29DCD86C1A08E6DB001CFE2E /* چ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8461A08E6DB001CFE2E /* چ.caf */; };
+		29DCD86D1A08E6DB001CFE2E /* ح.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8471A08E6DB001CFE2E /* ح.caf */; };
+		29DCD86E1A08E6DB001CFE2E /* خ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8481A08E6DB001CFE2E /* خ.caf */; };
+		29DCD86F1A08E6DB001CFE2E /* د.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8491A08E6DB001CFE2E /* د.caf */; };
+		29DCD8701A08E6DB001CFE2E /* ذ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD84A1A08E6DB001CFE2E /* ذ.caf */; };
+		29DCD8711A08E6DB001CFE2E /* ڈ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD84B1A08E6DB001CFE2E /* ڈ.caf */; };
+		29DCD8721A08E6DB001CFE2E /* ر.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD84C1A08E6DB001CFE2E /* ر.caf */; };
+		29DCD8731A08E6DB001CFE2E /* ز.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD84D1A08E6DB001CFE2E /* ز.caf */; };
+		29DCD8741A08E6DB001CFE2E /* ڑ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD84E1A08E6DB001CFE2E /* ڑ.caf */; };
+		29DCD8751A08E6DB001CFE2E /* ژ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD84F1A08E6DB001CFE2E /* ژ.caf */; };
+		29DCD8761A08E6DB001CFE2E /* س.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8501A08E6DB001CFE2E /* س.caf */; };
+		29DCD8771A08E6DB001CFE2E /* ش.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8511A08E6DB001CFE2E /* ش.caf */; };
+		29DCD8781A08E6DB001CFE2E /* ص.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8521A08E6DB001CFE2E /* ص.caf */; };
+		29DCD8791A08E6DB001CFE2E /* ض.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8531A08E6DB001CFE2E /* ض.caf */; };
+		29DCD87A1A08E6DB001CFE2E /* ط.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8541A08E6DB001CFE2E /* ط.caf */; };
+		29DCD87B1A08E6DB001CFE2E /* ظ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8551A08E6DB001CFE2E /* ظ.caf */; };
+		29DCD87C1A08E6DB001CFE2E /* ع.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8561A08E6DB001CFE2E /* ع.caf */; };
+		29DCD87D1A08E6DB001CFE2E /* غ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8571A08E6DB001CFE2E /* غ.caf */; };
+		29DCD87E1A08E6DB001CFE2E /* ف.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8581A08E6DB001CFE2E /* ف.caf */; };
+		29DCD87F1A08E6DB001CFE2E /* ق.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8591A08E6DB001CFE2E /* ق.caf */; };
+		29DCD8801A08E6DB001CFE2E /* ک.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD85A1A08E6DB001CFE2E /* ک.caf */; };
+		29DCD8811A08E6DB001CFE2E /* گ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD85B1A08E6DB001CFE2E /* گ.caf */; };
+		29DCD8821A08E6DB001CFE2E /* ل.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD85C1A08E6DB001CFE2E /* ل.caf */; };
+		29DCD8831A08E6DB001CFE2E /* م.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD85D1A08E6DB001CFE2E /* م.caf */; };
+		29DCD8841A08E6DB001CFE2E /* ن.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD85E1A08E6DB001CFE2E /* ن.caf */; };
+		29DCD8851A08E6DB001CFE2E /* ں.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD85F1A08E6DB001CFE2E /* ں.caf */; };
+		29DCD8861A08E6DB001CFE2E /* ہ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8601A08E6DB001CFE2E /* ہ.caf */; };
+		29DCD8871A08E6DB001CFE2E /* و.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8611A08E6DB001CFE2E /* و.caf */; };
+		29DCD8881A08E6DB001CFE2E /* ی.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8621A08E6DB001CFE2E /* ی.caf */; };
+		29DCD8891A08E6DB001CFE2E /* ے.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8631A08E6DB001CFE2E /* ے.caf */; };
+		29DDDEEA1A0762F00043CF8F /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDDEE91A0762F00043CF8F /* SoundManager.m */; };
+		29DDDEED1A0763040043CF8F /* Alif.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DDDEEC1A0763040043CF8F /* Alif.caf */; };
 		29DEBA871A06599300619813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DEBA861A06599300619813 /* main.m */; };
 		29DEBA8A1A06599300619813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DEBA891A06599300619813 /* AppDelegate.m */; };
 		29DEBA8D1A06599300619813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DEBA8C1A06599300619813 /* ViewController.m */; };
@@ -151,6 +191,47 @@
 		29042A1E1A066A5200EF14B2 /* saib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saib.png; sourceTree = "<group>"; };
 		29042A1F1A066A5200EF14B2 /* strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry.png; sourceTree = "<group>"; };
 		29042A201A066A5200EF14B2 /* trbooz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trbooz.png; sourceTree = "<group>"; };
+		29DCD83E1A08E6DB001CFE2E /* آ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "آ.caf"; sourceTree = "<group>"; };
+		29DCD83F1A08E6DB001CFE2E /* ا.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ا.caf"; sourceTree = "<group>"; };
+		29DCD8401A08E6DB001CFE2E /* ب.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ب.caf"; sourceTree = "<group>"; };
+		29DCD8411A08E6DB001CFE2E /* پ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "پ.caf"; sourceTree = "<group>"; };
+		29DCD8421A08E6DB001CFE2E /* ت.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ت.caf"; sourceTree = "<group>"; };
+		29DCD8431A08E6DB001CFE2E /* ث.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ث.caf"; sourceTree = "<group>"; };
+		29DCD8441A08E6DB001CFE2E /* ٹ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ٹ.caf"; sourceTree = "<group>"; };
+		29DCD8451A08E6DB001CFE2E /* ج.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ج.caf"; sourceTree = "<group>"; };
+		29DCD8461A08E6DB001CFE2E /* چ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "چ.caf"; sourceTree = "<group>"; };
+		29DCD8471A08E6DB001CFE2E /* ح.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ح.caf"; sourceTree = "<group>"; };
+		29DCD8481A08E6DB001CFE2E /* خ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "خ.caf"; sourceTree = "<group>"; };
+		29DCD8491A08E6DB001CFE2E /* د.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "د.caf"; sourceTree = "<group>"; };
+		29DCD84A1A08E6DB001CFE2E /* ذ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ذ.caf"; sourceTree = "<group>"; };
+		29DCD84B1A08E6DB001CFE2E /* ڈ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ڈ.caf"; sourceTree = "<group>"; };
+		29DCD84C1A08E6DB001CFE2E /* ر.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ر.caf"; sourceTree = "<group>"; };
+		29DCD84D1A08E6DB001CFE2E /* ز.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ز.caf"; sourceTree = "<group>"; };
+		29DCD84E1A08E6DB001CFE2E /* ڑ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ڑ.caf"; sourceTree = "<group>"; };
+		29DCD84F1A08E6DB001CFE2E /* ژ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ژ.caf"; sourceTree = "<group>"; };
+		29DCD8501A08E6DB001CFE2E /* س.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "س.caf"; sourceTree = "<group>"; };
+		29DCD8511A08E6DB001CFE2E /* ش.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ش.caf"; sourceTree = "<group>"; };
+		29DCD8521A08E6DB001CFE2E /* ص.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ص.caf"; sourceTree = "<group>"; };
+		29DCD8531A08E6DB001CFE2E /* ض.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ض.caf"; sourceTree = "<group>"; };
+		29DCD8541A08E6DB001CFE2E /* ط.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ط.caf"; sourceTree = "<group>"; };
+		29DCD8551A08E6DB001CFE2E /* ظ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ظ.caf"; sourceTree = "<group>"; };
+		29DCD8561A08E6DB001CFE2E /* ع.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ع.caf"; sourceTree = "<group>"; };
+		29DCD8571A08E6DB001CFE2E /* غ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "غ.caf"; sourceTree = "<group>"; };
+		29DCD8581A08E6DB001CFE2E /* ف.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ف.caf"; sourceTree = "<group>"; };
+		29DCD8591A08E6DB001CFE2E /* ق.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ق.caf"; sourceTree = "<group>"; };
+		29DCD85A1A08E6DB001CFE2E /* ک.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ک.caf"; sourceTree = "<group>"; };
+		29DCD85B1A08E6DB001CFE2E /* گ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "گ.caf"; sourceTree = "<group>"; };
+		29DCD85C1A08E6DB001CFE2E /* ل.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ل.caf"; sourceTree = "<group>"; };
+		29DCD85D1A08E6DB001CFE2E /* م.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "م.caf"; sourceTree = "<group>"; };
+		29DCD85E1A08E6DB001CFE2E /* ن.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ن.caf"; sourceTree = "<group>"; };
+		29DCD85F1A08E6DB001CFE2E /* ں.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ں.caf"; sourceTree = "<group>"; };
+		29DCD8601A08E6DB001CFE2E /* ہ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ہ.caf"; sourceTree = "<group>"; };
+		29DCD8611A08E6DB001CFE2E /* و.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "و.caf"; sourceTree = "<group>"; };
+		29DCD8621A08E6DB001CFE2E /* ی.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ی.caf"; sourceTree = "<group>"; };
+		29DCD8631A08E6DB001CFE2E /* ے.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ے.caf"; sourceTree = "<group>"; };
+		29DDDEE81A0762F00043CF8F /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		29DDDEE91A0762F00043CF8F /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		29DDDEEC1A0763040043CF8F /* Alif.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alif.caf; sourceTree = "<group>"; };
 		29DEBA811A06599300619813 /* Urdu Qaida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urdu Qaida.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DEBA851A06599300619813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29DEBA861A06599300619813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -259,6 +340,52 @@
 			path = Fruits;
 			sourceTree = "<group>";
 		};
+		29DDDEEB1A0762F90043CF8F /* Alif bay pay Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				29DCD83E1A08E6DB001CFE2E /* آ.caf */,
+				29DCD83F1A08E6DB001CFE2E /* ا.caf */,
+				29DCD8401A08E6DB001CFE2E /* ب.caf */,
+				29DCD8411A08E6DB001CFE2E /* پ.caf */,
+				29DCD8421A08E6DB001CFE2E /* ت.caf */,
+				29DCD8431A08E6DB001CFE2E /* ث.caf */,
+				29DCD8441A08E6DB001CFE2E /* ٹ.caf */,
+				29DCD8451A08E6DB001CFE2E /* ج.caf */,
+				29DCD8461A08E6DB001CFE2E /* چ.caf */,
+				29DCD8471A08E6DB001CFE2E /* ح.caf */,
+				29DCD8481A08E6DB001CFE2E /* خ.caf */,
+				29DCD8491A08E6DB001CFE2E /* د.caf */,
+				29DCD84A1A08E6DB001CFE2E /* ذ.caf */,
+				29DCD84B1A08E6DB001CFE2E /* ڈ.caf */,
+				29DCD84C1A08E6DB001CFE2E /* ر.caf */,
+				29DCD84D1A08E6DB001CFE2E /* ز.caf */,
+				29DCD84E1A08E6DB001CFE2E /* ڑ.caf */,
+				29DCD84F1A08E6DB001CFE2E /* ژ.caf */,
+				29DCD8501A08E6DB001CFE2E /* س.caf */,
+				29DCD8511A08E6DB001CFE2E /* ش.caf */,
+				29DCD8521A08E6DB001CFE2E /* ص.caf */,
+				29DCD8531A08E6DB001CFE2E /* ض.caf */,
+				29DCD8541A08E6DB001CFE2E /* ط.caf */,
+				29DCD8551A08E6DB001CFE2E /* ظ.caf */,
+				29DCD8561A08E6DB001CFE2E /* ع.caf */,
+				29DCD8571A08E6DB001CFE2E /* غ.caf */,
+				29DCD8581A08E6DB001CFE2E /* ف.caf */,
+				29DCD8591A08E6DB001CFE2E /* ق.caf */,
+				29DCD85A1A08E6DB001CFE2E /* ک.caf */,
+				29DCD85B1A08E6DB001CFE2E /* گ.caf */,
+				29DCD85C1A08E6DB001CFE2E /* ل.caf */,
+				29DCD85D1A08E6DB001CFE2E /* م.caf */,
+				29DCD85E1A08E6DB001CFE2E /* ن.caf */,
+				29DCD85F1A08E6DB001CFE2E /* ں.caf */,
+				29DCD8601A08E6DB001CFE2E /* ہ.caf */,
+				29DCD8611A08E6DB001CFE2E /* و.caf */,
+				29DCD8621A08E6DB001CFE2E /* ی.caf */,
+				29DCD8631A08E6DB001CFE2E /* ے.caf */,
+				29DDDEEC1A0763040043CF8F /* Alif.caf */,
+			);
+			name = "Alif bay pay Sounds";
+			sourceTree = "<group>";
+		};
 		29DEBA781A06599300619813 = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +407,7 @@
 		29DEBA831A06599300619813 /* Urdu Qaida */ = {
 			isa = PBXGroup;
 			children = (
+				29DDDEEB1A0762F90043CF8F /* Alif bay pay Sounds */,
 				290429E11A066A5200EF14B2 /* Arrow.png */,
 				290429E21A066A5200EF14B2 /* Body Parts */,
 				290429FF1A066A5200EF14B2 /* Fruits */,
@@ -288,6 +416,8 @@
 				29DEBA8B1A06599300619813 /* ViewController.h */,
 				29DEBA8C1A06599300619813 /* ViewController.m */,
 				29DEBA8E1A06599300619813 /* Main.storyboard */,
+				29DDDEE81A0762F00043CF8F /* SoundManager.h */,
+				29DDDEE91A0762F00043CF8F /* SoundManager.m */,
 				29DEBA911A06599300619813 /* Images.xcassets */,
 				29DEBA931A06599300619813 /* LaunchScreen.xib */,
 				29DEBA841A06599300619813 /* Supporting Files */,
@@ -401,70 +531,109 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DCD8781A08E6DB001CFE2E /* ص.caf in Resources */,
 				29042A3E1A066A5200EF14B2 /* aam.png in Resources */,
 				29042A511A066A5200EF14B2 /* Khrboz.png in Resources */,
 				29042A501A066A5200EF14B2 /* khobani.png in Resources */,
 				29042A4E1A066A5200EF14B2 /* keenu.png in Resources */,
 				29042A381A066A5200EF14B2 /* Nail.png in Resources */,
+				29DCD8711A08E6DB001CFE2E /* ڈ.caf in Resources */,
+				29DCD8861A08E6DB001CFE2E /* ہ.caf in Resources */,
 				29042A251A066A5200EF14B2 /* brain.png in Resources */,
 				29042A211A066A5200EF14B2 /* Arrow.png in Resources */,
 				29042A261A066A5200EF14B2 /* chin.png in Resources */,
+				29DCD8751A08E6DB001CFE2E /* ژ.caf in Resources */,
+				29DCD8791A08E6DB001CFE2E /* ض.caf in Resources */,
+				29DCD8831A08E6DB001CFE2E /* م.caf in Resources */,
+				29DCD8811A08E6DB001CFE2E /* گ.caf in Resources */,
 				29042A241A066A5200EF14B2 /* Bone.png in Resources */,
+				29DCD86C1A08E6DB001CFE2E /* چ.caf in Resources */,
 				29042A341A066A5200EF14B2 /* Liver.png in Resources */,
+				29DCD8721A08E6DB001CFE2E /* ر.caf in Resources */,
 				29042A401A066A5200EF14B2 /* amrood.png in Resources */,
+				29DCD8761A08E6DB001CFE2E /* س.caf in Resources */,
 				29042A591A066A5200EF14B2 /* neelaBair.png in Resources */,
+				29DCD8801A08E6DB001CFE2E /* ک.caf in Resources */,
 				29042A541A066A5200EF14B2 /* lime.png in Resources */,
 				29042A221A066A5200EF14B2 /* arm.png in Resources */,
+				29DCD8771A08E6DB001CFE2E /* ش.caf in Resources */,
 				29042A2E1A066A5200EF14B2 /* hand.png in Resources */,
+				29DCD8671A08E6DB001CFE2E /* پ.caf in Resources */,
 				29042A4F1A066A5200EF14B2 /* kella.png in Resources */,
 				29042A311A066A5200EF14B2 /* knee.png in Resources */,
 				29042A301A066A5200EF14B2 /* kidney.PNG in Resources */,
+				29DCD8891A08E6DB001CFE2E /* ے.caf in Resources */,
 				29042A2F1A066A5200EF14B2 /* Heart.png in Resources */,
 				29042A571A066A5200EF14B2 /* nariyal.png in Resources */,
+				29DCD8651A08E6DB001CFE2E /* ا.caf in Resources */,
+				29DCD8661A08E6DB001CFE2E /* ب.caf in Resources */,
 				29042A5C1A066A5200EF14B2 /* saib.png in Resources */,
 				29DEBA901A06599300619813 /* Main.storyboard in Resources */,
+				29DCD87E1A08E6DB001CFE2E /* ف.caf in Resources */,
 				29042A5D1A066A5200EF14B2 /* strawberry.png in Resources */,
+				29DCD8881A08E6DB001CFE2E /* ی.caf in Resources */,
+				29DCD87A1A08E6DB001CFE2E /* ط.caf in Resources */,
 				29042A291A066A5200EF14B2 /* Face.png in Resources */,
 				29042A431A066A5200EF14B2 /* angoor1.png in Resources */,
 				29042A4B1A066A5200EF14B2 /* fruits.png in Resources */,
 				29042A4D1A066A5200EF14B2 /* jamn.png in Resources */,
 				29042A2B1A066A5200EF14B2 /* Fist.png in Resources */,
 				29042A281A066A5200EF14B2 /* Eye.png in Resources */,
+				29DCD8701A08E6DB001CFE2E /* ذ.caf in Resources */,
 				29042A351A066A5200EF14B2 /* lungs-md.png in Resources */,
+				29DCD86D1A08E6DB001CFE2E /* ح.caf in Resources */,
 				29042A421A066A5200EF14B2 /* Anar.png in Resources */,
+				29DCD87B1A08E6DB001CFE2E /* ظ.caf in Resources */,
 				29042A491A066A5200EF14B2 /* chiniKrwnda.png in Resources */,
 				29042A551A066A5200EF14B2 /* magarNashpati.png in Resources */,
 				29042A531A066A5200EF14B2 /* Lemon.png in Resources */,
 				29042A3D1A066A5200EF14B2 /* thumbs.png in Resources */,
 				29DEBA951A06599300619813 /* LaunchScreen.xib in Resources */,
+				29DCD8741A08E6DB001CFE2E /* ڑ.caf in Resources */,
 				29042A581A066A5200EF14B2 /* nashpati.png in Resources */,
+				29DCD86A1A08E6DB001CFE2E /* ٹ.caf in Resources */,
 				29042A321A066A5200EF14B2 /* legs.png in Resources */,
+				29DCD87D1A08E6DB001CFE2E /* غ.caf in Resources */,
 				29042A231A066A5200EF14B2 /* Beard.png in Resources */,
 				29042A441A066A5200EF14B2 /* anjeer.png in Resources */,
 				29042A481A066A5200EF14B2 /* cheery.png in Resources */,
 				29042A521A066A5200EF14B2 /* Khrboza.png in Resources */,
 				29042A5E1A066A5200EF14B2 /* trbooz.png in Resources */,
 				29042A4A1A066A5200EF14B2 /* DragonFruit.png in Resources */,
+				29DCD8841A08E6DB001CFE2E /* ن.caf in Resources */,
 				29042A271A066A5200EF14B2 /* EAR.png in Resources */,
+				29DCD8691A08E6DB001CFE2E /* ث.caf in Resources */,
 				29042A561A066A5200EF14B2 /* malta.png in Resources */,
 				29042A471A066A5200EF14B2 /* chakotra.png in Resources */,
 				29042A331A066A5200EF14B2 /* lips.png in Resources */,
+				29DCD86E1A08E6DB001CFE2E /* خ.caf in Resources */,
 				29042A2C1A066A5200EF14B2 /* Foot.png in Resources */,
 				29042A5A1A066A5200EF14B2 /* Papita.png in Resources */,
+				29DCD8851A08E6DB001CFE2E /* ں.caf in Resources */,
 				29042A361A066A5200EF14B2 /* moustache.png in Resources */,
 				29042A3A1A066A5200EF14B2 /* nose.png in Resources */,
 				29042A3C1A066A5200EF14B2 /* Teeth.png in Resources */,
 				29042A5B1A066A5200EF14B2 /* raspberry.png in Resources */,
+				29DCD86B1A08E6DB001CFE2E /* ج.caf in Resources */,
 				29042A451A066A5200EF14B2 /* Arroo.png in Resources */,
 				29DEBA921A06599300619813 /* Images.xcassets in Resources */,
+				29DCD8681A08E6DB001CFE2E /* ت.caf in Resources */,
+				29DCD86F1A08E6DB001CFE2E /* د.caf in Resources */,
 				29042A4C1A066A5200EF14B2 /* GulSalibi.png in Resources */,
+				29DCD8871A08E6DB001CFE2E /* و.caf in Resources */,
 				29042A461A066A5200EF14B2 /* arroo1.png in Resources */,
+				29DDDEED1A0763040043CF8F /* Alif.caf in Resources */,
+				29DCD87F1A08E6DB001CFE2E /* ق.caf in Resources */,
+				29DCD87C1A08E6DB001CFE2E /* ع.caf in Resources */,
+				29DCD8731A08E6DB001CFE2E /* ز.caf in Resources */,
 				29042A391A066A5200EF14B2 /* Neck.png in Resources */,
 				29042A2A1A066A5200EF14B2 /* Finger.png in Resources */,
 				29042A411A066A5200EF14B2 /* anaNas.png in Resources */,
 				29042A3B1A066A5200EF14B2 /* Ribs.png in Resources */,
+				29DCD8641A08E6DB001CFE2E /* آ.caf in Resources */,
 				29042A371A066A5200EF14B2 /* muscles.png in Resources */,
 				29042A2D1A066A5200EF14B2 /* hair.png in Resources */,
+				29DCD8821A08E6DB001CFE2E /* ل.caf in Resources */,
 				29042A3F1A066A5200EF14B2 /* alubukhara.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +653,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29DEBA8D1A06599300619813 /* ViewController.m in Sources */,
+				29DDDEEA1A0762F00043CF8F /* SoundManager.m in Sources */,
 				29DEBA8A1A06599300619813 /* AppDelegate.m in Sources */,
 				29DEBA871A06599300619813 /* main.m in Sources */,
 			);
