@@ -7,10 +7,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="6VX-pa-C9U">
             <objects>
-                <viewController id="WAb-Kn-8HB" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="WAb-Kn-8HB" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7v-fR-Por"/>
                         <viewControllerLayoutGuide type="bottom" id="2L3-K4-ucX"/>
@@ -67,9 +67,6 @@
                                         <include reference="vBp-C7-nRS"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="firstButton:" destination="WAb-Kn-8HB" eventType="touchUpInside" id="h36-CP-YEs"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLQ-WF-xmP">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -317,10 +314,10 @@
             </objects>
             <point key="canvasLocation" x="1772" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="hcV-Ua-HZO">
             <objects>
-                <viewController id="iqo-yr-bKC" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="iqo-yr-bKC" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jnt-mL-WVZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Wyp-6M-xrR"/>
@@ -374,9 +371,6 @@
                                         <include reference="fNn-Tf-bcw"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="firstButton:" destination="iqo-yr-bKC" eventType="touchUpInside" id="f4V-9y-xiU"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9e-Vq-VLM">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -506,10 +500,10 @@
             </objects>
             <point key="canvasLocation" x="1772" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Fwt-2g-alR">
             <objects>
-                <viewController id="5dM-Oa-NuH" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="5dM-Oa-NuH" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qgi-ST-0Po"/>
                         <viewControllerLayoutGuide type="bottom" id="4J5-qA-Yfk"/>
@@ -561,10 +555,10 @@
             </objects>
             <point key="canvasLocation" x="1772" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="oNl-5N-iCd">
             <objects>
-                <viewController id="dqr-qa-mAO" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="dqr-qa-mAO" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QTZ-A5-2YF"/>
                         <viewControllerLayoutGuide type="bottom" id="hEh-y1-igA"/>
@@ -621,9 +615,6 @@
                                         <include reference="uqQ-HY-AyC"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="alifTowButton:" destination="dqr-qa-mAO" eventType="touchUpInside" id="xqF-nG-7oZ"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkn-Us-CbJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -847,10 +838,10 @@
             </objects>
             <point key="canvasLocation" x="2401" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="zbD-jc-eYr">
             <objects>
-                <viewController id="NrQ-0p-EOW" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="NrQ-0p-EOW" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dZj-JE-JXh"/>
                         <viewControllerLayoutGuide type="bottom" id="RmS-dw-R4c"/>
@@ -907,9 +898,6 @@
                                         <include reference="Olg-B0-15n"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="alifTowButton:" destination="NrQ-0p-EOW" eventType="touchUpInside" id="Y7H-qT-umF"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n35-RF-8fa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -996,10 +984,10 @@
             </objects>
             <point key="canvasLocation" x="2401" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="SC9-yB-im2">
             <objects>
-                <viewController id="NRk-Qe-pBw" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="NRk-Qe-pBw" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Csu-SW-BZu"/>
                         <viewControllerLayoutGuide type="bottom" id="EnW-8o-zdD"/>
@@ -1051,10 +1039,10 @@
             </objects>
             <point key="canvasLocation" x="2401" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="Iyw-LP-XbA">
             <objects>
-                <viewController id="X2F-x4-NHS" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="X2F-x4-NHS" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lGk-Ol-Pq9"/>
                         <viewControllerLayoutGuide type="bottom" id="jiR-i9-emd"/>
@@ -1109,9 +1097,6 @@
                                         <include reference="w2n-Vl-zCM"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="bayButton:" destination="X2F-x4-NHS" eventType="touchUpInside" id="46R-gt-hs9"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Word Start with &quot;ب&quot; in Urdu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZP-fr-Fih">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1241,10 +1226,10 @@
             </objects>
             <point key="canvasLocation" x="3022" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="pB5-UH-ul4">
             <objects>
-                <viewController id="7vH-hX-Vy5" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="7vH-hX-Vy5" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c9X-5F-0HK"/>
                         <viewControllerLayoutGuide type="bottom" id="o7i-aN-TXj"/>
@@ -1299,9 +1284,6 @@
                                         <include reference="mpz-Po-BNj"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="bayButton:" destination="7vH-hX-Vy5" eventType="touchUpInside" id="jMt-WV-6Xr"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wme-H1-dbT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -1444,10 +1426,10 @@
             </objects>
             <point key="canvasLocation" x="3022" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="9Gx-zR-0Kx">
             <objects>
-                <viewController id="EQB-7u-eoW" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="EQB-7u-eoW" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r3K-jz-g3K"/>
                         <viewControllerLayoutGuide type="bottom" id="cVc-M8-cgb"/>
@@ -1500,10 +1482,10 @@
             </objects>
             <point key="canvasLocation" x="3022" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="hvi-x7-Tqr">
             <objects>
-                <viewController id="egG-K7-h80" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="egG-K7-h80" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aa9-KW-hzH"/>
                         <viewControllerLayoutGuide type="bottom" id="XJO-rf-PID"/>
@@ -1561,9 +1543,6 @@
                                         <include reference="Snp-fv-hZ1"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="payButton:" destination="egG-K7-h80" eventType="touchUpInside" id="uu1-XA-Spj"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Papaya : پپیتا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntg-vf-8eM">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1653,10 +1632,10 @@
             </objects>
             <point key="canvasLocation" x="3642" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="jLr-c0-MLL">
             <objects>
-                <viewController id="sL1-hr-Fbw" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="sL1-hr-Fbw" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gix-EJ-Lsx"/>
                         <viewControllerLayoutGuide type="bottom" id="O4N-Eg-31L"/>
@@ -1711,9 +1690,6 @@
                                         <include reference="yEQ-1m-iJf"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="payButton:" destination="sL1-hr-Fbw" eventType="touchUpInside" id="266-6X-nyk"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7o-KM-my3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -1937,10 +1913,10 @@
             </objects>
             <point key="canvasLocation" x="3642" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="5s0-Wv-kwM">
             <objects>
-                <viewController id="tCv-9O-1FL" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="tCv-9O-1FL" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gb5-aT-kG5"/>
                         <viewControllerLayoutGuide type="bottom" id="NOm-te-s8Z"/>
@@ -1993,10 +1969,10 @@
             </objects>
             <point key="canvasLocation" x="3642" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="h1g-qO-E7b">
             <objects>
-                <viewController id="GIY-3k-BK1" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="GIY-3k-BK1" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UMH-gd-IlV"/>
                         <viewControllerLayoutGuide type="bottom" id="Oaw-9p-Ybd"/>
@@ -2053,9 +2029,6 @@
                                         <include reference="pQA-Me-sgT"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="tayButton:" destination="GIY-3k-BK1" eventType="touchUpInside" id="Sgd-PZ-pwB"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HB5-wP-uLg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -2145,10 +2118,10 @@
             </objects>
             <point key="canvasLocation" x="4265" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="a8H-so-IGg">
             <objects>
-                <viewController id="aPw-J7-47j" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="aPw-J7-47j" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Gz-pR-ual"/>
                         <viewControllerLayoutGuide type="bottom" id="dsZ-My-rr8"/>
@@ -2205,9 +2178,6 @@
                                         <include reference="wQ4-Qq-ejx"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="tayButton:" destination="aPw-J7-47j" eventType="touchUpInside" id="eSE-f2-KJy"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ت&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ist-l4-hf9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2321,10 +2291,10 @@
             </objects>
             <point key="canvasLocation" x="4265" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Nhc-ST-TYY">
             <objects>
-                <viewController id="v3Q-kr-xhr" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="v3Q-kr-xhr" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pyj-PX-WBE"/>
                         <viewControllerLayoutGuide type="bottom" id="C4N-KW-q55"/>
@@ -2376,10 +2346,10 @@
             </objects>
             <point key="canvasLocation" x="4265" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="bKd-BZ-kNs">
             <objects>
-                <viewController id="UsE-Uq-0Ai" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="UsE-Uq-0Ai" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RSc-Eo-aGj"/>
                         <viewControllerLayoutGuide type="bottom" id="SWs-oi-Byn"/>
@@ -2433,9 +2403,6 @@
                                         <include reference="XND-R7-XZ7"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="ttayButton:" destination="UsE-Uq-0Ai" eventType="touchUpInside" id="qUs-Aw-uTD"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ٹ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prR-Z4-r1L">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2555,10 +2522,10 @@
             </objects>
             <point key="canvasLocation" x="4879" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="2Es-kS-RuN">
             <objects>
-                <viewController id="TcI-3N-73n" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="TcI-3N-73n" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5bL-Oq-X6d"/>
                         <viewControllerLayoutGuide type="bottom" id="dnD-yY-YiU"/>
@@ -2615,9 +2582,6 @@
                                         <include reference="d6K-SK-GIa"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="ttayButton:" destination="TcI-3N-73n" eventType="touchUpInside" id="Q2y-Hg-Hhh"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCL-u2-LNT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -2714,10 +2678,10 @@
             </objects>
             <point key="canvasLocation" x="4879" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Fw5-wA-ag8">
             <objects>
-                <viewController id="uZ6-op-aTv" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="uZ6-op-aTv" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dKm-IO-IxM"/>
                         <viewControllerLayoutGuide type="bottom" id="Zwj-6v-Hqp"/>
@@ -2769,10 +2733,10 @@
             </objects>
             <point key="canvasLocation" x="4879" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="3BV-VS-THR">
             <objects>
-                <viewController id="yef-Li-Bxb" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="yef-Li-Bxb" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hub-N6-bVr"/>
                         <viewControllerLayoutGuide type="bottom" id="T7B-O8-Ltq"/>
@@ -2829,9 +2793,6 @@
                                         <include reference="izg-GI-8rQ"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="sayButton:" destination="yef-Li-Bxb" eventType="touchUpInside" id="Sji-2h-aUf"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jM-mN-ooq">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -2921,10 +2882,10 @@
             </objects>
             <point key="canvasLocation" x="5493" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="qfj-h6-K1w">
             <objects>
-                <viewController id="dcv-RH-KMn" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="dcv-RH-KMn" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FUQ-qS-jfT"/>
                         <viewControllerLayoutGuide type="bottom" id="dcy-Mq-Trc"/>
@@ -2981,9 +2942,6 @@
                                         <include reference="hIN-gw-jKn"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="sayButton:" destination="dcv-RH-KMn" eventType="touchUpInside" id="nwM-g5-Ytq"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ث&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dih-s3-Tdu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -3097,10 +3055,10 @@
             </objects>
             <point key="canvasLocation" x="5493" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="XoC-pV-SO5">
             <objects>
-                <viewController id="HO1-XV-Bsy" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="HO1-XV-Bsy" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8fG-Vf-XcE"/>
                         <viewControllerLayoutGuide type="bottom" id="FSg-bh-tEe"/>
@@ -3152,10 +3110,10 @@
             </objects>
             <point key="canvasLocation" x="5493" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="gs4-eq-V2W">
             <objects>
-                <viewController id="crU-JU-Bg1" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="crU-JU-Bg1" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aTz-HB-mTg"/>
                         <viewControllerLayoutGuide type="bottom" id="aul-gq-Y99"/>
@@ -3213,9 +3171,6 @@
                                         <include reference="yyy-oh-5bO"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="jeemButton:" destination="crU-JU-Bg1" eventType="touchUpInside" id="k1d-aj-6bY"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tnl-cH-0wr">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -3289,10 +3244,10 @@
             </objects>
             <point key="canvasLocation" x="6121" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="51G-MN-gJc">
             <objects>
-                <viewController id="8lx-Kj-jnZ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="8lx-Kj-jnZ" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="w1N-dx-B9e"/>
                         <viewControllerLayoutGuide type="bottom" id="AeV-vM-PTr"/>
@@ -3350,9 +3305,6 @@
                                         <include reference="T1t-yO-AML"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="jeemButton:" destination="8lx-Kj-jnZ" eventType="touchUpInside" id="b14-aM-7uM"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hu-4L-M4u">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -3449,10 +3401,10 @@
             </objects>
             <point key="canvasLocation" x="6121" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="0wr-jX-Lwz">
             <objects>
-                <viewController id="STA-Qs-XoE" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="STA-Qs-XoE" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cOR-J2-l1r"/>
                         <viewControllerLayoutGuide type="bottom" id="nCA-ss-gMN"/>
@@ -3505,10 +3457,10 @@
             </objects>
             <point key="canvasLocation" x="6121" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="E4O-JG-Rk4">
             <objects>
-                <viewController id="gP2-wA-feu" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="gP2-wA-feu" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ibo-Ao-1qv"/>
                         <viewControllerLayoutGuide type="bottom" id="7or-44-gwk"/>
@@ -3566,9 +3518,6 @@
                                         <include reference="yl3-rj-VpF"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="cheyButton:" destination="gP2-wA-feu" eventType="touchUpInside" id="Y2E-iV-wAf"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A9-kT-ZcJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -3739,10 +3688,10 @@
             </objects>
             <point key="canvasLocation" x="6739" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="uB9-F0-6X9">
             <objects>
-                <viewController id="Df6-Pd-HBU" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Df6-Pd-HBU" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TLS-Qa-Yvn"/>
                         <viewControllerLayoutGuide type="bottom" id="GYv-k2-TAs"/>
@@ -3800,9 +3749,6 @@
                                         <include reference="fdD-G6-YNu"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="cheyButton:" destination="Df6-Pd-HBU" eventType="touchUpInside" id="weA-Cd-54j"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gal-bz-JqT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -3873,10 +3819,10 @@
             </objects>
             <point key="canvasLocation" x="6739" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Nmm-uj-un6">
             <objects>
-                <viewController id="qdp-tA-m0l" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="qdp-tA-m0l" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="71h-yq-iVs"/>
                         <viewControllerLayoutGuide type="bottom" id="akf-38-jo0"/>
@@ -3929,10 +3875,10 @@
             </objects>
             <point key="canvasLocation" x="6739" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="ki6-eu-DlR">
             <objects>
-                <viewController id="zUP-st-Akj" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="zUP-st-Akj" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hDQ-gm-shJ"/>
                         <viewControllerLayoutGuide type="bottom" id="8rD-lh-BHJ"/>
@@ -3974,9 +3920,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="heyButton:" destination="zUP-st-Akj" eventType="touchUpInside" id="7hJ-Ec-UHf"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ح&quot; in Urdu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnY-YP-eeT">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4080,10 +4023,10 @@
             </objects>
             <point key="canvasLocation" x="7363" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="VzC-cW-3Sd">
             <objects>
-                <viewController id="SmP-sn-7oA" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="SmP-sn-7oA" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jhs-Ee-K0A"/>
                         <viewControllerLayoutGuide type="bottom" id="s7P-n5-edh"/>
@@ -4141,9 +4084,6 @@
                                         <include reference="8fR-N2-yDe"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="heyButton:" destination="SmP-sn-7oA" eventType="touchUpInside" id="7H4-ai-iHk"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ح&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D27-C6-3QC">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4257,10 +4197,10 @@
             </objects>
             <point key="canvasLocation" x="7363" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="ZtG-yM-Dy5">
             <objects>
-                <viewController id="wZb-YA-P3J" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="wZb-YA-P3J" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mnl-cm-wJo"/>
                         <viewControllerLayoutGuide type="bottom" id="13x-9E-78v"/>
@@ -4318,9 +4258,6 @@
                                         <include reference="axG-dU-PBW"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="kheyButton:" destination="wZb-YA-P3J" eventType="touchUpInside" id="VAs-iZ-tIY"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBo-Ax-17B">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -4507,10 +4444,10 @@
             </objects>
             <point key="canvasLocation" x="7983" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="Wt6-iK-Y9G">
             <objects>
-                <viewController id="23o-wM-fOX" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="23o-wM-fOX" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4o7-Nd-Z8O"/>
                         <viewControllerLayoutGuide type="bottom" id="khQ-Yf-hYu"/>
@@ -4568,9 +4505,6 @@
                                         <include reference="6OY-Xg-Pd9"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="kheyButton:" destination="23o-wM-fOX" eventType="touchUpInside" id="wbT-eA-aGq"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;خ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMB-Qm-vd8">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4684,10 +4618,10 @@
             </objects>
             <point key="canvasLocation" x="7983" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Zaz-QR-dkq">
             <objects>
-                <viewController id="8gh-6b-OFD" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="8gh-6b-OFD" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aOW-cw-zeA"/>
                         <viewControllerLayoutGuide type="bottom" id="IIv-TS-3jR"/>
@@ -4740,10 +4674,10 @@
             </objects>
             <point key="canvasLocation" x="7363" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="cmL-VY-W37">
             <objects>
-                <viewController id="Bxf-rP-3Ym" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Bxf-rP-3Ym" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RdZ-xM-xdP"/>
                         <viewControllerLayoutGuide type="bottom" id="Ocr-HE-u3f"/>
@@ -4796,10 +4730,10 @@
             </objects>
             <point key="canvasLocation" x="7983" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="G2F-Sd-Udj">
             <objects>
-                <viewController id="Gct-Aq-mxF" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Gct-Aq-mxF" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bPi-oY-K4S"/>
                         <viewControllerLayoutGuide type="bottom" id="gmy-Y7-ASm"/>
@@ -4853,9 +4787,6 @@
                                         <include reference="Ib1-bG-aZq"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="dalButton:" destination="Gct-Aq-mxF" eventType="touchUpInside" id="vUk-8z-ewJ"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;د&quot; in Urdu۔" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1O-lv-Jcg">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4972,10 +4903,10 @@
             </objects>
             <point key="canvasLocation" x="8592" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="6YH-f7-MBS">
             <objects>
-                <viewController id="HcN-6x-lfb" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="HcN-6x-lfb" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="agT-Lv-TUm"/>
                         <viewControllerLayoutGuide type="bottom" id="Q5U-iZ-cVy"/>
@@ -5032,9 +4963,6 @@
                                         <include reference="J5A-QD-Djg"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="dalButton:" destination="HcN-6x-lfb" eventType="touchUpInside" id="NBw-pX-yVC"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdq-OC-Giu">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -5252,10 +5180,10 @@
             </objects>
             <point key="canvasLocation" x="8592" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="GjI-Cb-0hl">
             <objects>
-                <viewController id="oW4-y2-jdZ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="oW4-y2-jdZ" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pId-6o-EDH"/>
                         <viewControllerLayoutGuide type="bottom" id="fEY-5d-4Ew"/>
@@ -5307,10 +5235,10 @@
             </objects>
             <point key="canvasLocation" x="8592" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="XlK-Fu-ATZ">
             <objects>
-                <viewController id="FwX-aG-ySI" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="FwX-aG-ySI" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7cg-Vu-lPo"/>
                         <viewControllerLayoutGuide type="bottom" id="FGg-qw-3v8"/>
@@ -5367,9 +5295,6 @@
                                         <include reference="eM7-bU-fx4"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="daalButton:" destination="FwX-aG-ySI" eventType="touchUpInside" id="q0w-u9-V4u"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJB-AW-O9m">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -5459,10 +5384,10 @@
             </objects>
             <point key="canvasLocation" x="9204" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="Kdw-bw-6bX">
             <objects>
-                <viewController id="1Nh-5x-pGg" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="1Nh-5x-pGg" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ypV-Mk-R3f"/>
                         <viewControllerLayoutGuide type="bottom" id="g4N-oq-6K8"/>
@@ -5519,9 +5444,6 @@
                                         <include reference="XCM-zY-cC1"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="daalButton:" destination="1Nh-5x-pGg" eventType="touchUpInside" id="pEz-S7-7no"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ڈ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZz-9D-j8k">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5635,10 +5557,10 @@
             </objects>
             <point key="canvasLocation" x="9204" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="WFy-gu-wd3">
             <objects>
-                <viewController id="4g9-LE-2ED" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="4g9-LE-2ED" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sRb-vN-5z7"/>
                         <viewControllerLayoutGuide type="bottom" id="CdP-pL-a5e"/>
@@ -5690,10 +5612,10 @@
             </objects>
             <point key="canvasLocation" x="9204" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="iO6-qs-YXZ">
             <objects>
-                <viewController id="lJO-Ns-HLh" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="lJO-Ns-HLh" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Vp-HG-whK"/>
                         <viewControllerLayoutGuide type="bottom" id="2FS-hX-aBU"/>
@@ -5747,9 +5669,6 @@
                                         <include reference="zAg-Xe-33x"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="zaalButton:" destination="lJO-Ns-HLh" eventType="touchUpInside" id="87n-QT-YkN"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ذ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9K-Kh-KQB">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5869,10 +5788,10 @@
             </objects>
             <point key="canvasLocation" x="9812" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="AE4-xB-35r">
             <objects>
-                <viewController id="2yS-T8-Y0C" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="2yS-T8-Y0C" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fZd-Gk-shX"/>
                         <viewControllerLayoutGuide type="bottom" id="36Q-XH-zBo"/>
@@ -5930,9 +5849,6 @@
                                         <include reference="YhR-uf-6b6"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="rayButton:" destination="2yS-T8-Y0C" eventType="touchUpInside" id="bP3-gu-bZL"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18K-AY-8s9">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -6022,10 +5938,10 @@
             </objects>
             <point key="canvasLocation" x="10424" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="X4u-Uh-G7U">
             <objects>
-                <viewController id="jWc-lu-6Kd" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="jWc-lu-6Kd" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F8x-zZ-C8j"/>
                         <viewControllerLayoutGuide type="bottom" id="REm-yB-FIn"/>
@@ -6083,9 +5999,6 @@
                                         <include reference="MK6-1U-s8Y"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="rayButton:" destination="jWc-lu-6Kd" eventType="touchUpInside" id="y1E-Jo-6ST"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ر&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHf-Jf-4iD">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6199,10 +6112,10 @@
             </objects>
             <point key="canvasLocation" x="10424" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="bUy-Ux-ppl">
             <objects>
-                <viewController id="7rC-fM-73j" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="7rC-fM-73j" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U9h-ch-ihD"/>
                         <viewControllerLayoutGuide type="bottom" id="fza-RA-v2H"/>
@@ -6255,10 +6168,10 @@
             </objects>
             <point key="canvasLocation" x="10424" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="6La-h2-yiF">
             <objects>
-                <viewController id="5f1-ha-Tfu" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="5f1-ha-Tfu" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yQH-JN-fcA"/>
                         <viewControllerLayoutGuide type="bottom" id="JsJ-I7-m0h"/>
@@ -6315,9 +6228,6 @@
                                         <include reference="alE-bT-Ayl"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="zaalButton:" destination="5f1-ha-Tfu" eventType="touchUpInside" id="10d-B7-jRh"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ذ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyc-R5-0VH">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6431,10 +6341,10 @@
             </objects>
             <point key="canvasLocation" x="9812" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="FMe-h4-3mG">
             <objects>
-                <viewController id="Fev-Nz-oD7" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Fev-Nz-oD7" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vs8-w6-1SX"/>
                         <viewControllerLayoutGuide type="bottom" id="V0y-bJ-Giw"/>
@@ -6486,10 +6396,10 @@
             </objects>
             <point key="canvasLocation" x="9812" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="sy2-lD-jO9">
             <objects>
-                <viewController id="uED-Iu-c8d" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="uED-Iu-c8d" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rdo-jl-hl1"/>
                         <viewControllerLayoutGuide type="bottom" id="oZd-b1-zCl"/>
@@ -6544,9 +6454,6 @@
                                         <include reference="Ulr-LS-9y0"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="aryButton:" destination="uED-Iu-c8d" eventType="touchUpInside" id="Xbu-pg-5h8"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Can Move on with Next lesson." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfe-yd-vEF">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6650,10 +6557,10 @@
             </objects>
             <point key="canvasLocation" x="11039" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="JIB-HE-Trn">
             <objects>
-                <viewController id="qKy-Ma-lQ7" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="qKy-Ma-lQ7" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="td5-tc-uhh"/>
                         <viewControllerLayoutGuide type="bottom" id="1Jp-30-gad"/>
@@ -6711,9 +6618,6 @@
                                         <include reference="Pl8-fH-eD4"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="aryButton:" destination="qKy-Ma-lQ7" eventType="touchUpInside" id="gul-D7-A1N"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ڑ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBg-0S-uvA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6827,10 +6731,10 @@
             </objects>
             <point key="canvasLocation" x="11039" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Qo4-kb-e1a">
             <objects>
-                <viewController id="fBr-aB-WpQ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="fBr-aB-WpQ" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bG1-VI-TN7"/>
                         <viewControllerLayoutGuide type="bottom" id="uqo-Vt-DQT"/>
@@ -6883,10 +6787,10 @@
             </objects>
             <point key="canvasLocation" x="11039" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="Lgh-xp-GuY">
             <objects>
-                <viewController id="dAU-yZ-EHT" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="dAU-yZ-EHT" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UCN-19-X54"/>
                         <viewControllerLayoutGuide type="bottom" id="Mr3-2J-K3K"/>
@@ -6941,9 +6845,6 @@
                                         <include reference="kB6-wA-Yfr"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="zyButton:" destination="dAU-yZ-EHT" eventType="touchUpInside" id="mVL-Hr-YDl"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ز&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fm-hy-EsL">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7047,10 +6948,10 @@
             </objects>
             <point key="canvasLocation" x="11654" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="Rb0-d4-kgf">
             <objects>
-                <viewController id="YSJ-fg-7fC" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="YSJ-fg-7fC" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YOM-m4-GUI"/>
                         <viewControllerLayoutGuide type="bottom" id="JDb-Ca-0sD"/>
@@ -7108,9 +7009,6 @@
                                         <include reference="JVp-nH-rFf"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="zyButton:" destination="YSJ-fg-7fC" eventType="touchUpInside" id="vob-iv-Hqr"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ز&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bk-6z-Z4R">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7224,10 +7122,10 @@
             </objects>
             <point key="canvasLocation" x="11654" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="saE-Fi-9BW">
             <objects>
-                <viewController id="SHL-3n-rYa" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="SHL-3n-rYa" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="km1-dv-Tth"/>
                         <viewControllerLayoutGuide type="bottom" id="Di0-WG-Hf3"/>
@@ -7280,10 +7178,10 @@
             </objects>
             <point key="canvasLocation" x="11654" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="jcZ-xR-FLC">
             <objects>
-                <viewController id="5g4-ZY-SWX" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="5g4-ZY-SWX" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="slW-oc-Xo0"/>
                         <viewControllerLayoutGuide type="bottom" id="the-hW-cSL"/>
@@ -7341,9 +7239,6 @@
                                         <include reference="lBS-em-q3E"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="seyButton:" destination="5g4-ZY-SWX" eventType="touchUpInside" id="eTR-oO-7B2"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ژ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uM-To-fp5">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7444,10 +7339,10 @@
             </objects>
             <point key="canvasLocation" x="12267" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="yac-QK-VGr">
             <objects>
-                <viewController id="yoo-P2-LdZ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="yoo-P2-LdZ" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZeY-H6-euS"/>
                         <viewControllerLayoutGuide type="bottom" id="TsI-0v-BJz"/>
@@ -7505,9 +7400,6 @@
                                         <include reference="oPs-u5-U8P"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="seyButton:" destination="yoo-P2-LdZ" eventType="touchUpInside" id="JYS-eD-ldA"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ژ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F13-sk-8cM">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7621,10 +7513,10 @@
             </objects>
             <point key="canvasLocation" x="12267" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="1i8-Xh-4MZ">
             <objects>
-                <viewController id="roS-fa-awG" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="roS-fa-awG" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0T3-8X-sxO"/>
                         <viewControllerLayoutGuide type="bottom" id="O86-1m-e3A"/>
@@ -7677,10 +7569,10 @@
             </objects>
             <point key="canvasLocation" x="12267" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="B9t-cc-2Ms">
             <objects>
-                <viewController id="DP5-n6-XOM" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="DP5-n6-XOM" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Iiz-nS-oLD"/>
                         <viewControllerLayoutGuide type="bottom" id="184-Wr-fGY"/>
@@ -7738,9 +7630,6 @@
                                         <include reference="jRG-Y2-O01"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="seenButton:" destination="DP5-n6-XOM" eventType="touchUpInside" id="H8j-cS-O0g"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys7-zS-HXh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -7830,10 +7719,10 @@
             </objects>
             <point key="canvasLocation" x="12878" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="9Eq-jS-E6k">
             <objects>
-                <viewController id="BfC-Jm-dmr" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BfC-Jm-dmr" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AsA-6K-heV"/>
                         <viewControllerLayoutGuide type="bottom" id="CGI-rN-Psi"/>
@@ -7891,9 +7780,6 @@
                                         <include reference="nuN-EC-Wkd"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="seenButton:" destination="BfC-Jm-dmr" eventType="touchUpInside" id="TnS-tL-Nzj"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;س&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3u-qj-qCA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8007,10 +7893,10 @@
             </objects>
             <point key="canvasLocation" x="12878" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="w3O-ZK-BXF">
             <objects>
-                <viewController id="g4H-Vk-SaX" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="g4H-Vk-SaX" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zAa-cu-Cxh"/>
                         <viewControllerLayoutGuide type="bottom" id="Qad-Et-SBX"/>
@@ -8063,10 +7949,10 @@
             </objects>
             <point key="canvasLocation" x="12878" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="ouv-jH-hlC">
             <objects>
-                <viewController id="5fn-cy-7dj" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="5fn-cy-7dj" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ibr-4n-i17"/>
                         <viewControllerLayoutGuide type="bottom" id="pvQ-mx-L8b"/>
@@ -8121,9 +8007,6 @@
                                         <include reference="FgF-4C-K8C"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="shenButton:" destination="5fn-cy-7dj" eventType="touchUpInside" id="1fM-zL-hwo"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ش&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJX-7c-Rys">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8253,10 +8136,10 @@
             </objects>
             <point key="canvasLocation" x="13490" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="gpF-77-pKn">
             <objects>
-                <viewController id="tof-HN-Tvs" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="tof-HN-Tvs" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="COC-cn-lF8"/>
                         <viewControllerLayoutGuide type="bottom" id="VsD-ZS-7FU"/>
@@ -8314,9 +8197,6 @@
                                         <include reference="JdA-2P-HvF"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="shenButton:" destination="tof-HN-Tvs" eventType="touchUpInside" id="KY6-nu-Ekb"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ش&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtn-Xn-lrG">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8430,10 +8310,10 @@
             </objects>
             <point key="canvasLocation" x="13490" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="LEI-vn-lNH">
             <objects>
-                <viewController id="cQw-sQ-bvR" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="cQw-sQ-bvR" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="N6m-1F-XjJ"/>
                         <viewControllerLayoutGuide type="bottom" id="Nfm-6v-tox"/>
@@ -8486,10 +8366,10 @@
             </objects>
             <point key="canvasLocation" x="13490" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="cZ0-XS-f2V">
             <objects>
-                <viewController id="vVT-Lc-un5" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vVT-Lc-un5" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CbU-2Z-P1a"/>
                         <viewControllerLayoutGuide type="bottom" id="iv8-FC-x6G"/>
@@ -8544,9 +8424,6 @@
                                         <include reference="vFu-MA-dfU"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="swatButton:" destination="vVT-Lc-un5" eventType="touchUpInside" id="TMS-T0-P59"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ص&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi1-R6-XlH">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8660,10 +8537,10 @@
             </objects>
             <point key="canvasLocation" x="14110" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="i0o-Zq-6AS">
             <objects>
-                <viewController id="o8c-R9-ajZ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="o8c-R9-ajZ" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rPB-OW-Lcf"/>
                         <viewControllerLayoutGuide type="bottom" id="ejA-KK-ovR"/>
@@ -8718,9 +8595,6 @@
                                         <include reference="W66-bo-zt9"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="dwatButton:" destination="o8c-R9-ajZ" eventType="touchUpInside" id="MPO-Lw-yxm"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ض&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mz6-5f-3k4">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8834,10 +8708,10 @@
             </objects>
             <point key="canvasLocation" x="14719" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="t0y-bJ-9hL">
             <objects>
-                <viewController id="Rg0-ZF-Cyp" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Rg0-ZF-Cyp" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pz1-za-fdW"/>
                         <viewControllerLayoutGuide type="bottom" id="KYL-5A-obF"/>
@@ -8895,9 +8769,6 @@
                                         <include reference="cRI-oV-JjW"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="dwatButton:" destination="Rg0-ZF-Cyp" eventType="touchUpInside" id="Eez-Do-q0q"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ض&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G96-md-qHh">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9011,10 +8882,10 @@
             </objects>
             <point key="canvasLocation" x="14719" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Nd8-oB-J9k">
             <objects>
-                <viewController id="fpf-rL-EuM" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="fpf-rL-EuM" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3cT-li-Vo2"/>
                         <viewControllerLayoutGuide type="bottom" id="jxi-mR-3e2"/>
@@ -9067,10 +8938,10 @@
             </objects>
             <point key="canvasLocation" x="14719" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="vcm-bM-d9i">
             <objects>
-                <viewController id="62U-y0-dh2" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="62U-y0-dh2" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4le-gi-dRe"/>
                         <viewControllerLayoutGuide type="bottom" id="A7i-UR-yc5"/>
@@ -9128,9 +8999,6 @@
                                         <include reference="Yjd-wa-Xhn"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="swatButton:" destination="62U-y0-dh2" eventType="touchUpInside" id="NKo-FD-2Gc"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ص&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVP-Vx-EJ1">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9244,10 +9112,10 @@
             </objects>
             <point key="canvasLocation" x="14110" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="1Qd-d8-qFy">
             <objects>
-                <viewController id="NHn-rX-DR3" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="NHn-rX-DR3" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CPx-rJ-Ehz"/>
                         <viewControllerLayoutGuide type="bottom" id="q89-Zu-4za"/>
@@ -9300,10 +9168,10 @@
             </objects>
             <point key="canvasLocation" x="14110" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="ccr-W8-RUR">
             <objects>
-                <viewController id="N6V-0B-OBt" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="N6V-0B-OBt" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="f24-ET-fpt"/>
                         <viewControllerLayoutGuide type="bottom" id="Sm0-fB-ddk"/>
@@ -9357,9 +9225,6 @@
                                         <include reference="yZj-Pg-Ddi"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="toyButton:" destination="N6V-0B-OBt" eventType="touchUpInside" id="HbP-jH-flz"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ط&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yp-dn-GFJ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9479,10 +9344,10 @@
             </objects>
             <point key="canvasLocation" x="15349" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="5Rk-h8-nj5">
             <objects>
-                <viewController id="Cz2-8W-RIA" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Cz2-8W-RIA" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="P2j-cQ-BQz"/>
                         <viewControllerLayoutGuide type="bottom" id="4Xe-lr-LxZ"/>
@@ -9539,9 +9404,6 @@
                                         <include reference="Rba-eF-PY8"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="toyButton:" destination="Cz2-8W-RIA" eventType="touchUpInside" id="4gd-Sq-upg"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ط&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f6-CA-hay">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9655,10 +9517,10 @@
             </objects>
             <point key="canvasLocation" x="15349" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="qrC-L2-O4N">
             <objects>
-                <viewController id="1Cr-Vo-pez" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="1Cr-Vo-pez" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bgM-h6-5kI"/>
                         <viewControllerLayoutGuide type="bottom" id="yC9-F2-K21"/>
@@ -9712,9 +9574,6 @@
                                         <include reference="Z9R-um-kcb"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="zoyeButton:" destination="1Cr-Vo-pez" eventType="touchUpInside" id="ecQ-5H-Oym"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ظ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vy-jT-ml9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9834,10 +9693,10 @@
             </objects>
             <point key="canvasLocation" x="15972" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="dGL-D1-O2U">
             <objects>
-                <viewController id="r5O-VX-I9r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="r5O-VX-I9r" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ql1-ls-RXN"/>
                         <viewControllerLayoutGuide type="bottom" id="DMz-wp-1SI"/>
@@ -9894,9 +9753,6 @@
                                         <include reference="uc0-Ty-jBZ"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="zoyeButton:" destination="r5O-VX-I9r" eventType="touchUpInside" id="VyF-4B-d15"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ظ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOJ-en-DgV">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10010,10 +9866,10 @@
             </objects>
             <point key="canvasLocation" x="15972" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="DRQ-5f-LXv">
             <objects>
-                <viewController id="zLd-1p-mcV" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="zLd-1p-mcV" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xuK-FG-S1x"/>
                         <viewControllerLayoutGuide type="bottom" id="fkE-Uj-IRY"/>
@@ -10065,10 +9921,10 @@
             </objects>
             <point key="canvasLocation" x="15349" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="opu-QQ-OL2">
             <objects>
-                <viewController id="NWT-8T-l1j" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="NWT-8T-l1j" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hK4-Cy-jZL"/>
                         <viewControllerLayoutGuide type="bottom" id="70p-JW-uGx"/>
@@ -10120,10 +9976,10 @@
             </objects>
             <point key="canvasLocation" x="15972" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="bx7-Pm-M7M">
             <objects>
-                <viewController id="Imn-xs-Aik" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Imn-xs-Aik" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LYI-HI-n2x"/>
                         <viewControllerLayoutGuide type="bottom" id="Hxi-Je-bGM"/>
@@ -10178,9 +10034,6 @@
                                         <include reference="tyS-OC-9MI"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="ayenButton:" destination="Imn-xs-Aik" eventType="touchUpInside" id="A9Z-gi-7L9"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ع&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="868-qO-Q86">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10300,10 +10153,10 @@
             </objects>
             <point key="canvasLocation" x="16588" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="QEw-ih-RR3">
             <objects>
-                <viewController id="geT-t6-qvo" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="geT-t6-qvo" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8qA-eY-ru5"/>
                         <viewControllerLayoutGuide type="bottom" id="Zoc-wc-j0e"/>
@@ -10361,9 +10214,6 @@
                                         <include reference="dHL-Sh-E80"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="ayenButton:" destination="geT-t6-qvo" eventType="touchUpInside" id="tIk-MG-lQJ"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ع&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFU-tF-Hwb">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10477,10 +10327,10 @@
             </objects>
             <point key="canvasLocation" x="16588" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="1Xq-yP-jqo">
             <objects>
-                <viewController id="4mQ-Vf-lNq" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="4mQ-Vf-lNq" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pkw-aE-yEi"/>
                         <viewControllerLayoutGuide type="bottom" id="Acc-k3-7RC"/>
@@ -10533,10 +10383,10 @@
             </objects>
             <point key="canvasLocation" x="16588" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="Xhk-Sw-yP6">
             <objects>
-                <viewController id="zd1-D0-4J3" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="zd1-D0-4J3" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l9Z-10-zYj"/>
                         <viewControllerLayoutGuide type="bottom" id="jBR-Lt-BJK"/>
@@ -10594,9 +10444,6 @@
                                         <include reference="uYY-Om-Knk"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="gaeenButton:" destination="zd1-D0-4J3" eventType="touchUpInside" id="mFI-QX-CzX"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;غ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsA-xc-XXe">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10697,10 +10544,10 @@
             </objects>
             <point key="canvasLocation" x="17206" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="jmn-Ym-TNA">
             <objects>
-                <viewController id="05s-P3-M5C" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="05s-P3-M5C" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0cs-Jr-P5a"/>
                         <viewControllerLayoutGuide type="bottom" id="SrR-G4-j4b"/>
@@ -10758,9 +10605,6 @@
                                         <include reference="SXQ-U7-d94"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="gaeenButton:" destination="05s-P3-M5C" eventType="touchUpInside" id="Klp-zB-tdE"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;غ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qT0-yM-mC9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10874,10 +10718,10 @@
             </objects>
             <point key="canvasLocation" x="17206" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="sia-lz-uc8">
             <objects>
-                <viewController id="t9o-54-Abm" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="t9o-54-Abm" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="21B-12-tk0"/>
                         <viewControllerLayoutGuide type="bottom" id="T76-H7-z6h"/>
@@ -10930,10 +10774,10 @@
             </objects>
             <point key="canvasLocation" x="17206" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="r39-a2-5bl">
             <objects>
-                <viewController id="U0I-KE-TZz" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="U0I-KE-TZz" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rbj-q9-AQ5"/>
                         <viewControllerLayoutGuide type="bottom" id="GVp-Ee-LBG"/>
@@ -10987,9 +10831,6 @@
                                         <include reference="dDI-Ze-YWs"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="fayButton:" destination="U0I-KE-TZz" eventType="touchUpInside" id="9U9-wS-cf0"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ف&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBY-Z3-yRF">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11119,10 +10960,10 @@
             </objects>
             <point key="canvasLocation" x="17824" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="AyW-Ab-Gzb">
             <objects>
-                <viewController id="cMj-EY-5SD" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="cMj-EY-5SD" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fRf-k0-k0M"/>
                         <viewControllerLayoutGuide type="bottom" id="euC-sF-r6l"/>
@@ -11176,9 +11017,6 @@
                                         <include reference="zcj-h7-jTX"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="fayButton:" destination="cMj-EY-5SD" eventType="touchUpInside" id="aYu-CJ-C57"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ف&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrL-9q-Lgb">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11292,10 +11130,10 @@
             </objects>
             <point key="canvasLocation" x="17824" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="LGW-3u-eRn">
             <objects>
-                <viewController id="SG5-Xs-iDh" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="SG5-Xs-iDh" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rul-hb-ZJI"/>
                         <viewControllerLayoutGuide type="bottom" id="Vj1-3R-Rr9"/>
@@ -11347,10 +11185,10 @@
             </objects>
             <point key="canvasLocation" x="17824" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="tTN-94-80c">
             <objects>
-                <viewController id="KCR-4N-L9I" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="KCR-4N-L9I" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E5W-rS-Lkd"/>
                         <viewControllerLayoutGuide type="bottom" id="xJU-Er-XjK"/>
@@ -11405,9 +11243,6 @@
                                         <include reference="KhB-3F-JCz"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="qaafButton:" destination="KCR-4N-L9I" eventType="touchUpInside" id="f1A-9p-YH4"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ق&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unE-1l-XZh">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11527,10 +11362,10 @@
             </objects>
             <point key="canvasLocation" x="18444" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="3ct-F0-RPL">
             <objects>
-                <viewController id="qSZ-0X-ZY4" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="qSZ-0X-ZY4" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MQi-pa-HJ6"/>
                         <viewControllerLayoutGuide type="bottom" id="dfZ-CT-xC9"/>
@@ -11588,9 +11423,6 @@
                                         <include reference="e4y-LW-JXI"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="qaafButton:" destination="qSZ-0X-ZY4" eventType="touchUpInside" id="CRJ-xk-Tou"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ق&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifl-hY-lc2">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11704,10 +11536,10 @@
             </objects>
             <point key="canvasLocation" x="18444" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="9nt-mA-grR">
             <objects>
-                <viewController id="R9Y-3G-hlo" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="R9Y-3G-hlo" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9fZ-uq-boD"/>
                         <viewControllerLayoutGuide type="bottom" id="PTX-Tv-cvH"/>
@@ -11764,9 +11596,6 @@
                                         <include reference="iOq-D1-rkN"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="kafButton:" destination="R9Y-3G-hlo" eventType="touchUpInside" id="cwJ-go-4UY"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stb-SP-oD4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -11916,10 +11745,10 @@
             </objects>
             <point key="canvasLocation" x="19055" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="xlW-Xi-NTD">
             <objects>
-                <viewController id="1VN-3S-Mxc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="1VN-3S-Mxc" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U0a-kJ-AZY"/>
                         <viewControllerLayoutGuide type="bottom" id="Vdo-Il-KcK"/>
@@ -11976,9 +11805,6 @@
                                         <include reference="ChM-cR-ESO"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="gaafButton:" destination="1VN-3S-Mxc" eventType="touchUpInside" id="19N-dx-OxL"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JH5-fi-zvA">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -12066,10 +11892,10 @@
             </objects>
             <point key="canvasLocation" x="19666" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="oTm-kG-vaP">
             <objects>
-                <viewController id="vcW-9Q-0hX" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="vcW-9Q-0hX" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C4n-i1-PxX"/>
                         <viewControllerLayoutGuide type="bottom" id="qtz-5E-Uex"/>
@@ -12126,9 +11952,6 @@
                                         <include reference="vmF-fc-8yk"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="kafButton:" destination="vcW-9Q-0hX" eventType="touchUpInside" id="hM2-Uv-uEC"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prH-CI-hLF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -12199,10 +12022,10 @@
             </objects>
             <point key="canvasLocation" x="19055" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="3mC-Nt-9b9">
             <objects>
-                <viewController id="gWB-ch-76T" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="gWB-ch-76T" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m96-En-25h"/>
                         <viewControllerLayoutGuide type="bottom" id="BOs-dz-CNq"/>
@@ -12255,10 +12078,10 @@
             </objects>
             <point key="canvasLocation" x="18444" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="XQW-J0-otP">
             <objects>
-                <viewController id="KNk-Kz-LOr" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="KNk-Kz-LOr" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a6z-3D-0Aw"/>
                         <viewControllerLayoutGuide type="bottom" id="Lh8-8g-PcM"/>
@@ -12310,10 +12133,10 @@
             </objects>
             <point key="canvasLocation" x="19055" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="Vlh-4b-JBn">
             <objects>
-                <viewController id="pPe-ih-4eg" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="pPe-ih-4eg" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dpm-n9-exJ"/>
                         <viewControllerLayoutGuide type="bottom" id="XrE-v2-kII"/>
@@ -12371,9 +12194,6 @@
                                         <include reference="GDm-lc-PNI"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="lamButton:" destination="pPe-ih-4eg" eventType="touchUpInside" id="OjT-py-gvh"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtE-SX-Hua">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -12523,10 +12343,10 @@
             </objects>
             <point key="canvasLocation" x="20275" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="URW-vt-Mb5">
             <objects>
-                <viewController id="Y6t-w9-R8R" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Y6t-w9-R8R" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2b0-mm-1dA"/>
                         <viewControllerLayoutGuide type="bottom" id="BJe-kS-l7J"/>
@@ -12584,9 +12404,6 @@
                                         <include reference="EJG-2j-f33"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="lamButton:" destination="Y6t-w9-R8R" eventType="touchUpInside" id="90e-jm-40o"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ل&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLw-mK-i4b">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12700,10 +12517,10 @@
             </objects>
             <point key="canvasLocation" x="20275" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="vJp-XY-PKr">
             <objects>
-                <viewController id="gmN-a0-26v" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="gmN-a0-26v" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2V2-mt-edj"/>
                         <viewControllerLayoutGuide type="bottom" id="VDG-Tt-4fe"/>
@@ -12755,10 +12572,10 @@
             </objects>
             <point key="canvasLocation" x="19666" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="h4T-4y-ZSA">
             <objects>
-                <viewController id="Gzc-z4-Zw9" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Gzc-z4-Zw9" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oxF-1I-DqZ"/>
                         <viewControllerLayoutGuide type="bottom" id="836-No-gsU"/>
@@ -12811,10 +12628,10 @@
             </objects>
             <point key="canvasLocation" x="20275" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="O90-pg-b63">
             <objects>
-                <viewController id="gr7-cT-8fF" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="gr7-cT-8fF" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3NQ-rs-adA"/>
                         <viewControllerLayoutGuide type="bottom" id="JJT-Ym-vz2"/>
@@ -12868,9 +12685,6 @@
                                         <include reference="ivu-1G-YyR"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="gaafButton:" destination="gr7-cT-8fF" eventType="touchUpInside" id="qGz-3N-Wa8"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OF2-zH-9lU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13060,10 +12874,10 @@
             </objects>
             <point key="canvasLocation" x="19666" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="DHh-kr-SqV">
             <objects>
-                <viewController id="OME-jC-ia4" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="OME-jC-ia4" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dEu-dN-ASv"/>
                         <viewControllerLayoutGuide type="bottom" id="age-b0-goN"/>
@@ -13121,9 +12935,6 @@
                                         <include reference="iY5-IF-jp4"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="memButton:" destination="OME-jC-ia4" eventType="touchUpInside" id="v1E-F6-xd5"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDJ-kY-yMp">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13273,10 +13084,10 @@
             </objects>
             <point key="canvasLocation" x="20895" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="1JJ-dv-I09">
             <objects>
-                <viewController id="Xpk-UP-E30" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Xpk-UP-E30" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NkX-f1-SKQ"/>
                         <viewControllerLayoutGuide type="bottom" id="BfN-ZP-h8M"/>
@@ -13331,9 +13142,6 @@
                                         <include reference="rUR-bE-FNc"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="nonButton:" destination="Xpk-UP-E30" eventType="touchUpInside" id="cfo-HD-aij"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-qg-Ydz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13343,9 +13151,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="nongunButton:" destination="Xpk-UP-E30" eventType="touchUpInside" id="6xY-nF-ti8"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DE5-5L-Woj">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13546,10 +13351,10 @@
             </objects>
             <point key="canvasLocation" x="21513" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="j0J-Sy-7mg">
             <objects>
-                <viewController id="DZq-wN-XTq" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="DZq-wN-XTq" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W4a-k6-eyQ"/>
                         <viewControllerLayoutGuide type="bottom" id="v8K-DV-LDL"/>
@@ -13604,9 +13409,6 @@
                                         <include reference="A8o-AN-Eq6"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="nonButton:" destination="DZq-wN-XTq" eventType="touchUpInside" id="SgT-cy-bpZ"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-lm-JSH">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13616,9 +13418,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="nongunButton:" destination="DZq-wN-XTq" eventType="touchUpInside" id="z0D-L6-uKd"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxQ-hi-EJz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13785,10 +13584,10 @@
             </objects>
             <point key="canvasLocation" x="21513" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="Ukf-gi-YVh">
             <objects>
-                <viewController id="q9y-3D-IKI" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="q9y-3D-IKI" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ss6-YY-S3N"/>
                         <viewControllerLayoutGuide type="bottom" id="611-Qg-hlh"/>
@@ -13855,10 +13654,10 @@
             </objects>
             <point key="canvasLocation" x="21513" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="Fml-B4-F1y">
             <objects>
-                <viewController id="qTK-Y3-DAz" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="qTK-Y3-DAz" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gWF-Xd-n96"/>
                         <viewControllerLayoutGuide type="bottom" id="Nsf-02-PG5"/>
@@ -13916,9 +13715,6 @@
                                         <include reference="tGc-aT-a9Q"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="memButton:" destination="qTK-Y3-DAz" eventType="touchUpInside" id="5Uj-b2-4Ye"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shI-Lz-5Z4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -14039,10 +13835,10 @@
             </objects>
             <point key="canvasLocation" x="20895" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="6xi-H0-8B2">
             <objects>
-                <viewController id="5PE-HK-4Em" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="5PE-HK-4Em" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xrA-JU-Yih"/>
                         <viewControllerLayoutGuide type="bottom" id="Ldq-qM-XDa"/>
@@ -14095,10 +13891,10 @@
             </objects>
             <point key="canvasLocation" x="20895" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="IoA-Qs-zXC">
             <objects>
-                <viewController id="h8w-ba-dxO" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="h8w-ba-dxO" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iS1-Jb-Wfm"/>
                         <viewControllerLayoutGuide type="bottom" id="3pp-N5-Wci"/>
@@ -14153,9 +13949,6 @@
                                         <include reference="N4W-3N-Js1"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="wowButton:" destination="h8w-ba-dxO" eventType="touchUpInside" id="hLM-YR-B5E"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;و&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMB-Nu-PFW">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14259,10 +14052,10 @@
             </objects>
             <point key="canvasLocation" x="22131" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="Z3m-6f-qqk">
             <objects>
-                <viewController id="ffE-Kt-VwG" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="ffE-Kt-VwG" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8d0-uT-npW"/>
                         <viewControllerLayoutGuide type="bottom" id="yDH-zi-Ky9"/>
@@ -14316,9 +14109,6 @@
                                         <include reference="eYq-aC-bFT"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="haaButton:" destination="ffE-Kt-VwG" eventType="touchUpInside" id="PnU-EJ-seV"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFM-Wg-JS3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -14327,9 +14117,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="haaButton:" destination="ffE-Kt-VwG" eventType="touchUpInside" id="daY-WH-OhA"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ہ&quot; and &quot;ھ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFw-tl-FCI">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14447,10 +14234,10 @@
             </objects>
             <point key="canvasLocation" x="22755" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="jDL-GH-Vzd">
             <objects>
-                <viewController id="CxX-G8-UkP" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="CxX-G8-UkP" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wzW-sy-MNW"/>
                         <viewControllerLayoutGuide type="bottom" id="8co-rf-aep"/>
@@ -14505,9 +14292,6 @@
                                         <include reference="b90-6W-T1o"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="haaButton:" destination="CxX-G8-UkP" eventType="touchUpInside" id="W7O-JH-HcG"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaX-En-fYb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -14595,9 +14379,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="haaButton:" destination="CxX-G8-UkP" eventType="touchUpInside" id="xqK-0O-EnG"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -14720,10 +14501,10 @@
             </objects>
             <point key="canvasLocation" x="22755" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="ZZD-JJ-WOw">
             <objects>
-                <viewController id="ufZ-D3-9aL" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="ufZ-D3-9aL" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5lf-HX-adT"/>
                         <viewControllerLayoutGuide type="bottom" id="puz-G1-7VQ"/>
@@ -14790,10 +14571,10 @@
             </objects>
             <point key="canvasLocation" x="22755" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="Lfh-WH-E1g">
             <objects>
-                <viewController id="H30-ff-84w" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="H30-ff-84w" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wzX-4s-IWb"/>
                         <viewControllerLayoutGuide type="bottom" id="zPw-dT-Lu5"/>
@@ -14835,9 +14616,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="wowButton:" destination="H30-ff-84w" eventType="touchUpInside" id="h0w-7F-07G"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اردو میں حرف &quot;و&quot; کوئی انسانی عضو کا نام نہیں شروع ہوتا " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75d-m2-5zW">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14883,11 +14661,11 @@
                                 <exclude reference="NIh-3m-WWC"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="FcS-OA-e15"/>
+                                <exclude reference="yTo-Az-Eah"/>
                                 <exclude reference="5Jw-7b-v06"/>
                                 <exclude reference="SMw-8E-PQd"/>
                                 <exclude reference="VG2-VB-amk"/>
-                                <exclude reference="FcS-OA-e15"/>
-                                <exclude reference="yTo-Az-Eah"/>
                                 <exclude reference="ZzQ-0D-3Ph"/>
                                 <exclude reference="Rmj-g0-dkJ"/>
                                 <exclude reference="Wqb-jA-eLl"/>
@@ -14907,11 +14685,11 @@
                                 <include reference="NIh-3m-WWC"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="FcS-OA-e15"/>
+                                <include reference="yTo-Az-Eah"/>
                                 <include reference="5Jw-7b-v06"/>
                                 <include reference="SMw-8E-PQd"/>
                                 <include reference="VG2-VB-amk"/>
-                                <include reference="FcS-OA-e15"/>
-                                <include reference="yTo-Az-Eah"/>
                                 <include reference="ZzQ-0D-3Ph"/>
                                 <include reference="Rmj-g0-dkJ"/>
                                 <include reference="Wqb-jA-eLl"/>
@@ -14928,10 +14706,10 @@
             </objects>
             <point key="canvasLocation" x="22131" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="8kS-cC-Umy">
             <objects>
-                <viewController id="woo-ms-ueb" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="woo-ms-ueb" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zUD-pT-LnX"/>
                         <viewControllerLayoutGuide type="bottom" id="l92-1d-ND0"/>
@@ -14984,10 +14762,10 @@
             </objects>
             <point key="canvasLocation" x="22131" y="1002"/>
         </scene>
-        <!--View Controller-->
+        <!--Fruits View Controller-->
         <scene sceneID="vEa-yn-2Av">
             <objects>
-                <viewController id="5nF-fy-VoX" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="5nF-fy-VoX" customClass="FruitsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fVQ-Id-4H7"/>
                         <viewControllerLayoutGuide type="bottom" id="ldj-VT-2aF"/>
@@ -15004,9 +14782,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="briyeButton:" destination="5nF-fy-VoX" eventType="touchUpInside" id="QSA-4r-FB8"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D2-to-uK5">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -15029,9 +14804,6 @@
                                         <include reference="tcT-Xy-EAU"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="chotiyeButton:" destination="5nF-fy-VoX" eventType="touchUpInside" id="RXw-TJ-8dw"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ی&quot; and &quot;ے&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVB-V4-zqQ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -15141,10 +14913,10 @@
             </objects>
             <point key="canvasLocation" x="23376" y="-360"/>
         </scene>
-        <!--View Controller-->
+        <!--Body Parts View Controller-->
         <scene sceneID="WoE-Cw-JXB">
             <objects>
-                <viewController id="Gls-BE-0Sp" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Gls-BE-0Sp" customClass="BodyPartsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="scb-X2-DPq"/>
                         <viewControllerLayoutGuide type="bottom" id="oBi-hx-ibx"/>
@@ -15174,9 +14946,6 @@
                                         <include reference="X88-ty-egA"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <action selector="chotiyeButton:" destination="Gls-BE-0Sp" eventType="touchUpInside" id="9la-wL-5Fy"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDl-8p-AvD">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -15186,9 +14955,6 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="briyeButton:" destination="Gls-BE-0Sp" eventType="touchUpInside" id="xdk-A1-HBC"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body name start with &quot;ی&quot; and &quot;ے&quot; in Urdu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4I-zh-knx">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -15236,10 +15002,10 @@
                                 <exclude reference="aqn-2R-Wmw"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="l3o-lf-I38"/>
                                 <exclude reference="5hy-fT-Hnl"/>
                                 <exclude reference="80J-T3-5DX"/>
                                 <exclude reference="bUJ-M4-Cwx"/>
+                                <exclude reference="l3o-lf-I38"/>
                                 <exclude reference="HTn-bK-ooS"/>
                                 <exclude reference="gIV-bK-w8U"/>
                                 <exclude reference="zZU-ns-cm4"/>
@@ -15262,10 +15028,10 @@
                                 <include reference="aqn-2R-Wmw"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="l3o-lf-I38"/>
                                 <include reference="5hy-fT-Hnl"/>
                                 <include reference="80J-T3-5DX"/>
                                 <include reference="bUJ-M4-Cwx"/>
+                                <include reference="l3o-lf-I38"/>
                                 <include reference="HTn-bK-ooS"/>
                                 <include reference="gIV-bK-w8U"/>
                                 <include reference="zZU-ns-cm4"/>
@@ -15285,10 +15051,10 @@
             </objects>
             <point key="canvasLocation" x="23376" y="318"/>
         </scene>
-        <!--View Controller-->
+        <!--Vegitables View Contoller-->
         <scene sceneID="PGi-28-OFU">
             <objects>
-                <viewController id="NLb-Yi-irJ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="NLb-Yi-irJ" customClass="VegitablesViewContoller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RwG-mX-yZA"/>
                         <viewControllerLayoutGuide type="bottom" id="e3s-z1-RuV"/>
@@ -15594,7 +15360,7 @@
     <resources>
         <image name="Anar.png" width="200" height="166"/>
         <image name="Arroo.png" width="200" height="185"/>
-        <image name="Arrow.png" width="30" height="30"/>
+        <image name="Arrow.png" width="128" height="128"/>
         <image name="Beard.png" width="140" height="131"/>
         <image name="Bone.png" width="150" height="77"/>
         <image name="DragonFruit.png" width="200" height="163"/>

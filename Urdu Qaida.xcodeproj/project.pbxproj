@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29042A211A066A5200EF14B2 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 290429E11A066A5200EF14B2 /* Arrow.png */; };
 		29042A221A066A5200EF14B2 /* arm.png in Resources */ = {isa = PBXBuildFile; fileRef = 290429E31A066A5200EF14B2 /* arm.png */; };
 		29042A231A066A5200EF14B2 /* Beard.png in Resources */ = {isa = PBXBuildFile; fileRef = 290429E41A066A5200EF14B2 /* Beard.png */; };
 		29042A241A066A5200EF14B2 /* Bone.png in Resources */ = {isa = PBXBuildFile; fileRef = 290429E51A066A5200EF14B2 /* Bone.png */; };
@@ -116,6 +115,67 @@
 		29DEBA921A06599300619813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DEBA911A06599300619813 /* Images.xcassets */; };
 		29DEBA951A06599300619813 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29DEBA931A06599300619813 /* LaunchScreen.xib */; };
 		29DEBAA11A06599300619813 /* Urdu_QaidaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DEBAA01A06599300619813 /* Urdu_QaidaTests.m */; };
+		29F459631A0DDE1E0057B10A /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F459621A0DDE1E0057B10A /* Arrow.png */; };
+		29FB3E821A1DDA09002C6B4D /* apple.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E641A1DDA09002C6B4D /* apple.caf */; };
+		29FB3E831A1DDA09002C6B4D /* Apricot.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E651A1DDA09002C6B4D /* Apricot.caf */; };
+		29FB3E841A1DDA09002C6B4D /* Avocoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E661A1DDA09002C6B4D /* Avocoda.caf */; };
+		29FB3E851A1DDA09002C6B4D /* Banana.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E671A1DDA09002C6B4D /* Banana.caf */; };
+		29FB3E861A1DDA09002C6B4D /* BlackBerry.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E681A1DDA09002C6B4D /* BlackBerry.caf */; };
+		29FB3E871A1DDA09002C6B4D /* Blueberry.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E691A1DDA09002C6B4D /* Blueberry.caf */; };
+		29FB3E881A1DDA09002C6B4D /* Cantaloupe.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E6A1A1DDA09002C6B4D /* Cantaloupe.caf */; };
+		29FB3E891A1DDA09002C6B4D /* cherry.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E6B1A1DDA09002C6B4D /* cherry.caf */; };
+		29FB3E8A1A1DDA09002C6B4D /* Coconut.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E6C1A1DDA09002C6B4D /* Coconut.caf */; };
+		29FB3E8B1A1DDA09002C6B4D /* DragonFruit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E6D1A1DDA09002C6B4D /* DragonFruit.caf */; };
+		29FB3E8C1A1DDA09002C6B4D /* Fig.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E6E1A1DDA09002C6B4D /* Fig.caf */; };
+		29FB3E8D1A1DDA09002C6B4D /* Grape.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E6F1A1DDA09002C6B4D /* Grape.caf */; };
+		29FB3E8E1A1DDA09002C6B4D /* GrapeFruit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E701A1DDA09002C6B4D /* GrapeFruit.caf */; };
+		29FB3E8F1A1DDA09002C6B4D /* Guava.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E711A1DDA09002C6B4D /* Guava.caf */; };
+		29FB3E901A1DDA09002C6B4D /* KiwiFruit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E721A1DDA09002C6B4D /* KiwiFruit.caf */; };
+		29FB3E911A1DDA09002C6B4D /* Lemon.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E731A1DDA09002C6B4D /* Lemon.caf */; };
+		29FB3E921A1DDA09002C6B4D /* Mango.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E741A1DDA09002C6B4D /* Mango.caf */; };
+		29FB3E931A1DDA09002C6B4D /* Melon.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E751A1DDA09002C6B4D /* Melon.caf */; };
+		29FB3E941A1DDA09002C6B4D /* Nectarine.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E761A1DDA09002C6B4D /* Nectarine.caf */; };
+		29FB3E951A1DDA09002C6B4D /* Orange.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E771A1DDA09002C6B4D /* Orange.caf */; };
+		29FB3E961A1DDA09002C6B4D /* Papaya.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E781A1DDA09002C6B4D /* Papaya.caf */; };
+		29FB3E971A1DDA09002C6B4D /* PassionFruit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E791A1DDA09002C6B4D /* PassionFruit.caf */; };
+		29FB3E981A1DDA09002C6B4D /* Pear.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E7A1A1DDA09002C6B4D /* Pear.caf */; };
+		29FB3E991A1DDA09002C6B4D /* PineApple.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E7B1A1DDA09002C6B4D /* PineApple.caf */; };
+		29FB3E9A1A1DDA09002C6B4D /* Plum.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E7C1A1DDA09002C6B4D /* Plum.caf */; };
+		29FB3E9B1A1DDA09002C6B4D /* Pomegranate.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E7D1A1DDA09002C6B4D /* Pomegranate.caf */; };
+		29FB3E9C1A1DDA09002C6B4D /* Raspberry.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E7E1A1DDA09002C6B4D /* Raspberry.caf */; };
+		29FB3E9D1A1DDA09002C6B4D /* Strawberry.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E7F1A1DDA09002C6B4D /* Strawberry.caf */; };
+		29FB3E9E1A1DDA09002C6B4D /* Tangerine.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E801A1DDA09002C6B4D /* Tangerine.caf */; };
+		29FB3E9F1A1DDA09002C6B4D /* Watermelon.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3E811A1DDA09002C6B4D /* Watermelon.caf */; };
+		29FB3EBC1A1DDA36002C6B4D /* Arm.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA11A1DDA36002C6B4D /* Arm.caf */; };
+		29FB3EBD1A1DDA36002C6B4D /* Beard.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA21A1DDA36002C6B4D /* Beard.caf */; };
+		29FB3EBE1A1DDA36002C6B4D /* Bone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA31A1DDA36002C6B4D /* Bone.caf */; };
+		29FB3EBF1A1DDA36002C6B4D /* Brain.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA41A1DDA36002C6B4D /* Brain.caf */; };
+		29FB3EC01A1DDA36002C6B4D /* Chin.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA51A1DDA36002C6B4D /* Chin.caf */; };
+		29FB3EC11A1DDA36002C6B4D /* Ear.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA61A1DDA36002C6B4D /* Ear.caf */; };
+		29FB3EC21A1DDA36002C6B4D /* Eye.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA71A1DDA36002C6B4D /* Eye.caf */; };
+		29FB3EC31A1DDA36002C6B4D /* Face.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA81A1DDA36002C6B4D /* Face.caf */; };
+		29FB3EC41A1DDA36002C6B4D /* Finger.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EA91A1DDA36002C6B4D /* Finger.caf */; };
+		29FB3EC51A1DDA36002C6B4D /* Fist.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EAA1A1DDA36002C6B4D /* Fist.caf */; };
+		29FB3EC61A1DDA36002C6B4D /* Foot.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EAB1A1DDA36002C6B4D /* Foot.caf */; };
+		29FB3EC71A1DDA36002C6B4D /* Hair.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EAC1A1DDA36002C6B4D /* Hair.caf */; };
+		29FB3EC81A1DDA36002C6B4D /* Hand.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EAD1A1DDA36002C6B4D /* Hand.caf */; };
+		29FB3EC91A1DDA36002C6B4D /* Heart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EAE1A1DDA36002C6B4D /* Heart.caf */; };
+		29FB3ECA1A1DDA36002C6B4D /* Kidney.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EAF1A1DDA36002C6B4D /* Kidney.caf */; };
+		29FB3ECB1A1DDA36002C6B4D /* Knee.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB01A1DDA36002C6B4D /* Knee.caf */; };
+		29FB3ECC1A1DDA36002C6B4D /* Lip.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB11A1DDA36002C6B4D /* Lip.caf */; };
+		29FB3ECD1A1DDA36002C6B4D /* Liver.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB21A1DDA36002C6B4D /* Liver.caf */; };
+		29FB3ECE1A1DDA36002C6B4D /* Lung.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB31A1DDA36002C6B4D /* Lung.caf */; };
+		29FB3ECF1A1DDA36002C6B4D /* Moustache.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB41A1DDA36002C6B4D /* Moustache.caf */; };
+		29FB3ED01A1DDA36002C6B4D /* Muscle.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB51A1DDA36002C6B4D /* Muscle.caf */; };
+		29FB3ED11A1DDA36002C6B4D /* Nail.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB61A1DDA36002C6B4D /* Nail.caf */; };
+		29FB3ED21A1DDA36002C6B4D /* Neck.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB71A1DDA36002C6B4D /* Neck.caf */; };
+		29FB3ED31A1DDA36002C6B4D /* Nose.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB81A1DDA36002C6B4D /* Nose.caf */; };
+		29FB3ED41A1DDA36002C6B4D /* Rib.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EB91A1DDA36002C6B4D /* Rib.caf */; };
+		29FB3ED51A1DDA36002C6B4D /* Thumb.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EBA1A1DDA36002C6B4D /* Thumb.caf */; };
+		29FB3ED61A1DDA36002C6B4D /* Tooth.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29FB3EBB1A1DDA36002C6B4D /* Tooth.caf */; };
+		29FB3ED91A1DEA31002C6B4D /* FruitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FB3ED81A1DEA31002C6B4D /* FruitsViewController.m */; };
+		29FB3EDC1A1DECA2002C6B4D /* BodyPartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FB3EDB1A1DECA2002C6B4D /* BodyPartsViewController.m */; };
+		29FB3EDF1A1DEE1F002C6B4D /* VegitablesViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FB3EDE1A1DEE1F002C6B4D /* VegitablesViewContoller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,7 +189,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		290429E11A066A5200EF14B2 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
 		290429E31A066A5200EF14B2 /* arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arm.png; sourceTree = "<group>"; };
 		290429E41A066A5200EF14B2 /* Beard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beard.png; sourceTree = "<group>"; };
 		290429E51A066A5200EF14B2 /* Bone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bone.png; sourceTree = "<group>"; };
@@ -245,6 +304,70 @@
 		29DEBA9A1A06599300619813 /* Urdu QaidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Urdu QaidaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DEBA9F1A06599300619813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29DEBAA01A06599300619813 /* Urdu_QaidaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Urdu_QaidaTests.m; sourceTree = "<group>"; };
+		29F459621A0DDE1E0057B10A /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		29FB3E641A1DDA09002C6B4D /* apple.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple.caf; sourceTree = "<group>"; };
+		29FB3E651A1DDA09002C6B4D /* Apricot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apricot.caf; sourceTree = "<group>"; };
+		29FB3E661A1DDA09002C6B4D /* Avocoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avocoda.caf; sourceTree = "<group>"; };
+		29FB3E671A1DDA09002C6B4D /* Banana.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Banana.caf; sourceTree = "<group>"; };
+		29FB3E681A1DDA09002C6B4D /* BlackBerry.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackBerry.caf; sourceTree = "<group>"; };
+		29FB3E691A1DDA09002C6B4D /* Blueberry.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blueberry.caf; sourceTree = "<group>"; };
+		29FB3E6A1A1DDA09002C6B4D /* Cantaloupe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cantaloupe.caf; sourceTree = "<group>"; };
+		29FB3E6B1A1DDA09002C6B4D /* cherry.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cherry.caf; sourceTree = "<group>"; };
+		29FB3E6C1A1DDA09002C6B4D /* Coconut.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coconut.caf; sourceTree = "<group>"; };
+		29FB3E6D1A1DDA09002C6B4D /* DragonFruit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DragonFruit.caf; sourceTree = "<group>"; };
+		29FB3E6E1A1DDA09002C6B4D /* Fig.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fig.caf; sourceTree = "<group>"; };
+		29FB3E6F1A1DDA09002C6B4D /* Grape.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grape.caf; sourceTree = "<group>"; };
+		29FB3E701A1DDA09002C6B4D /* GrapeFruit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GrapeFruit.caf; sourceTree = "<group>"; };
+		29FB3E711A1DDA09002C6B4D /* Guava.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guava.caf; sourceTree = "<group>"; };
+		29FB3E721A1DDA09002C6B4D /* KiwiFruit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KiwiFruit.caf; sourceTree = "<group>"; };
+		29FB3E731A1DDA09002C6B4D /* Lemon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lemon.caf; sourceTree = "<group>"; };
+		29FB3E741A1DDA09002C6B4D /* Mango.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mango.caf; sourceTree = "<group>"; };
+		29FB3E751A1DDA09002C6B4D /* Melon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Melon.caf; sourceTree = "<group>"; };
+		29FB3E761A1DDA09002C6B4D /* Nectarine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nectarine.caf; sourceTree = "<group>"; };
+		29FB3E771A1DDA09002C6B4D /* Orange.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Orange.caf; sourceTree = "<group>"; };
+		29FB3E781A1DDA09002C6B4D /* Papaya.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Papaya.caf; sourceTree = "<group>"; };
+		29FB3E791A1DDA09002C6B4D /* PassionFruit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PassionFruit.caf; sourceTree = "<group>"; };
+		29FB3E7A1A1DDA09002C6B4D /* Pear.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pear.caf; sourceTree = "<group>"; };
+		29FB3E7B1A1DDA09002C6B4D /* PineApple.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PineApple.caf; sourceTree = "<group>"; };
+		29FB3E7C1A1DDA09002C6B4D /* Plum.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plum.caf; sourceTree = "<group>"; };
+		29FB3E7D1A1DDA09002C6B4D /* Pomegranate.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pomegranate.caf; sourceTree = "<group>"; };
+		29FB3E7E1A1DDA09002C6B4D /* Raspberry.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Raspberry.caf; sourceTree = "<group>"; };
+		29FB3E7F1A1DDA09002C6B4D /* Strawberry.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Strawberry.caf; sourceTree = "<group>"; };
+		29FB3E801A1DDA09002C6B4D /* Tangerine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tangerine.caf; sourceTree = "<group>"; };
+		29FB3E811A1DDA09002C6B4D /* Watermelon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Watermelon.caf; sourceTree = "<group>"; };
+		29FB3EA11A1DDA36002C6B4D /* Arm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arm.caf; sourceTree = "<group>"; };
+		29FB3EA21A1DDA36002C6B4D /* Beard.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beard.caf; sourceTree = "<group>"; };
+		29FB3EA31A1DDA36002C6B4D /* Bone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bone.caf; sourceTree = "<group>"; };
+		29FB3EA41A1DDA36002C6B4D /* Brain.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brain.caf; sourceTree = "<group>"; };
+		29FB3EA51A1DDA36002C6B4D /* Chin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chin.caf; sourceTree = "<group>"; };
+		29FB3EA61A1DDA36002C6B4D /* Ear.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ear.caf; sourceTree = "<group>"; };
+		29FB3EA71A1DDA36002C6B4D /* Eye.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eye.caf; sourceTree = "<group>"; };
+		29FB3EA81A1DDA36002C6B4D /* Face.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Face.caf; sourceTree = "<group>"; };
+		29FB3EA91A1DDA36002C6B4D /* Finger.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Finger.caf; sourceTree = "<group>"; };
+		29FB3EAA1A1DDA36002C6B4D /* Fist.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fist.caf; sourceTree = "<group>"; };
+		29FB3EAB1A1DDA36002C6B4D /* Foot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foot.caf; sourceTree = "<group>"; };
+		29FB3EAC1A1DDA36002C6B4D /* Hair.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hair.caf; sourceTree = "<group>"; };
+		29FB3EAD1A1DDA36002C6B4D /* Hand.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hand.caf; sourceTree = "<group>"; };
+		29FB3EAE1A1DDA36002C6B4D /* Heart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Heart.caf; sourceTree = "<group>"; };
+		29FB3EAF1A1DDA36002C6B4D /* Kidney.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kidney.caf; sourceTree = "<group>"; };
+		29FB3EB01A1DDA36002C6B4D /* Knee.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Knee.caf; sourceTree = "<group>"; };
+		29FB3EB11A1DDA36002C6B4D /* Lip.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lip.caf; sourceTree = "<group>"; };
+		29FB3EB21A1DDA36002C6B4D /* Liver.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Liver.caf; sourceTree = "<group>"; };
+		29FB3EB31A1DDA36002C6B4D /* Lung.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lung.caf; sourceTree = "<group>"; };
+		29FB3EB41A1DDA36002C6B4D /* Moustache.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moustache.caf; sourceTree = "<group>"; };
+		29FB3EB51A1DDA36002C6B4D /* Muscle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Muscle.caf; sourceTree = "<group>"; };
+		29FB3EB61A1DDA36002C6B4D /* Nail.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nail.caf; sourceTree = "<group>"; };
+		29FB3EB71A1DDA36002C6B4D /* Neck.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neck.caf; sourceTree = "<group>"; };
+		29FB3EB81A1DDA36002C6B4D /* Nose.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nose.caf; sourceTree = "<group>"; };
+		29FB3EB91A1DDA36002C6B4D /* Rib.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rib.caf; sourceTree = "<group>"; };
+		29FB3EBA1A1DDA36002C6B4D /* Thumb.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumb.caf; sourceTree = "<group>"; };
+		29FB3EBB1A1DDA36002C6B4D /* Tooth.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tooth.caf; sourceTree = "<group>"; };
+		29FB3ED71A1DEA31002C6B4D /* FruitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FruitsViewController.h; path = ../FruitsViewController.h; sourceTree = "<group>"; };
+		29FB3ED81A1DEA31002C6B4D /* FruitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FruitsViewController.m; path = ../FruitsViewController.m; sourceTree = "<group>"; };
+		29FB3EDA1A1DECA2002C6B4D /* BodyPartsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyPartsViewController.h; sourceTree = "<group>"; };
+		29FB3EDB1A1DECA2002C6B4D /* BodyPartsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyPartsViewController.m; sourceTree = "<group>"; };
+		29FB3EDD1A1DEE1F002C6B4D /* VegitablesViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VegitablesViewContoller.h; sourceTree = "<group>"; };
+		29FB3EDE1A1DEE1F002C6B4D /* VegitablesViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VegitablesViewContoller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -407,8 +530,10 @@
 		29DEBA831A06599300619813 /* Urdu Qaida */ = {
 			isa = PBXGroup;
 			children = (
+				29FB3EA01A1DDA14002C6B4D /* Body Parts Sounds */,
+				29FB3DEB1A1DD9A9002C6B4D /* Fruits Sounds */,
+				29F459621A0DDE1E0057B10A /* Arrow.png */,
 				29DDDEEB1A0762F90043CF8F /* Alif bay pay Sounds */,
-				290429E11A066A5200EF14B2 /* Arrow.png */,
 				290429E21A066A5200EF14B2 /* Body Parts */,
 				290429FF1A066A5200EF14B2 /* Fruits */,
 				29DEBA881A06599300619813 /* AppDelegate.h */,
@@ -416,6 +541,12 @@
 				29DEBA8B1A06599300619813 /* ViewController.h */,
 				29DEBA8C1A06599300619813 /* ViewController.m */,
 				29DEBA8E1A06599300619813 /* Main.storyboard */,
+				29FB3ED71A1DEA31002C6B4D /* FruitsViewController.h */,
+				29FB3ED81A1DEA31002C6B4D /* FruitsViewController.m */,
+				29FB3EDA1A1DECA2002C6B4D /* BodyPartsViewController.h */,
+				29FB3EDB1A1DECA2002C6B4D /* BodyPartsViewController.m */,
+				29FB3EDD1A1DEE1F002C6B4D /* VegitablesViewContoller.h */,
+				29FB3EDE1A1DEE1F002C6B4D /* VegitablesViewContoller.m */,
 				29DDDEE81A0762F00043CF8F /* SoundManager.h */,
 				29DDDEE91A0762F00043CF8F /* SoundManager.m */,
 				29DEBA911A06599300619813 /* Images.xcassets */,
@@ -449,6 +580,77 @@
 				29DEBA9F1A06599300619813 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29FB3DEB1A1DD9A9002C6B4D /* Fruits Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				29FB3E641A1DDA09002C6B4D /* apple.caf */,
+				29FB3E651A1DDA09002C6B4D /* Apricot.caf */,
+				29FB3E661A1DDA09002C6B4D /* Avocoda.caf */,
+				29FB3E671A1DDA09002C6B4D /* Banana.caf */,
+				29FB3E681A1DDA09002C6B4D /* BlackBerry.caf */,
+				29FB3E691A1DDA09002C6B4D /* Blueberry.caf */,
+				29FB3E6A1A1DDA09002C6B4D /* Cantaloupe.caf */,
+				29FB3E6B1A1DDA09002C6B4D /* cherry.caf */,
+				29FB3E6C1A1DDA09002C6B4D /* Coconut.caf */,
+				29FB3E6D1A1DDA09002C6B4D /* DragonFruit.caf */,
+				29FB3E6E1A1DDA09002C6B4D /* Fig.caf */,
+				29FB3E6F1A1DDA09002C6B4D /* Grape.caf */,
+				29FB3E701A1DDA09002C6B4D /* GrapeFruit.caf */,
+				29FB3E711A1DDA09002C6B4D /* Guava.caf */,
+				29FB3E721A1DDA09002C6B4D /* KiwiFruit.caf */,
+				29FB3E731A1DDA09002C6B4D /* Lemon.caf */,
+				29FB3E741A1DDA09002C6B4D /* Mango.caf */,
+				29FB3E751A1DDA09002C6B4D /* Melon.caf */,
+				29FB3E761A1DDA09002C6B4D /* Nectarine.caf */,
+				29FB3E771A1DDA09002C6B4D /* Orange.caf */,
+				29FB3E781A1DDA09002C6B4D /* Papaya.caf */,
+				29FB3E791A1DDA09002C6B4D /* PassionFruit.caf */,
+				29FB3E7A1A1DDA09002C6B4D /* Pear.caf */,
+				29FB3E7B1A1DDA09002C6B4D /* PineApple.caf */,
+				29FB3E7C1A1DDA09002C6B4D /* Plum.caf */,
+				29FB3E7D1A1DDA09002C6B4D /* Pomegranate.caf */,
+				29FB3E7E1A1DDA09002C6B4D /* Raspberry.caf */,
+				29FB3E7F1A1DDA09002C6B4D /* Strawberry.caf */,
+				29FB3E801A1DDA09002C6B4D /* Tangerine.caf */,
+				29FB3E811A1DDA09002C6B4D /* Watermelon.caf */,
+			);
+			name = "Fruits Sounds";
+			sourceTree = "<group>";
+		};
+		29FB3EA01A1DDA14002C6B4D /* Body Parts Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				29FB3EA11A1DDA36002C6B4D /* Arm.caf */,
+				29FB3EA21A1DDA36002C6B4D /* Beard.caf */,
+				29FB3EA31A1DDA36002C6B4D /* Bone.caf */,
+				29FB3EA41A1DDA36002C6B4D /* Brain.caf */,
+				29FB3EA51A1DDA36002C6B4D /* Chin.caf */,
+				29FB3EA61A1DDA36002C6B4D /* Ear.caf */,
+				29FB3EA71A1DDA36002C6B4D /* Eye.caf */,
+				29FB3EA81A1DDA36002C6B4D /* Face.caf */,
+				29FB3EA91A1DDA36002C6B4D /* Finger.caf */,
+				29FB3EAA1A1DDA36002C6B4D /* Fist.caf */,
+				29FB3EAB1A1DDA36002C6B4D /* Foot.caf */,
+				29FB3EAC1A1DDA36002C6B4D /* Hair.caf */,
+				29FB3EAD1A1DDA36002C6B4D /* Hand.caf */,
+				29FB3EAE1A1DDA36002C6B4D /* Heart.caf */,
+				29FB3EAF1A1DDA36002C6B4D /* Kidney.caf */,
+				29FB3EB01A1DDA36002C6B4D /* Knee.caf */,
+				29FB3EB11A1DDA36002C6B4D /* Lip.caf */,
+				29FB3EB21A1DDA36002C6B4D /* Liver.caf */,
+				29FB3EB31A1DDA36002C6B4D /* Lung.caf */,
+				29FB3EB41A1DDA36002C6B4D /* Moustache.caf */,
+				29FB3EB51A1DDA36002C6B4D /* Muscle.caf */,
+				29FB3EB61A1DDA36002C6B4D /* Nail.caf */,
+				29FB3EB71A1DDA36002C6B4D /* Neck.caf */,
+				29FB3EB81A1DDA36002C6B4D /* Nose.caf */,
+				29FB3EB91A1DDA36002C6B4D /* Rib.caf */,
+				29FB3EBA1A1DDA36002C6B4D /* Thumb.caf */,
+				29FB3EBB1A1DDA36002C6B4D /* Tooth.caf */,
+			);
+			name = "Body Parts Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,25 +734,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				29DCD8781A08E6DB001CFE2E /* ص.caf in Resources */,
+				29FB3EC41A1DDA36002C6B4D /* Finger.caf in Resources */,
 				29042A3E1A066A5200EF14B2 /* aam.png in Resources */,
 				29042A511A066A5200EF14B2 /* Khrboz.png in Resources */,
+				29FB3E851A1DDA09002C6B4D /* Banana.caf in Resources */,
+				29FB3ED31A1DDA36002C6B4D /* Nose.caf in Resources */,
+				29FB3E881A1DDA09002C6B4D /* Cantaloupe.caf in Resources */,
 				29042A501A066A5200EF14B2 /* khobani.png in Resources */,
 				29042A4E1A066A5200EF14B2 /* keenu.png in Resources */,
 				29042A381A066A5200EF14B2 /* Nail.png in Resources */,
 				29DCD8711A08E6DB001CFE2E /* ڈ.caf in Resources */,
 				29DCD8861A08E6DB001CFE2E /* ہ.caf in Resources */,
 				29042A251A066A5200EF14B2 /* brain.png in Resources */,
-				29042A211A066A5200EF14B2 /* Arrow.png in Resources */,
+				29FB3EC11A1DDA36002C6B4D /* Ear.caf in Resources */,
 				29042A261A066A5200EF14B2 /* chin.png in Resources */,
+				29FB3E911A1DDA09002C6B4D /* Lemon.caf in Resources */,
+				29FB3ECC1A1DDA36002C6B4D /* Lip.caf in Resources */,
 				29DCD8751A08E6DB001CFE2E /* ژ.caf in Resources */,
 				29DCD8791A08E6DB001CFE2E /* ض.caf in Resources */,
 				29DCD8831A08E6DB001CFE2E /* م.caf in Resources */,
+				29FB3ED21A1DDA36002C6B4D /* Neck.caf in Resources */,
+				29FB3E901A1DDA09002C6B4D /* KiwiFruit.caf in Resources */,
 				29DCD8811A08E6DB001CFE2E /* گ.caf in Resources */,
+				29FB3E9B1A1DDA09002C6B4D /* Pomegranate.caf in Resources */,
 				29042A241A066A5200EF14B2 /* Bone.png in Resources */,
 				29DCD86C1A08E6DB001CFE2E /* چ.caf in Resources */,
 				29042A341A066A5200EF14B2 /* Liver.png in Resources */,
 				29DCD8721A08E6DB001CFE2E /* ر.caf in Resources */,
+				29FB3E981A1DDA09002C6B4D /* Pear.caf in Resources */,
+				29FB3E951A1DDA09002C6B4D /* Orange.caf in Resources */,
 				29042A401A066A5200EF14B2 /* amrood.png in Resources */,
+				29FB3E8A1A1DDA09002C6B4D /* Coconut.caf in Resources */,
+				29FB3EBF1A1DDA36002C6B4D /* Brain.caf in Resources */,
 				29DCD8761A08E6DB001CFE2E /* س.caf in Resources */,
 				29042A591A066A5200EF14B2 /* neelaBair.png in Resources */,
 				29DCD8801A08E6DB001CFE2E /* ک.caf in Resources */,
@@ -558,32 +773,53 @@
 				29042A221A066A5200EF14B2 /* arm.png in Resources */,
 				29DCD8771A08E6DB001CFE2E /* ش.caf in Resources */,
 				29042A2E1A066A5200EF14B2 /* hand.png in Resources */,
+				29FB3ECA1A1DDA36002C6B4D /* Kidney.caf in Resources */,
+				29FB3EBE1A1DDA36002C6B4D /* Bone.caf in Resources */,
+				29FB3ED11A1DDA36002C6B4D /* Nail.caf in Resources */,
 				29DCD8671A08E6DB001CFE2E /* پ.caf in Resources */,
+				29FB3E931A1DDA09002C6B4D /* Melon.caf in Resources */,
 				29042A4F1A066A5200EF14B2 /* kella.png in Resources */,
+				29FB3E971A1DDA09002C6B4D /* PassionFruit.caf in Resources */,
 				29042A311A066A5200EF14B2 /* knee.png in Resources */,
 				29042A301A066A5200EF14B2 /* kidney.PNG in Resources */,
 				29DCD8891A08E6DB001CFE2E /* ے.caf in Resources */,
 				29042A2F1A066A5200EF14B2 /* Heart.png in Resources */,
 				29042A571A066A5200EF14B2 /* nariyal.png in Resources */,
+				29FB3E921A1DDA09002C6B4D /* Mango.caf in Resources */,
 				29DCD8651A08E6DB001CFE2E /* ا.caf in Resources */,
 				29DCD8661A08E6DB001CFE2E /* ب.caf in Resources */,
 				29042A5C1A066A5200EF14B2 /* saib.png in Resources */,
 				29DEBA901A06599300619813 /* Main.storyboard in Resources */,
+				29FB3EBC1A1DDA36002C6B4D /* Arm.caf in Resources */,
 				29DCD87E1A08E6DB001CFE2E /* ف.caf in Resources */,
 				29042A5D1A066A5200EF14B2 /* strawberry.png in Resources */,
 				29DCD8881A08E6DB001CFE2E /* ی.caf in Resources */,
+				29FB3E8F1A1DDA09002C6B4D /* Guava.caf in Resources */,
 				29DCD87A1A08E6DB001CFE2E /* ط.caf in Resources */,
+				29FB3EC31A1DDA36002C6B4D /* Face.caf in Resources */,
 				29042A291A066A5200EF14B2 /* Face.png in Resources */,
+				29FB3ED51A1DDA36002C6B4D /* Thumb.caf in Resources */,
+				29FB3ED01A1DDA36002C6B4D /* Muscle.caf in Resources */,
+				29FB3E9E1A1DDA09002C6B4D /* Tangerine.caf in Resources */,
+				29FB3E861A1DDA09002C6B4D /* BlackBerry.caf in Resources */,
 				29042A431A066A5200EF14B2 /* angoor1.png in Resources */,
+				29FB3E871A1DDA09002C6B4D /* Blueberry.caf in Resources */,
+				29FB3E8B1A1DDA09002C6B4D /* DragonFruit.caf in Resources */,
 				29042A4B1A066A5200EF14B2 /* fruits.png in Resources */,
 				29042A4D1A066A5200EF14B2 /* jamn.png in Resources */,
+				29FB3E841A1DDA09002C6B4D /* Avocoda.caf in Resources */,
+				29FB3ED61A1DDA36002C6B4D /* Tooth.caf in Resources */,
 				29042A2B1A066A5200EF14B2 /* Fist.png in Resources */,
+				29FB3EC91A1DDA36002C6B4D /* Heart.caf in Resources */,
 				29042A281A066A5200EF14B2 /* Eye.png in Resources */,
+				29FB3EC51A1DDA36002C6B4D /* Fist.caf in Resources */,
 				29DCD8701A08E6DB001CFE2E /* ذ.caf in Resources */,
 				29042A351A066A5200EF14B2 /* lungs-md.png in Resources */,
 				29DCD86D1A08E6DB001CFE2E /* ح.caf in Resources */,
 				29042A421A066A5200EF14B2 /* Anar.png in Resources */,
 				29DCD87B1A08E6DB001CFE2E /* ظ.caf in Resources */,
+				29FB3EC81A1DDA36002C6B4D /* Hand.caf in Resources */,
+				29FB3ED41A1DDA36002C6B4D /* Rib.caf in Resources */,
 				29042A491A066A5200EF14B2 /* chiniKrwnda.png in Resources */,
 				29042A551A066A5200EF14B2 /* magarNashpati.png in Resources */,
 				29042A531A066A5200EF14B2 /* Lemon.png in Resources */,
@@ -592,49 +828,72 @@
 				29DCD8741A08E6DB001CFE2E /* ڑ.caf in Resources */,
 				29042A581A066A5200EF14B2 /* nashpati.png in Resources */,
 				29DCD86A1A08E6DB001CFE2E /* ٹ.caf in Resources */,
+				29FB3E961A1DDA09002C6B4D /* Papaya.caf in Resources */,
+				29FB3EBD1A1DDA36002C6B4D /* Beard.caf in Resources */,
 				29042A321A066A5200EF14B2 /* legs.png in Resources */,
 				29DCD87D1A08E6DB001CFE2E /* غ.caf in Resources */,
 				29042A231A066A5200EF14B2 /* Beard.png in Resources */,
 				29042A441A066A5200EF14B2 /* anjeer.png in Resources */,
+				29FB3ECF1A1DDA36002C6B4D /* Moustache.caf in Resources */,
 				29042A481A066A5200EF14B2 /* cheery.png in Resources */,
 				29042A521A066A5200EF14B2 /* Khrboza.png in Resources */,
 				29042A5E1A066A5200EF14B2 /* trbooz.png in Resources */,
 				29042A4A1A066A5200EF14B2 /* DragonFruit.png in Resources */,
+				29FB3EC61A1DDA36002C6B4D /* Foot.caf in Resources */,
 				29DCD8841A08E6DB001CFE2E /* ن.caf in Resources */,
 				29042A271A066A5200EF14B2 /* EAR.png in Resources */,
 				29DCD8691A08E6DB001CFE2E /* ث.caf in Resources */,
+				29FB3EC71A1DDA36002C6B4D /* Hair.caf in Resources */,
 				29042A561A066A5200EF14B2 /* malta.png in Resources */,
+				29FB3E9C1A1DDA09002C6B4D /* Raspberry.caf in Resources */,
+				29FB3EC01A1DDA36002C6B4D /* Chin.caf in Resources */,
+				29FB3ECE1A1DDA36002C6B4D /* Lung.caf in Resources */,
 				29042A471A066A5200EF14B2 /* chakotra.png in Resources */,
+				29FB3ECD1A1DDA36002C6B4D /* Liver.caf in Resources */,
+				29FB3E9D1A1DDA09002C6B4D /* Strawberry.caf in Resources */,
+				29FB3EC21A1DDA36002C6B4D /* Eye.caf in Resources */,
+				29FB3E831A1DDA09002C6B4D /* Apricot.caf in Resources */,
+				29FB3ECB1A1DDA36002C6B4D /* Knee.caf in Resources */,
 				29042A331A066A5200EF14B2 /* lips.png in Resources */,
 				29DCD86E1A08E6DB001CFE2E /* خ.caf in Resources */,
+				29FB3E9F1A1DDA09002C6B4D /* Watermelon.caf in Resources */,
 				29042A2C1A066A5200EF14B2 /* Foot.png in Resources */,
 				29042A5A1A066A5200EF14B2 /* Papita.png in Resources */,
 				29DCD8851A08E6DB001CFE2E /* ں.caf in Resources */,
 				29042A361A066A5200EF14B2 /* moustache.png in Resources */,
 				29042A3A1A066A5200EF14B2 /* nose.png in Resources */,
+				29FB3E8E1A1DDA09002C6B4D /* GrapeFruit.caf in Resources */,
 				29042A3C1A066A5200EF14B2 /* Teeth.png in Resources */,
+				29FB3E991A1DDA09002C6B4D /* PineApple.caf in Resources */,
 				29042A5B1A066A5200EF14B2 /* raspberry.png in Resources */,
+				29FB3E821A1DDA09002C6B4D /* apple.caf in Resources */,
 				29DCD86B1A08E6DB001CFE2E /* ج.caf in Resources */,
 				29042A451A066A5200EF14B2 /* Arroo.png in Resources */,
 				29DEBA921A06599300619813 /* Images.xcassets in Resources */,
 				29DCD8681A08E6DB001CFE2E /* ت.caf in Resources */,
 				29DCD86F1A08E6DB001CFE2E /* د.caf in Resources */,
+				29F459631A0DDE1E0057B10A /* Arrow.png in Resources */,
 				29042A4C1A066A5200EF14B2 /* GulSalibi.png in Resources */,
 				29DCD8871A08E6DB001CFE2E /* و.caf in Resources */,
 				29042A461A066A5200EF14B2 /* arroo1.png in Resources */,
 				29DDDEED1A0763040043CF8F /* Alif.caf in Resources */,
 				29DCD87F1A08E6DB001CFE2E /* ق.caf in Resources */,
+				29FB3E941A1DDA09002C6B4D /* Nectarine.caf in Resources */,
+				29FB3E8C1A1DDA09002C6B4D /* Fig.caf in Resources */,
 				29DCD87C1A08E6DB001CFE2E /* ع.caf in Resources */,
+				29FB3E8D1A1DDA09002C6B4D /* Grape.caf in Resources */,
 				29DCD8731A08E6DB001CFE2E /* ز.caf in Resources */,
 				29042A391A066A5200EF14B2 /* Neck.png in Resources */,
 				29042A2A1A066A5200EF14B2 /* Finger.png in Resources */,
 				29042A411A066A5200EF14B2 /* anaNas.png in Resources */,
+				29FB3E9A1A1DDA09002C6B4D /* Plum.caf in Resources */,
 				29042A3B1A066A5200EF14B2 /* Ribs.png in Resources */,
 				29DCD8641A08E6DB001CFE2E /* آ.caf in Resources */,
 				29042A371A066A5200EF14B2 /* muscles.png in Resources */,
 				29042A2D1A066A5200EF14B2 /* hair.png in Resources */,
 				29DCD8821A08E6DB001CFE2E /* ل.caf in Resources */,
 				29042A3F1A066A5200EF14B2 /* alubukhara.png in Resources */,
+				29FB3E891A1DDA09002C6B4D /* cherry.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +912,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				29DEBA8D1A06599300619813 /* ViewController.m in Sources */,
+				29FB3EDF1A1DEE1F002C6B4D /* VegitablesViewContoller.m in Sources */,
 				29DDDEEA1A0762F00043CF8F /* SoundManager.m in Sources */,
+				29FB3ED91A1DEA31002C6B4D /* FruitsViewController.m in Sources */,
+				29FB3EDC1A1DECA2002C6B4D /* BodyPartsViewController.m in Sources */,
 				29DEBA8A1A06599300619813 /* AppDelegate.m in Sources */,
 				29DEBA871A06599300619813 /* main.m in Sources */,
 			);
