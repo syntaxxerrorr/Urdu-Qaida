@@ -203,93 +203,153 @@
 
 
 
-- (IBAction)grapes:(id)sender {
+- (IBAction)grapes:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Grape.caf"];
 }
 
-- (IBAction)pomegranate:(id)sender {
+- (IBAction)pomegranate:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Pomegranate.caf"];
 }
 
-- (IBAction)pineApple:(id)sender {
+- (IBAction)pineApple:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"PineApple.caf"];
 }
 
-- (IBAction)guava:(id)sender {
+- (IBAction)guava:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Guava.caf"];
 }
 
-- (IBAction)strawberry:(id)sender {
+- (IBAction)strawberry:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Strawberry.caf"];
 }
 
-- (IBAction)plum:(id)sender {
+- (IBAction)plum:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Plum.caf"];
 }
 
-- (IBAction)peach:(id)sender {
+- (IBAction)peach:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Nectarine.caf"];
 }
 
-- (IBAction)mango:(id)sender {
+- (IBAction)mango:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Mango.caf"];
 }
 
-- (IBAction)papaya:(id)sender {
+- (IBAction)papaya:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Papaya.caf"];
 }
 
-- (IBAction)watermelon:(id)sender {
+- (IBAction)watermelon:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Watermelon.caf"];
 }
 
-- (IBAction)bucketOfFruits:(id)sender {
+- (IBAction)bucketOfFruits:(id)sender
+{
+#warning missing sound
 }
 
-- (IBAction)blackBerry:(id)sender {
+- (IBAction)blackBerry:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"BlackBerry.caf"];
 }
 
-- (IBAction)cherry:(id)sender {
+- (IBAction)cherry:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"cherry.caf"];
 }
 
-- (IBAction)grapeFruit:(id)sender {
+- (IBAction)grapeFruit:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"GrapeFruit.caf"];
 }
 
-- (IBAction)kiwiFruit:(id)sender {
+- (IBAction)kiwiFruit:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"KiwiFruit.caf"];
 }
 
-- (IBAction)apricot:(id)sender {
+- (IBAction)apricot:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Apricot.caf"];
 }
 
-- (IBAction)cantaloupe:(id)sender {
+- (IBAction)cantaloupe:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Cantaloupe.caf"];
 }
 
-- (IBAction)melon:(id)sender {
+- (IBAction)melon:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Melon.caf"];
 }
 
-- (IBAction)dragonFruit:(id)sender {
+- (IBAction)dragonFruit:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"DragonFruit.caf"];
 }
 
-- (IBAction)raspberries:(id)sender {
+- (IBAction)raspberries:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Raspberry.caf"];
 }
 
-- (IBAction)apple:(id)sender {
+- (IBAction)apple:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"apple.caf"];
 }
 
-- (IBAction)banana:(id)sender {
+- (IBAction)banana:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Banana.caf"];
 }
 
-- (IBAction)tangerines:(id)sender {
+- (IBAction)tangerines:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Tangernie.caf"];
 }
 
-- (IBAction)passionFruit:(id)sender {
+- (IBAction)passionFruit:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"PassionFruit.caf"];
 }
 
-- (IBAction)lemonLime:(id)sender {
+- (IBAction)lemonLime:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Lemon.caf"];
 }
 
-- (IBAction)avocados:(id)sender {
+- (IBAction)avocados:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Avocoda.caf"];
 }
 
-- (IBAction)orange:(id)sender {
+- (IBAction)orange:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Orange.caf"];
 }
 
-- (IBAction)pears:(id)sender {
+- (IBAction)pears:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Pear.caf"];
 }
 
-- (IBAction)coconut:(id)sender {
+- (IBAction)coconut:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Coconut.caf"];
 }
 
-- (IBAction)blueBerry:(id)sender {
+- (IBAction)blueBerry:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Blueberry"];
 }
 @end

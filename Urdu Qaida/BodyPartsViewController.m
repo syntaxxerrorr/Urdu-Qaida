@@ -205,138 +205,138 @@
 
 - (IBAction)finger:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Finger.caf"];
+    [[SoundManager sharedManager] playSound:@"Finger.caf"];
 }
 
 - (IBAction)thumb:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Thumb.caf"];
+    [[SoundManager sharedManager] playSound:@"Thumb.caf"];
 }
 
 - (IBAction)eye:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Eye.caf"];
+    [[SoundManager sharedManager] playSound:@"Eye.caf"];
 }
 
 - (IBAction)hair:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Hair.caf"];
+    [[SoundManager sharedManager] playSound:@"Hair.caf"];
 }
 
 - (IBAction)arm:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Arm.caf"];
+    [[SoundManager sharedManager] playSound:@"Arm.caf"];
 }
 
 - (IBAction)lungs:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Lung.caf"];
+    [[SoundManager sharedManager] playSound:@"Lung.caf"];
 }
 
 - (IBAction)foot:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Foot.caf"];
+    [[SoundManager sharedManager] playSound:@"Foot.caf"];
 }
 
 - (IBAction)muscle:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Muscle.caf"];
+    [[SoundManager sharedManager] playSound:@"Muscle.caf"];
 }
 
 - (IBAction)ribs:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Rib.caf"];
+    [[SoundManager sharedManager] playSound:@"Rib.caf"];
 }
 
 - (IBAction)chin:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Chin.caf"];
+    [[SoundManager sharedManager] playSound:@"Chin.caf"];
 }
 
 - (IBAction)liver:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Liver.caf"];
+    [[SoundManager sharedManager] playSound:@"Liver.caf"];
 }
 
 - (IBAction)face:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Face.caf"];
+    [[SoundManager sharedManager] playSound:@"Face.caf"];
 }
 
 - (IBAction)beard:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Beard.caf"];
+    [[SoundManager sharedManager] playSound:@"Beard.caf"];
 }
 
 - (IBAction)teeth:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Tooth.caf"];
+    [[SoundManager sharedManager] playSound:@"Tooth.caf"];
 }
 
 - (IBAction)heart:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Heart.caf"];
+    [[SoundManager sharedManager] playSound:@"Heart.caf"];
 }
 
 - (IBAction)brain:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Brain.caf"];
+    [[SoundManager sharedManager] playSound:@"Brain.caf"];
 }
 
 - (IBAction)ear:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Ear.caf"];
+    [[SoundManager sharedManager] playSound:@"Ear.caf"];
 }
 
 - (IBAction)neck:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Neck.caf"];
+    [[SoundManager sharedManager] playSound:@"Neck.caf"];
 }
 
 - (IBAction)knee:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Knee.caf"];
+    [[SoundManager sharedManager] playSound:@"Knee.caf"];
 }
 
 - (IBAction)kidney:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Kidney.caf"];
+    [[SoundManager sharedManager] playSound:@"Kidney.caf"];
 }
 
 - (IBAction)moustache:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Moustache.caf"];
+    [[SoundManager sharedManager] playSound:@"Moustache.caf"];
 }
 
 - (IBAction)fist:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Fist.caf"];
+    [[SoundManager sharedManager] playSound:@"Fist.caf"];
 }
 
 - (IBAction)nail:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Nail.caf"];
+    [[SoundManager sharedManager] playSound:@"Nail.caf"];
 }
 
 - (IBAction)nose:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Nose.caf"];
+    [[SoundManager sharedManager] playSound:@"Nose.caf"];
 }
 
 - (IBAction)lips:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Lip.caf"];
+    [[SoundManager sharedManager] playSound:@"Lip.caf"];
 }
 
 - (IBAction)bone:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Bone.caf"];
+    [[SoundManager sharedManager] playSound:@"Bone.caf"];
 }
 
 
 - (IBAction)hand:(id)sender
 {
-    [[SoundManager sharedManager] playMusic:@"Hand.caf"];
+    [[SoundManager sharedManager] playSound:@"Hand.caf"];
 }
 
 @end
