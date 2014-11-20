@@ -10,6 +10,8 @@
 
 @interface FruitsViewController : UIViewController
 
+
+//Urdu Alphabets
 - (IBAction)firstButton:(id)sender;
 - (IBAction)alifTowButton:(id)sender;
 - (IBAction)bayButton:(id)sender;
@@ -48,6 +50,39 @@
 - (IBAction)haaButton:(id)sender;
 - (IBAction)chotiyeButton:(id)sender;
 - (IBAction)briyeButton:(id)sender;
+//Fruits
+- (IBAction)grapes:(id)sender;
+- (IBAction)pomegranate:(id)sender;
+- (IBAction)pineApple:(id)sender;
+- (IBAction)guava:(id)sender;
+- (IBAction)strawberry:(id)sender;
+- (IBAction)plum:(id)sender;
+- (IBAction)peach:(id)sender;
+- (IBAction)mango:(id)sender;
+- (IBAction)papaya:(id)sender;
+- (IBAction)watermelon:(id)sender;
+- (IBAction)bucketOfFruits:(id)sender;
+- (IBAction)blackBerry:(id)sender;
+- (IBAction)cherry:(id)sender;
+- (IBAction)grapeFruit:(id)sender;
+- (IBAction)kiwiFruit:(id)sender;
+- (IBAction)apricot:(id)sender;
+- (IBAction)cantaloupe:(id)sender;
+- (IBAction)melon:(id)sender;
+- (IBAction)dragonFruit:(id)sender;
+- (IBAction)raspberries:(id)sender;
+- (IBAction)apple:(id)sender;
+- (IBAction)banana:(id)sender;
+- (IBAction)tangerines:(id)sender;
+- (IBAction)passionFruit:(id)sender;
+- (IBAction)lemonLime:(id)sender;
+- (IBAction)avocados:(id)sender;
+- (IBAction)orange:(id)sender;
+- (IBAction)pears:(id)sender;
+- (IBAction)coconut:(id)sender;
+- (IBAction)blueBerry:(id)sender;
+
+
 
 
 @end

@@ -10,6 +10,7 @@
 
 @interface BodyPartsViewController : UIViewController
 
+//Urdu Alphabets
 - (IBAction)firstButton:(id)sender;
 - (IBAction)alifTowButton:(id)sender;
 - (IBAction)bayButton:(id)sender;
@@ -48,6 +49,39 @@
 - (IBAction)haaButton:(id)sender;
 - (IBAction)chotiyeButton:(id)sender;
 - (IBAction)briyeButton:(id)sender;
+//Body Parts.
+- (IBAction)finger:(id)sender;
+- (IBAction)thumb:(id)sender;
+- (IBAction)eye:(id)sender;
+- (IBAction)hair:(id)sender;
+- (IBAction)arm:(id)sender;
+- (IBAction)lungs:(id)sender;
+- (IBAction)foot:(id)sender;
+- (IBAction)muscle:(id)sender;
+- (IBAction)ribs:(id)sender;
+- (IBAction)chin:(id)sender;
+- (IBAction)liver:(id)sender;
+- (IBAction)face:(id)sender;
+- (IBAction)beard:(id)sender;
+- (IBAction)teeth:(id)sender;
+- (IBAction)heart:(id)sender;
+- (IBAction)brain:(id)sender;
+- (IBAction)ear:(id)sender;
+- (IBAction)neck:(id)sender;
+- (IBAction)knee:(id)sender;
+- (IBAction)kidney:(id)sender;
+- (IBAction)moustache:(id)sender;
+- (IBAction)fist:(id)sender;
+- (IBAction)nail:(id)sender;
+- (IBAction)nose:(id)sender;
+- (IBAction)lips:(id)sender;
+- (IBAction)bone:(id)sender;
+- (IBAction)hand:(id)sender;
+
+
+
+
+
 
 
 @end

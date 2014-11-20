@@ -201,6 +201,142 @@
     [[SoundManager sharedManager] playSound:@"ے.caf"];
 }
 
+//Body Parts
 
+- (IBAction)finger:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Finger.caf"];
+}
+
+- (IBAction)thumb:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Thumb.caf"];
+}
+
+- (IBAction)eye:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Eye.caf"];
+}
+
+- (IBAction)hair:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Hair.caf"];
+}
+
+- (IBAction)arm:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Arm.caf"];
+}
+
+- (IBAction)lungs:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Lung.caf"];
+}
+
+- (IBAction)foot:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Foot.caf"];
+}
+
+- (IBAction)muscle:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Muscle.caf"];
+}
+
+- (IBAction)ribs:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Rib.caf"];
+}
+
+- (IBAction)chin:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Chin.caf"];
+}
+
+- (IBAction)liver:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Liver.caf"];
+}
+
+- (IBAction)face:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Face.caf"];
+}
+
+- (IBAction)beard:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Beard.caf"];
+}
+
+- (IBAction)teeth:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Tooth.caf"];
+}
+
+- (IBAction)heart:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Heart.caf"];
+}
+
+- (IBAction)brain:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Brain.caf"];
+}
+
+- (IBAction)ear:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Ear.caf"];
+}
+
+- (IBAction)neck:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Neck.caf"];
+}
+
+- (IBAction)knee:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Knee.caf"];
+}
+
+- (IBAction)kidney:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Kidney.caf"];
+}
+
+- (IBAction)moustache:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Moustache.caf"];
+}
+
+- (IBAction)fist:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Fist.caf"];
+}
+
+- (IBAction)nail:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Nail.caf"];
+}
+
+- (IBAction)nose:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Nose.caf"];
+}
+
+- (IBAction)lips:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Lip.caf"];
+}
+
+- (IBAction)bone:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Bone.caf"];
+}
+
+
+- (IBAction)hand:(id)sender
+{
+    [[SoundManager sharedManager] playMusic:@"Hand.caf"];
+}
 
 @end

@@ -67,12 +67,18 @@
                                         <include reference="vBp-C7-nRS"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="firstButton:" destination="WAb-Kn-8HB" eventType="touchUpInside" id="yrK-Dk-vcn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLQ-WF-xmP">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="angoor1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="grapes:" destination="WAb-Kn-8HB" eventType="touchUpInside" id="fqU-1S-Jm2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4V-gk-ohf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -92,12 +98,18 @@
                                         <include reference="Tcs-vI-O98"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pomegranate:" destination="WAb-Kn-8HB" eventType="touchUpInside" id="OZT-fz-rmb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBo-uf-tbq">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="anaNas.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="pineApple:" destination="WAb-Kn-8HB" eventType="touchUpInside" id="GkR-v1-A3r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLf-IX-MIu">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -117,12 +129,18 @@
                                         <include reference="Jgc-7B-mmx"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="guava:" destination="WAb-Kn-8HB" eventType="touchUpInside" id="AT2-u7-JQ5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tcs-is-aJy">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="strawberry.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="strawberry:" destination="WAb-Kn-8HB" eventType="touchUpInside" id="f2r-cb-pul"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grapes : انگور" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGv-9r-gT2">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -371,12 +389,18 @@
                                         <include reference="fNn-Tf-bcw"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="firstButton:" destination="iqo-yr-bKC" eventType="touchUpInside" id="uwF-wB-HOT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9e-Vq-VLM">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Finger.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="finger:" destination="iqo-yr-bKC" eventType="touchUpInside" id="4mj-tn-NUU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finger : انگلی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BE3-ge-vtD">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -402,6 +426,9 @@
                                 <state key="normal" image="thumbs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="thumb:" destination="iqo-yr-bKC" eventType="touchUpInside" id="vFE-aT-cmf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thumb : انگوٹھا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5A2-XU-985">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -615,30 +642,45 @@
                                         <include reference="uqQ-HY-AyC"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="alifTowButton:" destination="dqr-qa-mAO" eventType="touchUpInside" id="m6Q-HR-EfF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkn-Us-CbJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="alubukhara.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="plum:" destination="dqr-qa-mAO" eventType="touchUpInside" id="4Fs-RM-tRh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIQ-zE-lg1">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Arroo.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="peach:" destination="dqr-qa-mAO" eventType="touchUpInside" id="ZGp-8U-Hsn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1O-s3-iIf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="aam.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="mango:" destination="dqr-qa-mAO" eventType="touchUpInside" id="AVf-OZ-pMR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cD-N9-NFk">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="arroo1.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="peach:" destination="dqr-qa-mAO" eventType="touchUpInside" id="XP5-Bf-88e"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plum : آلوبخارہ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dve-bV-EvY">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -898,12 +940,18 @@
                                         <include reference="Olg-B0-15n"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="alifTowButton:" destination="NrQ-0p-EOW" eventType="touchUpInside" id="Ft3-DC-XUI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n35-RF-8fa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Eye.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="eye:" destination="NrQ-0p-EOW" eventType="touchUpInside" id="pzc-Hd-4kE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eye : آنکھ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2C-gA-JTX">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1097,6 +1145,9 @@
                                         <include reference="w2n-Vl-zCM"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="bayButton:" destination="X2F-x4-NHS" eventType="touchUpInside" id="7dD-eX-dis"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Word Start with &quot;ب&quot; in Urdu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZP-fr-Fih">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1284,12 +1335,18 @@
                                         <include reference="mpz-Po-BNj"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="bayButton:" destination="7vH-hX-Vy5" eventType="touchUpInside" id="wuj-XT-Zz4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wme-H1-dbT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="hair.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hair:" destination="7vH-hX-Vy5" eventType="touchUpInside" id="IbF-yF-6eE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hair : بال" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsI-Na-aRu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1318,8 +1375,11 @@
                                 <state key="normal" image="arm.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="arm:" destination="7vH-hX-Vy5" eventType="touchUpInside" id="5Vp-Sv-vUV"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hand : بازو" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsN-7X-SgK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arm : بازو" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsN-7X-SgK">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="9Bq-2Q-xaE"/>
@@ -1543,6 +1603,9 @@
                                         <include reference="Snp-fv-hZ1"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="payButton:" destination="egG-K7-h80" eventType="touchUpInside" id="qIO-Qa-b6l"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Papaya : پپیتا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntg-vf-8eM">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1568,6 +1631,9 @@
                                 <state key="normal" image="Papita.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="papaya:" destination="egG-K7-h80" eventType="touchUpInside" id="E6E-TN-T32"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -1690,12 +1756,18 @@
                                         <include reference="yEQ-1m-iJf"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="payButton:" destination="sL1-hr-Fbw" eventType="touchUpInside" id="OXM-13-Q8h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7o-KM-my3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="lungs-md.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="lungs:" destination="sL1-hr-Fbw" eventType="touchUpInside" id="sDE-bX-ZXZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lungs : پھپھڑے" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpi-YE-JrK">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1708,6 +1780,9 @@
                                 <state key="normal" image="Foot.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="foot:" destination="sL1-hr-Fbw" eventType="touchUpInside" id="baW-9D-BiR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foot : پاوں" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fci-i9-M1x">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1746,6 +1821,9 @@
                                         <include reference="2l6-1M-Z0C"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="muscle:" destination="sL1-hr-Fbw" eventType="touchUpInside" id="5As-EM-CIc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muscle : پٹھا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vkd-SY-El5">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1771,6 +1849,9 @@
                                 <state key="normal" image="Ribs.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="ribs:" destination="sL1-hr-Fbw" eventType="touchUpInside" id="Me1-Jv-sKk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ribs : پسلیاں" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thr-gm-32n">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2029,12 +2110,18 @@
                                         <include reference="pQA-Me-sgT"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="tayButton:" destination="GIY-3k-BK1" eventType="touchUpInside" id="swU-M0-Bbm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HB5-wP-uLg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="trbooz.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="watermelon:" destination="GIY-3k-BK1" eventType="touchUpInside" id="ATh-92-pyo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WaterMelon : تربورہ/تربوز" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDZ-Ad-Hs9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2178,6 +2265,9 @@
                                         <include reference="wQ4-Qq-ejx"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="tayButton:" destination="aPw-J7-47j" eventType="touchUpInside" id="t44-zi-Fd4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ت&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ist-l4-hf9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2403,6 +2493,9 @@
                                         <include reference="XND-R7-XZ7"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="ttayButton:" destination="UsE-Uq-0Ai" eventType="touchUpInside" id="E0D-Fy-Dy8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ٹ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prR-Z4-r1L">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2582,6 +2675,9 @@
                                         <include reference="d6K-SK-GIa"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="ttayButton:" destination="TcI-3N-73n" eventType="touchUpInside" id="G2t-0z-0jb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCL-u2-LNT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -2601,6 +2697,9 @@
                                         <include reference="mUj-0t-oHa"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="chin:" destination="TcI-3N-73n" eventType="touchUpInside" id="Fax-9U-QGG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chin : ٹھوڑی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnH-gP-XyI">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2793,12 +2892,18 @@
                                         <include reference="izg-GI-8rQ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="sayButton:" destination="yef-Li-Bxb" eventType="touchUpInside" id="OFG-ZV-6P6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jM-mN-ooq">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="fruits.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="bucketOfFruits:" destination="yef-Li-Bxb" eventType="touchUpInside" id="J1U-Pj-vpx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bucket of Fruits: ثمر" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYf-oO-EU3">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -2942,6 +3047,9 @@
                                         <include reference="hIN-gw-jKn"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="sayButton:" destination="dcv-RH-KMn" eventType="touchUpInside" id="6ij-n1-621"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ث&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dih-s3-Tdu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -3171,12 +3279,18 @@
                                         <include reference="yyy-oh-5bO"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="jeemButton:" destination="crU-JU-Bg1" eventType="touchUpInside" id="kcO-DC-5fr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tnl-cH-0wr">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="jamn.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="blackBerry:" destination="crU-JU-Bg1" eventType="touchUpInside" id="mhl-dX-nen"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlackBerry: جامن" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oS-XG-Yi5">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -3305,6 +3419,9 @@
                                         <include reference="T1t-yO-AML"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="jeemButton:" destination="8lx-Kj-jnZ" eventType="touchUpInside" id="iTJ-bt-4w6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hu-4L-M4u">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -3324,6 +3441,9 @@
                                         <include reference="jQ0-9w-M6C"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="liver:" destination="8lx-Kj-jnZ" eventType="touchUpInside" id="6xD-BV-BFj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liver : جگر" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yK9-Lr-Eid">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -3518,18 +3638,27 @@
                                         <include reference="yl3-rj-VpF"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="cheyButton:" destination="gP2-wA-feu" eventType="touchUpInside" id="bSd-rq-VMP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A9-kT-ZcJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="cheery.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cherry:" destination="gP2-wA-feu" eventType="touchUpInside" id="kCn-BN-K7O"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZK-Hp-kSN">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="chakotra.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="grapeFruit:" destination="gP2-wA-feu" eventType="touchUpInside" id="ebB-3d-Xki"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cherry : چیری" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fa-iR-4Co">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -3574,6 +3703,9 @@
                                         <include reference="S2W-dR-p7I"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="kiwiFruit:" destination="gP2-wA-feu" eventType="touchUpInside" id="N4m-9b-lWx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KiwiFruit : چینی کروندا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxJ-Qf-tK2">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -3749,12 +3881,18 @@
                                         <include reference="fdD-G6-YNu"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="cheyButton:" destination="Df6-Pd-HBU" eventType="touchUpInside" id="Y1r-37-POT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gal-bz-JqT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Face.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="face:" destination="Df6-Pd-HBU" eventType="touchUpInside" id="UZ6-Fi-bGD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Face : چہرہ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zK-5A-0NA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -3920,6 +4058,9 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="heyButton:" destination="zUP-st-Akj" eventType="touchUpInside" id="Cok-MZ-xFZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ح&quot; in Urdu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnY-YP-eeT">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4084,6 +4225,9 @@
                                         <include reference="8fR-N2-yDe"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="heyButton:" destination="SmP-sn-7oA" eventType="touchUpInside" id="bgv-OG-maZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ح&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D27-C6-3QC">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4258,6 +4402,9 @@
                                         <include reference="axG-dU-PBW"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="kheyButton:" destination="wZb-YA-P3J" eventType="touchUpInside" id="gEQ-Lp-nkc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBo-Ax-17B">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -4277,6 +4424,9 @@
                                         <include reference="dzh-Hz-wcI"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="apricot:" destination="wZb-YA-P3J" eventType="touchUpInside" id="I3N-DC-bOq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apricot : خوبانی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdX-RF-hrt">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4302,6 +4452,9 @@
                                 <state key="normal" image="Khrboz.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cantaloupe:" destination="wZb-YA-P3J" eventType="touchUpInside" id="1Ey-Qq-zCB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cantaloupe : خربوز" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvO-uU-euo">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4314,6 +4467,9 @@
                                 <state key="normal" image="Khrboza.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="melon:" destination="wZb-YA-P3J" eventType="touchUpInside" id="DtE-16-boN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Melon : خربوزہ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEu-Wt-WdP">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4505,6 +4661,9 @@
                                         <include reference="6OY-Xg-Pd9"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="kheyButton:" destination="23o-wM-fOX" eventType="touchUpInside" id="92U-RE-4rs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;خ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMB-Qm-vd8">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4787,6 +4946,9 @@
                                         <include reference="Ib1-bG-aZq"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="dalButton:" destination="Gct-Aq-mxF" eventType="touchUpInside" id="Pf9-Sy-NXC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;د&quot; in Urdu۔" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1O-lv-Jcg">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4963,12 +5125,18 @@
                                         <include reference="J5A-QD-Djg"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="dalButton:" destination="HcN-6x-lfb" eventType="touchUpInside" id="U1x-yR-6Yw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdq-OC-Giu">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Beard.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="beard:" destination="HcN-6x-lfb" eventType="touchUpInside" id="jPb-if-jer"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beard : داڑھی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCa-aC-Qkg">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -4981,6 +5149,9 @@
                                 <state key="normal" image="Heart.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="heart:" destination="HcN-6x-lfb" eventType="touchUpInside" id="6yB-g1-bAd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heart : دل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dz8-bn-GZE">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5006,6 +5177,9 @@
                                 <state key="normal" image="Teeth.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="teeth:" destination="HcN-6x-lfb" eventType="touchUpInside" id="EK5-6z-BY6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teeth : دانت" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfW-Gn-gmF">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5047,6 +5221,9 @@
                                         <include reference="UcP-lJ-gjQ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="brain:" destination="HcN-6x-lfb" eventType="touchUpInside" id="OKO-xn-VN8"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brain : دماغ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDb-KJ-fcc">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5295,12 +5472,18 @@
                                         <include reference="eM7-bU-fx4"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="daalButton:" destination="FwX-aG-ySI" eventType="touchUpInside" id="52k-da-sPW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJB-AW-O9m">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="DragonFruit.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="dragonFruit:" destination="FwX-aG-ySI" eventType="touchUpInside" id="I19-Cs-rCm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dragon Fruit : ڈریگن پھل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFg-XV-rNo">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5444,6 +5627,9 @@
                                         <include reference="XCM-zY-cC1"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="daalButton:" destination="1Nh-5x-pGg" eventType="touchUpInside" id="5ZS-St-2tp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ڈ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZz-9D-j8k">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5669,6 +5855,9 @@
                                         <include reference="zAg-Xe-33x"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zaalButton:" destination="lJO-Ns-HLh" eventType="touchUpInside" id="dg7-bi-Hpc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ذ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9K-Kh-KQB">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5849,12 +6038,18 @@
                                         <include reference="YhR-uf-6b6"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="rayButton:" destination="2yS-T8-Y0C" eventType="touchUpInside" id="dtc-rs-dcF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18K-AY-8s9">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="raspberry.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="raspberries:" destination="2yS-T8-Y0C" eventType="touchUpInside" id="z25-YZ-HpR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raspberries : رس بھری" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3D-O0-znv">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -5999,6 +6194,9 @@
                                         <include reference="MK6-1U-s8Y"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="rayButton:" destination="jWc-lu-6Kd" eventType="touchUpInside" id="Tii-sl-g0z"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ر&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHf-Jf-4iD">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6228,6 +6426,9 @@
                                         <include reference="alE-bT-Ayl"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zaalButton:" destination="5f1-ha-Tfu" eventType="touchUpInside" id="JR1-z1-OaY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ذ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyc-R5-0VH">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6454,6 +6655,9 @@
                                         <include reference="Ulr-LS-9y0"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="aryButton:" destination="uED-Iu-c8d" eventType="touchUpInside" id="40d-gS-I94"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Can Move on with Next lesson." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfe-yd-vEF">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6618,6 +6822,9 @@
                                         <include reference="Pl8-fH-eD4"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="aryButton:" destination="qKy-Ma-lQ7" eventType="touchUpInside" id="OHK-8B-tce"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ڑ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBg-0S-uvA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -6845,6 +7052,9 @@
                                         <include reference="kB6-wA-Yfr"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zyButton:" destination="dAU-yZ-EHT" eventType="touchUpInside" id="rlu-ry-7p1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ز&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fm-hy-EsL">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7009,6 +7219,9 @@
                                         <include reference="JVp-nH-rFf"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zyButton:" destination="YSJ-fg-7fC" eventType="touchUpInside" id="SBI-cG-Gcw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ز&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bk-6z-Z4R">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7239,6 +7452,9 @@
                                         <include reference="lBS-em-q3E"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="seyButton:" destination="5g4-ZY-SWX" eventType="touchUpInside" id="wBx-n6-xvI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ژ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uM-To-fp5">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7400,6 +7616,9 @@
                                         <include reference="oPs-u5-U8P"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="seyButton:" destination="yoo-P2-LdZ" eventType="touchUpInside" id="ygp-22-Krr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ژ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F13-sk-8cM">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7630,12 +7849,18 @@
                                         <include reference="jRG-Y2-O01"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="seenButton:" destination="DP5-n6-XOM" eventType="touchUpInside" id="kFv-QD-M5z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys7-zS-HXh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="saib.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="apple:" destination="DP5-n6-XOM" eventType="touchUpInside" id="CrT-UB-B5Y"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple : سیب" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w21-2B-daS">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -7780,6 +8005,9 @@
                                         <include reference="nuN-EC-Wkd"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="seenButton:" destination="BfC-Jm-dmr" eventType="touchUpInside" id="9gu-Pj-hip"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;س&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3u-qj-qCA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8007,6 +8235,9 @@
                                         <include reference="FgF-4C-K8C"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="shenButton:" destination="5fn-cy-7dj" eventType="touchUpInside" id="nuV-fn-eNr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ش&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJX-7c-Rys">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8197,6 +8428,9 @@
                                         <include reference="JdA-2P-HvF"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="shenButton:" destination="tof-HN-Tvs" eventType="touchUpInside" id="2lt-p6-NSy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ش&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtn-Xn-lrG">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8424,6 +8658,9 @@
                                         <include reference="vFu-MA-dfU"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="swatButton:" destination="vVT-Lc-un5" eventType="touchUpInside" id="66i-OJ-pgR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ص&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi1-R6-XlH">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8595,6 +8832,9 @@
                                         <include reference="W66-bo-zt9"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="dwatButton:" destination="o8c-R9-ajZ" eventType="touchUpInside" id="Lmk-9O-I0Q"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ض&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mz6-5f-3k4">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8769,6 +9009,9 @@
                                         <include reference="cRI-oV-JjW"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="dwatButton:" destination="Rg0-ZF-Cyp" eventType="touchUpInside" id="XVe-nC-H0G"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ض&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G96-md-qHh">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -8999,6 +9242,9 @@
                                         <include reference="Yjd-wa-Xhn"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="swatButton:" destination="62U-y0-dh2" eventType="touchUpInside" id="cx2-0r-lUJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ص&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVP-Vx-EJ1">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9225,6 +9471,9 @@
                                         <include reference="yZj-Pg-Ddi"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="toyButton:" destination="N6V-0B-OBt" eventType="touchUpInside" id="lZC-6p-XmR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ط&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yp-dn-GFJ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9404,6 +9653,9 @@
                                         <include reference="Rba-eF-PY8"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="toyButton:" destination="Cz2-8W-RIA" eventType="touchUpInside" id="T84-eR-1v9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ط&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5f6-CA-hay">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9574,6 +9826,9 @@
                                         <include reference="Z9R-um-kcb"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zoyeButton:" destination="1Cr-Vo-pez" eventType="touchUpInside" id="hoe-yT-FDl"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ظ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vy-jT-ml9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -9753,6 +10008,9 @@
                                         <include reference="uc0-Ty-jBZ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zoyeButton:" destination="r5O-VX-I9r" eventType="touchUpInside" id="8pW-jc-NME"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ظ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOJ-en-DgV">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10034,6 +10292,9 @@
                                         <include reference="tyS-OC-9MI"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="ayenButton:" destination="Imn-xs-Aik" eventType="touchUpInside" id="shc-2c-Nyg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ع&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="868-qO-Q86">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10214,6 +10475,9 @@
                                         <include reference="dHL-Sh-E80"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="ayenButton:" destination="geT-t6-qvo" eventType="touchUpInside" id="5iZ-zB-M6m"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ع&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFU-tF-Hwb">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10444,6 +10708,9 @@
                                         <include reference="uYY-Om-Knk"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="gaeenButton:" destination="zd1-D0-4J3" eventType="touchUpInside" id="7p0-2o-bc0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;غ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsA-xc-XXe">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10605,6 +10872,9 @@
                                         <include reference="SXQ-U7-d94"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="gaeenButton:" destination="05s-P3-M5C" eventType="touchUpInside" id="Msk-pM-PSC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;غ&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qT0-yM-mC9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -10831,6 +11101,9 @@
                                         <include reference="dDI-Ze-YWs"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="fayButton:" destination="U0I-KE-TZz" eventType="touchUpInside" id="R8s-L5-SVA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ف&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBY-Z3-yRF">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11017,6 +11290,9 @@
                                         <include reference="zcj-h7-jTX"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="fayButton:" destination="cMj-EY-5SD" eventType="touchUpInside" id="XeP-jH-lG6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ف&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrL-9q-Lgb">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11243,6 +11519,9 @@
                                         <include reference="KhB-3F-JCz"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="qaafButton:" destination="KCR-4N-L9I" eventType="touchUpInside" id="QYA-JG-d68"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ق&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unE-1l-XZh">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11423,6 +11702,9 @@
                                         <include reference="e4y-LW-JXI"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="qaafButton:" destination="qSZ-0X-ZY4" eventType="touchUpInside" id="HID-cR-Jen"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ق&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifl-hY-lc2">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11596,14 +11878,20 @@
                                         <include reference="iOq-D1-rkN"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="kafButton:" destination="R9Y-3G-hlo" eventType="touchUpInside" id="T8B-2h-Ubz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stb-SP-oD4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="kella.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="banana:" destination="R9Y-3G-hlo" eventType="touchUpInside" id="Tw1-sM-04c"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bnana : کیلا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swb-1Z-U7m">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banana : کیلا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swb-1Z-U7m">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="aHE-Ac-Kc7"/>
@@ -11643,6 +11931,9 @@
                                         <include reference="IPe-Kn-VBZ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="tangerines:" destination="R9Y-3G-hlo" eventType="touchUpInside" id="hzP-I8-ZJK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tangerines : کنوں" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehw-u9-2b7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11805,6 +12096,9 @@
                                         <include reference="ChM-cR-ESO"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="gaafButton:" destination="1VN-3S-Mxc" eventType="touchUpInside" id="drf-km-9l8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JH5-fi-zvA">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -11812,6 +12106,9 @@
                                 <state key="normal" image="GulSalibi.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="passionFruit:" destination="1VN-3S-Mxc" eventType="touchUpInside" id="o9E-Ds-cjF"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Passion Fruit : گل صلیبی" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPm-4C-CV9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -11952,12 +12249,18 @@
                                         <include reference="vmF-fc-8yk"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="kafButton:" destination="vcW-9Q-0hX" eventType="touchUpInside" id="3Ko-3Q-zAY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prH-CI-hLF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="EAR.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="ear:" destination="vcW-9Q-0hX" eventType="touchUpInside" id="yqy-A2-pIM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ear : کان" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKP-3O-EMb">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12194,12 +12497,18 @@
                                         <include reference="GDm-lc-PNI"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="lamButton:" destination="pPe-ih-4eg" eventType="touchUpInside" id="t8i-Y4-lmh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtE-SX-Hua">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Lemon.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="lemonLime:" destination="pPe-ih-4eg" eventType="touchUpInside" id="Emo-oS-s30"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lemon : لیموں" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fw-3l-8fS">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12238,6 +12547,9 @@
                                         <include reference="mz2-zf-6d9"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="lemonLime:" destination="pPe-ih-4eg" eventType="touchUpInside" id="Khu-pl-F0m"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lime : لیموں" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDe-sy-zzu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12404,6 +12716,9 @@
                                         <include reference="EJG-2j-f33"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="lamButton:" destination="Y6t-w9-R8R" eventType="touchUpInside" id="Cs4-s2-DAJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body Part Start with &quot;ل&quot; in Urdu." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLw-mK-i4b">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12685,12 +13000,18 @@
                                         <include reference="ivu-1G-YyR"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="gaafButton:" destination="gr7-cT-8fF" eventType="touchUpInside" id="6na-lt-aEA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OF2-zH-9lU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Neck.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="neck:" destination="gr7-cT-8fF" eventType="touchUpInside" id="jqk-5M-4lb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neck : گردن" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVj-Ix-Vxd">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12729,6 +13050,9 @@
                                         <include reference="8Ot-8o-EYU"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="knee:" destination="gr7-cT-8fF" eventType="touchUpInside" id="Zrn-dR-SUw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knee : گھٹنا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST3-jq-zX8">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12741,6 +13065,9 @@
                                 <state key="normal" image="kidney.PNG">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="kidney:" destination="gr7-cT-8fF" eventType="touchUpInside" id="O7L-Lm-ImI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kidney : گردہ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wo-vr-IDD">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12935,12 +13262,18 @@
                                         <include reference="iY5-IF-jp4"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="memButton:" destination="OME-jC-ia4" eventType="touchUpInside" id="a29-t4-IKX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDJ-kY-yMp">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="magarNashpati.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="avocados:" destination="OME-jC-ia4" eventType="touchUpInside" id="Tql-DA-DS7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avocados : مگر ناشپپاتی" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gc9-Zd-dLK">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -12982,6 +13315,9 @@
                                         <include reference="k7Z-yj-S4l"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="orange:" destination="OME-jC-ia4" eventType="touchUpInside" id="r0b-0f-vbA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orange : مالٹا" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnN-m2-ni0">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -13142,6 +13478,9 @@
                                         <include reference="rUR-bE-FNc"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="nonButton:" destination="Xpk-UP-E30" eventType="touchUpInside" id="OUE-iG-M7i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGe-qg-Ydz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13151,6 +13490,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nongunButton:" destination="Xpk-UP-E30" eventType="touchUpInside" id="IFt-eh-Lfz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DE5-5L-Woj">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13170,6 +13512,9 @@
                                         <include reference="HSQ-S2-F2x"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pears:" destination="Xpk-UP-E30" eventType="touchUpInside" id="qE3-gY-a64"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pears : ناشپاتی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E57-qp-JOW">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -13182,6 +13527,9 @@
                                 <state key="normal" image="nariyal.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="coconut:" destination="Xpk-UP-E30" eventType="touchUpInside" id="cr0-9H-kuK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coconut : ناریل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kQ-i8-OS4">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -13207,6 +13555,9 @@
                                         <include reference="Z7m-3m-6pi"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="blueBerry:" destination="Xpk-UP-E30" eventType="touchUpInside" id="daf-jw-ikO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlueBerry : نیلا بیر" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCJ-Jx-CSw">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -13409,6 +13760,9 @@
                                         <include reference="A8o-AN-Eq6"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="nonButton:" destination="DZq-wN-XTq" eventType="touchUpInside" id="jTi-xR-hU8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btg-lm-JSH">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13418,6 +13772,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nongunButton:" destination="DZq-wN-XTq" eventType="touchUpInside" id="tBd-HE-tVn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxQ-hi-EJz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -13437,6 +13794,9 @@
                                         <include reference="exh-Vd-gMw"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="nail:" destination="DZq-wN-XTq" eventType="touchUpInside" id="Vhc-gC-CTx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nail : ناخن" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeA-bY-EfC">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -13465,6 +13825,9 @@
                                 <state key="normal" image="nose.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nose:" destination="DZq-wN-XTq" eventType="touchUpInside" id="wdY-Tk-3yM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nose : ناک" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wk-Eg-Im7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -13715,12 +14078,18 @@
                                         <include reference="tGc-aT-a9Q"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="memButton:" destination="qTK-Y3-DAz" eventType="touchUpInside" id="rIp-9C-Wpa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shI-Lz-5Z4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Fist.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="fist:" destination="qTK-Y3-DAz" eventType="touchUpInside" id="qB3-dc-qNB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moustache : مونچھ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUB-9o-gyB">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -13752,6 +14121,9 @@
                                 <state key="normal" image="moustache.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="moustache:" destination="qTK-Y3-DAz" eventType="touchUpInside" id="gsU-Ej-1sM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -13949,6 +14321,9 @@
                                         <include reference="N4W-3N-Js1"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="wowButton:" destination="h8w-ba-dxO" eventType="touchUpInside" id="un7-yW-QiV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;و&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMB-Nu-PFW">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14109,6 +14484,9 @@
                                         <include reference="eYq-aC-bFT"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="haaButton:" destination="ffE-Kt-VwG" eventType="touchUpInside" id="lBY-QG-Gcc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFM-Wg-JS3">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -14117,6 +14495,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="haaButton:" destination="ffE-Kt-VwG" eventType="touchUpInside" id="x3n-7H-H11"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ہ&quot; and &quot;ھ&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFw-tl-FCI">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14292,12 +14673,18 @@
                                         <include reference="b90-6W-T1o"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="haaButton:" destination="CxX-G8-UkP" eventType="touchUpInside" id="6rd-YE-aNy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaX-En-fYb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="lips.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="lips:" destination="CxX-G8-UkP" eventType="touchUpInside" id="EIe-Kr-6Ug"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lips : ہونٹ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZ9-tT-U8A">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14339,6 +14726,9 @@
                                         <include reference="GPO-D9-cFf"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="hand:" destination="CxX-G8-UkP" eventType="touchUpInside" id="CVc-wr-vkL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hand : ہاتھ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wB0-Gu-iND">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14364,6 +14754,9 @@
                                         <include reference="IPy-1N-o57"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="bone:" destination="CxX-G8-UkP" eventType="touchUpInside" id="O7k-V1-yoH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bone : ہڈی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAg-er-dav">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14379,6 +14772,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="haaButton:" destination="CxX-G8-UkP" eventType="touchUpInside" id="DoS-Cn-535"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -14616,6 +15012,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="wowButton:" destination="H30-ff-84w" eventType="touchUpInside" id="uji-ht-G90"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اردو میں حرف &quot;و&quot; کوئی انسانی عضو کا نام نہیں شروع ہوتا " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75d-m2-5zW">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14782,11 +15181,14 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="briyeButton:" destination="5nF-fy-VoX" eventType="touchUpInside" id="erz-t3-YtQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D2-to-uK5">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="145" id="tcT-Xy-EAU"/>
+                                    <constraint firstAttribute="width" constant="145" id="TD6-lD-IDj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <inset key="contentEdgeInsets" minX="0.0" minY="-50" maxX="0.0" maxY="0.0"/>
@@ -14796,14 +15198,17 @@
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="tcT-Xy-EAU"/>
+                                        <exclude reference="TD6-lD-IDj"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact">
                                     <mask key="constraints">
-                                        <include reference="tcT-Xy-EAU"/>
+                                        <include reference="TD6-lD-IDj"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="chotiyeButton:" destination="5nF-fy-VoX" eventType="touchUpInside" id="pjs-Ct-6IE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Fruit Start with word &quot;ی&quot; and &quot;ے&quot; in Urdu۔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVB-V4-zqQ">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -14817,43 +15222,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Can Move on with Next lesson." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVe-t1-M0f">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="Yj9-Ab-2Ub"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Yj9-Ab-2Ub"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="Yj9-Ab-2Ub"/>
-                                    </mask>
-                                </variation>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="ldj-VT-2aF" firstAttribute="top" secondItem="zkE-G3-giN" secondAttribute="bottom" constant="116" id="4eI-Us-ZWG"/>
-                            <constraint firstItem="0D2-to-uK5" firstAttribute="trailing" secondItem="zkE-G3-giN" secondAttribute="trailing" id="AOI-k7-4d2"/>
-                            <constraint firstItem="mkd-fc-nql" firstAttribute="top" secondItem="BVB-V4-zqQ" secondAttribute="bottom" constant="25" id="DNe-fW-LzQ"/>
-                            <constraint firstItem="BVB-V4-zqQ" firstAttribute="leading" secondItem="mkd-fc-nql" secondAttribute="leading" id="FkT-nt-TXQ"/>
-                            <constraint firstAttribute="bottom" secondItem="dVe-t1-M0f" secondAttribute="bottom" constant="20" symbolic="YES" id="MiD-tV-PGk"/>
-                            <constraint firstItem="zkE-G3-giN" firstAttribute="top" secondItem="0D2-to-uK5" secondAttribute="bottom" constant="8" symbolic="YES" id="Pk8-tV-Lvi"/>
-                            <constraint firstItem="0D2-to-uK5" firstAttribute="trailing" secondItem="igd-As-dzx" secondAttribute="trailingMargin" id="UiJ-tA-b7q"/>
-                            <constraint firstItem="0D2-to-uK5" firstAttribute="leading" secondItem="BVB-V4-zqQ" secondAttribute="trailing" constant="72" id="V7x-nc-K4d"/>
-                            <constraint firstItem="dVe-t1-M0f" firstAttribute="leading" secondItem="mkd-fc-nql" secondAttribute="leading" id="VUw-ye-moI"/>
-                            <constraint firstItem="0D2-to-uK5" firstAttribute="bottom" secondItem="mkd-fc-nql" secondAttribute="bottom" id="WF7-ic-tdG"/>
-                            <constraint firstItem="BVB-V4-zqQ" firstAttribute="top" secondItem="fVQ-Id-4H7" secondAttribute="bottom" constant="53" id="qnT-J6-0zK"/>
-                            <constraint firstItem="0D2-to-uK5" firstAttribute="top" secondItem="fVQ-Id-4H7" secondAttribute="bottom" constant="8" symbolic="YES" id="rWv-Yq-LWQ"/>
-                            <constraint firstItem="mkd-fc-nql" firstAttribute="leading" secondItem="igd-As-dzx" secondAttribute="leadingMargin" id="vmV-C7-GWe"/>
-                            <constraint firstItem="0D2-to-uK5" firstAttribute="leading" secondItem="mkd-fc-nql" secondAttribute="trailing" constant="38" id="xc0-gO-MYX"/>
-                            <constraint firstItem="zkE-G3-giN" firstAttribute="leading" secondItem="0D2-to-uK5" secondAttribute="leading" id="z9c-z0-VqW"/>
+                            <constraint firstItem="BVB-V4-zqQ" firstAttribute="top" secondItem="fVQ-Id-4H7" secondAttribute="bottom" constant="53" id="2j4-Wg-fVz"/>
+                            <constraint firstItem="mkd-fc-nql" firstAttribute="top" secondItem="BVB-V4-zqQ" secondAttribute="bottom" constant="25" id="3Tt-B7-vXg"/>
+                            <constraint firstItem="zkE-G3-giN" firstAttribute="top" secondItem="0D2-to-uK5" secondAttribute="bottom" constant="8" symbolic="YES" id="5G3-J5-e3L"/>
+                            <constraint firstItem="BVB-V4-zqQ" firstAttribute="leading" secondItem="igd-As-dzx" secondAttribute="leadingMargin" id="IEz-3R-h33"/>
+                            <constraint firstItem="0D2-to-uK5" firstAttribute="top" secondItem="fVQ-Id-4H7" secondAttribute="bottom" constant="8" symbolic="YES" id="PW6-13-6Ao"/>
+                            <constraint firstItem="mkd-fc-nql" firstAttribute="bottom" secondItem="0D2-to-uK5" secondAttribute="bottom" id="Ppg-y1-olq"/>
+                            <constraint firstItem="mkd-fc-nql" firstAttribute="leading" secondItem="BVB-V4-zqQ" secondAttribute="leading" id="UMp-DX-3Hl"/>
+                            <constraint firstItem="0D2-to-uK5" firstAttribute="leading" secondItem="BVB-V4-zqQ" secondAttribute="trailing" constant="72" id="acv-Rr-yPu"/>
+                            <constraint firstItem="0D2-to-uK5" firstAttribute="trailing" secondItem="zkE-G3-giN" secondAttribute="trailing" id="eg7-FU-SQA"/>
+                            <constraint firstItem="0D2-to-uK5" firstAttribute="trailing" secondItem="igd-As-dzx" secondAttribute="trailingMargin" id="gbv-I2-7zu"/>
+                            <constraint firstItem="0D2-to-uK5" firstAttribute="leading" secondItem="mkd-fc-nql" secondAttribute="trailing" constant="38" id="pUy-SV-p7P"/>
+                            <constraint firstItem="zkE-G3-giN" firstAttribute="leading" secondItem="0D2-to-uK5" secondAttribute="leading" id="qyQ-FT-Gjd"/>
+                            <constraint firstItem="ldj-VT-2aF" firstAttribute="top" secondItem="zkE-G3-giN" secondAttribute="bottom" constant="116" id="ueA-sg-X6w"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -14861,24 +15245,21 @@
                                 <exclude reference="0D2-to-uK5"/>
                                 <exclude reference="BVB-V4-zqQ"/>
                                 <exclude reference="mkd-fc-nql"/>
-                                <exclude reference="dVe-t1-M0f"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="FkT-nt-TXQ"/>
-                                <exclude reference="qnT-J6-0zK"/>
-                                <exclude reference="MiD-tV-PGk"/>
-                                <exclude reference="VUw-ye-moI"/>
-                                <exclude reference="4eI-Us-ZWG"/>
-                                <exclude reference="DNe-fW-LzQ"/>
-                                <exclude reference="vmV-C7-GWe"/>
-                                <exclude reference="AOI-k7-4d2"/>
-                                <exclude reference="UiJ-tA-b7q"/>
-                                <exclude reference="V7x-nc-K4d"/>
-                                <exclude reference="WF7-ic-tdG"/>
-                                <exclude reference="rWv-Yq-LWQ"/>
-                                <exclude reference="xc0-gO-MYX"/>
-                                <exclude reference="Pk8-tV-Lvi"/>
-                                <exclude reference="z9c-z0-VqW"/>
+                                <exclude reference="2j4-Wg-fVz"/>
+                                <exclude reference="IEz-3R-h33"/>
+                                <exclude reference="3Tt-B7-vXg"/>
+                                <exclude reference="Ppg-y1-olq"/>
+                                <exclude reference="UMp-DX-3Hl"/>
+                                <exclude reference="ueA-sg-X6w"/>
+                                <exclude reference="PW6-13-6Ao"/>
+                                <exclude reference="acv-Rr-yPu"/>
+                                <exclude reference="eg7-FU-SQA"/>
+                                <exclude reference="gbv-I2-7zu"/>
+                                <exclude reference="pUy-SV-p7P"/>
+                                <exclude reference="5G3-J5-e3L"/>
+                                <exclude reference="qyQ-FT-Gjd"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -14887,24 +15268,21 @@
                                 <include reference="0D2-to-uK5"/>
                                 <include reference="BVB-V4-zqQ"/>
                                 <include reference="mkd-fc-nql"/>
-                                <include reference="dVe-t1-M0f"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="FkT-nt-TXQ"/>
-                                <include reference="qnT-J6-0zK"/>
-                                <include reference="MiD-tV-PGk"/>
-                                <include reference="VUw-ye-moI"/>
-                                <include reference="4eI-Us-ZWG"/>
-                                <include reference="DNe-fW-LzQ"/>
-                                <include reference="vmV-C7-GWe"/>
-                                <include reference="AOI-k7-4d2"/>
-                                <include reference="UiJ-tA-b7q"/>
-                                <include reference="V7x-nc-K4d"/>
-                                <include reference="WF7-ic-tdG"/>
-                                <include reference="rWv-Yq-LWQ"/>
-                                <include reference="xc0-gO-MYX"/>
-                                <include reference="Pk8-tV-Lvi"/>
-                                <include reference="z9c-z0-VqW"/>
+                                <include reference="2j4-Wg-fVz"/>
+                                <include reference="IEz-3R-h33"/>
+                                <include reference="3Tt-B7-vXg"/>
+                                <include reference="Ppg-y1-olq"/>
+                                <include reference="UMp-DX-3Hl"/>
+                                <include reference="ueA-sg-X6w"/>
+                                <include reference="PW6-13-6Ao"/>
+                                <include reference="acv-Rr-yPu"/>
+                                <include reference="eg7-FU-SQA"/>
+                                <include reference="gbv-I2-7zu"/>
+                                <include reference="pUy-SV-p7P"/>
+                                <include reference="5G3-J5-e3L"/>
+                                <include reference="qyQ-FT-Gjd"/>
                             </mask>
                         </variation>
                     </view>
@@ -14946,6 +15324,9 @@
                                         <include reference="X88-ty-egA"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="chotiyeButton:" destination="Gls-BE-0Sp" eventType="touchUpInside" id="sV1-Fb-MPq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDl-8p-AvD">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -14955,6 +15336,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="briyeButton:" destination="Gls-BE-0Sp" eventType="touchUpInside" id="crm-8n-pLC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Human Body name start with &quot;ی&quot; and &quot;ے&quot; in Urdu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4I-zh-knx">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
