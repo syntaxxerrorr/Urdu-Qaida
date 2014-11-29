@@ -201,105 +201,169 @@
     [[SoundManager sharedManager] playSound:@"ے.caf"];
 }
 
-
-
-- (IBAction)celery:(id)sender {
+- (IBAction)celery:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Celery.caf"];
 }
 
-- (IBAction)ginger:(id)sender {
+- (IBAction)ginger:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Ginger.caf"];
 }
 
-- (IBAction)potato:(id)sender {
+- (IBAction)potato:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Potato.caf"];
 }
 
-- (IBAction)aubergine:(id)sender {
+- (IBAction)aubergine:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Aubergine.caf"];
 }
 
-- (IBAction)cabbage:(id)sender {
+- (IBAction)cabbage:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Cabbage.caf"];
 }
 
-- (IBAction)okra:(id)sender {
+- (IBAction)okra:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Okra.caf"];
 }
 
-- (IBAction)onion:(id)sender {
+- (IBAction)onion:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Onion.caf"];
 }
 
-- (IBAction)spinach:(id)sender {
+- (IBAction)spinach:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Spinach.caf"];
 }
 
-- (IBAction)Pumpkin:(id)sender {
+- (IBAction)Pumpkin:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Pumpkin.caf"];
 }
 
-- (IBAction)cauliflower:(id)sender {
+- (IBAction)cauliflower:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Cauliflower.caf"];
 }
 
-- (IBAction)tomato:(id)sender {
+- (IBAction)tomato:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Tomato.caf"];
 }
 
-- (IBAction)beetroot:(id)sender {
+- (IBAction)beetroot:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Beetroot.caf"];
 }
 
-- (IBAction)cilantro:(id)sender {
+- (IBAction)cilantro:(id)sender
+{
+#warning Sound Missing for Cilantro
 }
 
-- (IBAction)olive:(id)sender {
+- (IBAction)olive:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Olive.caf"];
 }
 
-- (IBAction)broccoli:(id)sender {
+- (IBAction)broccoli:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Broccoli.caf"];
 }
 
-- (IBAction)greenBeans:(id)sender {
+- (IBAction)greenBeans:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"GreenBean.caf"];
 }
 
-- (IBAction)lettuce:(id)sender {
+- (IBAction)lettuce:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Lettuce.caf"];
 }
 
-- (IBAction)bellPepper:(id)sender {
+- (IBAction)bellPepper:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"BellPepper.caf"];
 }
 
-- (IBAction)turnip:(id)sender {
+- (IBAction)turnip:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Turnip.caf"];
 }
 
-- (IBAction)yam:(id)sender {
+- (IBAction)yam:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Yam.caf"];
 }
 
-- (IBAction)colocassia:(id)sender {
+- (IBAction)colocassia:(id)sender
+{
+#warning Sound missing for Colocassia
 }
 
-- (IBAction)cucumber:(id)sender {
+- (IBAction)cucumber:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Cucumber.caf"];
 }
 
-- (IBAction)bitterGourd:(id)sender {
+- (IBAction)bitterGourd:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"BitterGourd.caf"];
 }
 
-- (IBAction)bottleGourd:(id)sender {
+- (IBAction)bottleGourd:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Butternut.caf"];
 }
 
-- (IBAction)carrot:(id)sender {
+- (IBAction)carrot:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Carrot.caf"];
 }
 
-- (IBAction)garlic:(id)sender {
+- (IBAction)garlic:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Garlic.caf"];
 }
 
-- (IBAction)asparagus:(id)sender {
+- (IBAction)asparagus:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Asparagus.caf"];
 }
 
-- (IBAction)chilli:(id)sender {
+- (IBAction)chilli:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Chilli.caf"];
 }
 
-- (IBAction)pea:(id)sender {
+- (IBAction)pea:(id)sender
+{
+#warning Sound Missing for Pea
 }
 
-- (IBAction)corn:(id)sender {
+- (IBAction)corn:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Corn.caf"];
 }
 
-- (IBAction)radish:(id)sender {
+- (IBAction)radish:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Radish.caf"];
 }
 
-- (IBAction)courgette:(id)sender {
+- (IBAction)courgette:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Courgette.caf"];
 }
 
-- (IBAction)leek:(id)sender {
+- (IBAction)leek:(id)sender
+{
+    [[SoundManager sharedManager] playSound:@"Leek.caf"];
 }
 
 @end

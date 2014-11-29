@@ -68,6 +68,38 @@
 		29042A5C1A066A5200EF14B2 /* saib.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A1E1A066A5200EF14B2 /* saib.png */; };
 		29042A5D1A066A5200EF14B2 /* strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A1F1A066A5200EF14B2 /* strawberry.png */; };
 		29042A5E1A066A5200EF14B2 /* trbooz.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A201A066A5200EF14B2 /* trbooz.png */; };
+		296643571A298CA40016A152 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296643561A298CA40016A152 /* WebViewController.m */; };
+		296643781A29AC760016A152 /* Asparagus.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643591A29AC760016A152 /* Asparagus.caf */; };
+		296643791A29AC760016A152 /* Aubergine.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966435A1A29AC760016A152 /* Aubergine.caf */; };
+		2966437A1A29AC760016A152 /* Beetroot.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966435B1A29AC760016A152 /* Beetroot.caf */; };
+		2966437B1A29AC760016A152 /* BellPepper.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966435C1A29AC760016A152 /* BellPepper.caf */; };
+		2966437C1A29AC760016A152 /* BitterGourd.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966435D1A29AC760016A152 /* BitterGourd.caf */; };
+		2966437D1A29AC760016A152 /* Broccoli.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966435E1A29AC760016A152 /* Broccoli.caf */; };
+		2966437E1A29AC760016A152 /* Butternut.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966435F1A29AC760016A152 /* Butternut.caf */; };
+		2966437F1A29AC760016A152 /* Cabbage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643601A29AC760016A152 /* Cabbage.caf */; };
+		296643801A29AC760016A152 /* Carrot.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643611A29AC760016A152 /* Carrot.caf */; };
+		296643811A29AC760016A152 /* Cauliflower.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643621A29AC760016A152 /* Cauliflower.caf */; };
+		296643821A29AC760016A152 /* Celery.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643631A29AC760016A152 /* Celery.caf */; };
+		296643831A29AC760016A152 /* Chilli.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643641A29AC760016A152 /* Chilli.caf */; };
+		296643841A29AC760016A152 /* Corn.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643651A29AC760016A152 /* Corn.caf */; };
+		296643851A29AC760016A152 /* Courgette.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643661A29AC760016A152 /* Courgette.caf */; };
+		296643861A29AC760016A152 /* Cucumber.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643671A29AC760016A152 /* Cucumber.caf */; };
+		296643871A29AC760016A152 /* Garlic.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643681A29AC760016A152 /* Garlic.caf */; };
+		296643881A29AC760016A152 /* Ginger.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643691A29AC760016A152 /* Ginger.caf */; };
+		296643891A29AC760016A152 /* GreenBean.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966436A1A29AC760016A152 /* GreenBean.caf */; };
+		2966438A1A29AC760016A152 /* Leek.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966436B1A29AC760016A152 /* Leek.caf */; };
+		2966438B1A29AC760016A152 /* Lettuce.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966436C1A29AC760016A152 /* Lettuce.caf */; };
+		2966438C1A29AC760016A152 /* Okra.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966436D1A29AC760016A152 /* Okra.caf */; };
+		2966438D1A29AC760016A152 /* Olive.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966436E1A29AC760016A152 /* Olive.caf */; };
+		2966438E1A29AC760016A152 /* Onion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2966436F1A29AC760016A152 /* Onion.caf */; };
+		2966438F1A29AC760016A152 /* Pea.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643701A29AC760016A152 /* Pea.caf */; };
+		296643901A29AC760016A152 /* Potato.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643711A29AC760016A152 /* Potato.caf */; };
+		296643911A29AC760016A152 /* Pumpkin.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643721A29AC760016A152 /* Pumpkin.caf */; };
+		296643921A29AC760016A152 /* Radish.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643731A29AC760016A152 /* Radish.caf */; };
+		296643931A29AC760016A152 /* Spinach.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643741A29AC760016A152 /* Spinach.caf */; };
+		296643941A29AC760016A152 /* Tomato.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643751A29AC760016A152 /* Tomato.caf */; };
+		296643951A29AC760016A152 /* Turnip.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643761A29AC760016A152 /* Turnip.caf */; };
+		296643961A29AC760016A152 /* Yam.caf in Resources */ = {isa = PBXBuildFile; fileRef = 296643771A29AC760016A152 /* Yam.caf */; };
 		298523F41A2725C300A851F5 /* asparagus.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D51A2725C300A851F5 /* asparagus.png */; };
 		298523F51A2725C300A851F5 /* beetroot.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D61A2725C300A851F5 /* beetroot.png */; };
 		298523F61A2725C300A851F5 /* Bell-pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D71A2725C300A851F5 /* Bell-pepper.png */; };
@@ -283,6 +315,39 @@
 		29042A1E1A066A5200EF14B2 /* saib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saib.png; sourceTree = "<group>"; };
 		29042A1F1A066A5200EF14B2 /* strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry.png; sourceTree = "<group>"; };
 		29042A201A066A5200EF14B2 /* trbooz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trbooz.png; sourceTree = "<group>"; };
+		296643551A298CA40016A152 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		296643561A298CA40016A152 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		296643591A29AC760016A152 /* Asparagus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Asparagus.caf; sourceTree = "<group>"; };
+		2966435A1A29AC760016A152 /* Aubergine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aubergine.caf; sourceTree = "<group>"; };
+		2966435B1A29AC760016A152 /* Beetroot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beetroot.caf; sourceTree = "<group>"; };
+		2966435C1A29AC760016A152 /* BellPepper.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BellPepper.caf; sourceTree = "<group>"; };
+		2966435D1A29AC760016A152 /* BitterGourd.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BitterGourd.caf; sourceTree = "<group>"; };
+		2966435E1A29AC760016A152 /* Broccoli.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Broccoli.caf; sourceTree = "<group>"; };
+		2966435F1A29AC760016A152 /* Butternut.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Butternut.caf; sourceTree = "<group>"; };
+		296643601A29AC760016A152 /* Cabbage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cabbage.caf; sourceTree = "<group>"; };
+		296643611A29AC760016A152 /* Carrot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Carrot.caf; sourceTree = "<group>"; };
+		296643621A29AC760016A152 /* Cauliflower.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cauliflower.caf; sourceTree = "<group>"; };
+		296643631A29AC760016A152 /* Celery.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Celery.caf; sourceTree = "<group>"; };
+		296643641A29AC760016A152 /* Chilli.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chilli.caf; sourceTree = "<group>"; };
+		296643651A29AC760016A152 /* Corn.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Corn.caf; sourceTree = "<group>"; };
+		296643661A29AC760016A152 /* Courgette.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Courgette.caf; sourceTree = "<group>"; };
+		296643671A29AC760016A152 /* Cucumber.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cucumber.caf; sourceTree = "<group>"; };
+		296643681A29AC760016A152 /* Garlic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Garlic.caf; sourceTree = "<group>"; };
+		296643691A29AC760016A152 /* Ginger.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ginger.caf; sourceTree = "<group>"; };
+		2966436A1A29AC760016A152 /* GreenBean.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GreenBean.caf; sourceTree = "<group>"; };
+		2966436B1A29AC760016A152 /* Leek.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Leek.caf; sourceTree = "<group>"; };
+		2966436C1A29AC760016A152 /* Lettuce.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lettuce.caf; sourceTree = "<group>"; };
+		2966436D1A29AC760016A152 /* Okra.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Okra.caf; sourceTree = "<group>"; };
+		2966436E1A29AC760016A152 /* Olive.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Olive.caf; sourceTree = "<group>"; };
+		2966436F1A29AC760016A152 /* Onion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onion.caf; sourceTree = "<group>"; };
+		296643701A29AC760016A152 /* Pea.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pea.caf; sourceTree = "<group>"; };
+		296643711A29AC760016A152 /* Potato.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Potato.caf; sourceTree = "<group>"; };
+		296643721A29AC760016A152 /* Pumpkin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pumpkin.caf; sourceTree = "<group>"; };
+		296643731A29AC760016A152 /* Radish.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Radish.caf; sourceTree = "<group>"; };
+		296643741A29AC760016A152 /* Spinach.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spinach.caf; sourceTree = "<group>"; };
+		296643751A29AC760016A152 /* Tomato.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tomato.caf; sourceTree = "<group>"; };
+		296643761A29AC760016A152 /* Turnip.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Turnip.caf; sourceTree = "<group>"; };
+		296643771A29AC760016A152 /* Yam.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yam.caf; sourceTree = "<group>"; };
 		298523D51A2725C300A851F5 /* asparagus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asparagus.png; sourceTree = "<group>"; };
 		298523D61A2725C300A851F5 /* beetroot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beetroot.png; sourceTree = "<group>"; };
 		298523D71A2725C300A851F5 /* Bell-pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bell-pepper.png"; sourceTree = "<group>"; };
@@ -529,6 +594,45 @@
 			path = Fruits;
 			sourceTree = "<group>";
 		};
+		296643581A29AC760016A152 /* Vegitables Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				296643591A29AC760016A152 /* Asparagus.caf */,
+				2966435A1A29AC760016A152 /* Aubergine.caf */,
+				2966435B1A29AC760016A152 /* Beetroot.caf */,
+				2966435C1A29AC760016A152 /* BellPepper.caf */,
+				2966435D1A29AC760016A152 /* BitterGourd.caf */,
+				2966435E1A29AC760016A152 /* Broccoli.caf */,
+				2966435F1A29AC760016A152 /* Butternut.caf */,
+				296643601A29AC760016A152 /* Cabbage.caf */,
+				296643611A29AC760016A152 /* Carrot.caf */,
+				296643621A29AC760016A152 /* Cauliflower.caf */,
+				296643631A29AC760016A152 /* Celery.caf */,
+				296643641A29AC760016A152 /* Chilli.caf */,
+				296643651A29AC760016A152 /* Corn.caf */,
+				296643661A29AC760016A152 /* Courgette.caf */,
+				296643671A29AC760016A152 /* Cucumber.caf */,
+				296643681A29AC760016A152 /* Garlic.caf */,
+				296643691A29AC760016A152 /* Ginger.caf */,
+				2966436A1A29AC760016A152 /* GreenBean.caf */,
+				2966436B1A29AC760016A152 /* Leek.caf */,
+				2966436C1A29AC760016A152 /* Lettuce.caf */,
+				2966436D1A29AC760016A152 /* Okra.caf */,
+				2966436E1A29AC760016A152 /* Olive.caf */,
+				2966436F1A29AC760016A152 /* Onion.caf */,
+				296643701A29AC760016A152 /* Pea.caf */,
+				296643711A29AC760016A152 /* Potato.caf */,
+				296643721A29AC760016A152 /* Pumpkin.caf */,
+				296643731A29AC760016A152 /* Radish.caf */,
+				296643741A29AC760016A152 /* Spinach.caf */,
+				296643751A29AC760016A152 /* Tomato.caf */,
+				296643761A29AC760016A152 /* Turnip.caf */,
+				296643771A29AC760016A152 /* Yam.caf */,
+			);
+			name = "Vegitables Sounds";
+			path = "Vegitables/Vegitables Sounds";
+			sourceTree = "<group>";
+		};
 		298523D41A2725C300A851F5 /* Vegitables */ = {
 			isa = PBXGroup;
 			children = (
@@ -636,6 +740,7 @@
 		29DEBA831A06599300619813 /* Urdu Qaida */ = {
 			isa = PBXGroup;
 			children = (
+				296643581A29AC760016A152 /* Vegitables Sounds */,
 				298523D41A2725C300A851F5 /* Vegitables */,
 				29FB3EA01A1DDA14002C6B4D /* Body Parts Sounds */,
 				29FB3DEB1A1DD9A9002C6B4D /* Fruits Sounds */,
@@ -656,6 +761,8 @@
 				29FB3EDE1A1DEE1F002C6B4D /* VegitablesViewContoller.m */,
 				29DDDEE81A0762F00043CF8F /* SoundManager.h */,
 				29DDDEE91A0762F00043CF8F /* SoundManager.m */,
+				296643551A298CA40016A152 /* WebViewController.h */,
+				296643561A298CA40016A152 /* WebViewController.m */,
 				29DEBA911A06599300619813 /* Images.xcassets */,
 				29DEBA931A06599300619813 /* LaunchScreen.xib */,
 				29DEBA841A06599300619813 /* Supporting Files */,
@@ -847,6 +954,7 @@
 				29042A511A066A5200EF14B2 /* Khrboz.png in Resources */,
 				29FB3E851A1DDA09002C6B4D /* Banana.caf in Resources */,
 				29FB3ED31A1DDA36002C6B4D /* Nose.caf in Resources */,
+				296643851A29AC760016A152 /* Courgette.caf in Resources */,
 				29FB3E881A1DDA09002C6B4D /* Cantaloupe.caf in Resources */,
 				29042A501A066A5200EF14B2 /* khobani.png in Resources */,
 				29042A4E1A066A5200EF14B2 /* keenu.png in Resources */,
@@ -855,20 +963,26 @@
 				29DCD8861A08E6DB001CFE2E /* ہ.caf in Resources */,
 				29042A251A066A5200EF14B2 /* brain.png in Resources */,
 				29FB3EC11A1DDA36002C6B4D /* Ear.caf in Resources */,
+				2966438A1A29AC760016A152 /* Leek.caf in Resources */,
 				29042A261A066A5200EF14B2 /* chin.png in Resources */,
 				298524061A2725C300A851F5 /* lettuce.png in Resources */,
+				296643881A29AC760016A152 /* Ginger.caf in Resources */,
 				29FB3E911A1DDA09002C6B4D /* Lemon.caf in Resources */,
 				298524141A27268000A851F5 /* Aubergine.png in Resources */,
 				29FB3ECC1A1DDA36002C6B4D /* Lip.caf in Resources */,
 				2985240F1A2725C300A851F5 /* Spinach.png in Resources */,
 				29DCD8751A08E6DB001CFE2E /* ژ.caf in Resources */,
+				296643931A29AC760016A152 /* Spinach.caf in Resources */,
 				29DCD8791A08E6DB001CFE2E /* ض.caf in Resources */,
 				29DCD8831A08E6DB001CFE2E /* م.caf in Resources */,
+				296643911A29AC760016A152 /* Pumpkin.caf in Resources */,
 				29FB3ED21A1DDA36002C6B4D /* Neck.caf in Resources */,
 				29FB3E901A1DDA09002C6B4D /* KiwiFruit.caf in Resources */,
+				2966438C1A29AC760016A152 /* Okra.caf in Resources */,
 				29DCD8811A08E6DB001CFE2E /* گ.caf in Resources */,
 				29FB3E9B1A1DDA09002C6B4D /* Pomegranate.caf in Resources */,
 				29042A241A066A5200EF14B2 /* Bone.png in Resources */,
+				2966437C1A29AC760016A152 /* BitterGourd.caf in Resources */,
 				29DCD86C1A08E6DB001CFE2E /* چ.caf in Resources */,
 				29042A341A066A5200EF14B2 /* Liver.png in Resources */,
 				29DCD8721A08E6DB001CFE2E /* ر.caf in Resources */,
@@ -893,6 +1007,7 @@
 				29DCD8671A08E6DB001CFE2E /* پ.caf in Resources */,
 				29FB3E931A1DDA09002C6B4D /* Melon.caf in Resources */,
 				29042A4F1A066A5200EF14B2 /* kella.png in Resources */,
+				296643901A29AC760016A152 /* Potato.caf in Resources */,
 				29FB3E971A1DDA09002C6B4D /* PassionFruit.caf in Resources */,
 				29042A311A066A5200EF14B2 /* knee.png in Resources */,
 				29042A301A066A5200EF14B2 /* kidney.PNG in Resources */,
@@ -902,6 +1017,7 @@
 				29FB3E921A1DDA09002C6B4D /* Mango.caf in Resources */,
 				29DCD8651A08E6DB001CFE2E /* ا.caf in Resources */,
 				29DCD8661A08E6DB001CFE2E /* ب.caf in Resources */,
+				2966437A1A29AC760016A152 /* Beetroot.caf in Resources */,
 				29042A5C1A066A5200EF14B2 /* saib.png in Resources */,
 				29DEBA901A06599300619813 /* Main.storyboard in Resources */,
 				29FB3EBC1A1DDA36002C6B4D /* Arm.caf in Resources */,
@@ -912,6 +1028,7 @@
 				29DCD8881A08E6DB001CFE2E /* ی.caf in Resources */,
 				29FB3E8F1A1DDA09002C6B4D /* Guava.caf in Resources */,
 				298524091A2725C300A851F5 /* OLIVES.png in Resources */,
+				296643961A29AC760016A152 /* Yam.caf in Resources */,
 				29DCD87A1A08E6DB001CFE2E /* ط.caf in Resources */,
 				29FB3EC31A1DDA36002C6B4D /* Face.caf in Resources */,
 				29042A291A066A5200EF14B2 /* Face.png in Resources */,
@@ -936,10 +1053,13 @@
 				29042A351A066A5200EF14B2 /* lungs-md.png in Resources */,
 				29DCD86D1A08E6DB001CFE2E /* ح.caf in Resources */,
 				298523F41A2725C300A851F5 /* asparagus.png in Resources */,
+				296643941A29AC760016A152 /* Tomato.caf in Resources */,
 				29042A421A066A5200EF14B2 /* Anar.png in Resources */,
 				29DCD87B1A08E6DB001CFE2E /* ظ.caf in Resources */,
+				2966438D1A29AC760016A152 /* Olive.caf in Resources */,
 				2985240D1A2725C300A851F5 /* pumpkin.png in Resources */,
 				29FB3EC81A1DDA36002C6B4D /* Hand.caf in Resources */,
+				2966438F1A29AC760016A152 /* Pea.caf in Resources */,
 				298524101A2725C300A851F5 /* sweetpotato.png in Resources */,
 				29FB3ED41A1DDA36002C6B4D /* Rib.caf in Resources */,
 				298524031A2725C300A851F5 /* GreenBeans.png in Resources */,
@@ -951,15 +1071,20 @@
 				2985241A1A2775F500A851F5 /* taro.png in Resources */,
 				29DEBA951A06599300619813 /* LaunchScreen.xib in Resources */,
 				29DCD8741A08E6DB001CFE2E /* ڑ.caf in Resources */,
+				2966437D1A29AC760016A152 /* Broccoli.caf in Resources */,
 				298523F61A2725C300A851F5 /* Bell-pepper.png in Resources */,
 				29042A581A066A5200EF14B2 /* nashpati.png in Resources */,
 				29DCD86A1A08E6DB001CFE2E /* ٹ.caf in Resources */,
 				29FB3E961A1DDA09002C6B4D /* Papaya.caf in Resources */,
 				29FB3EBD1A1DDA36002C6B4D /* Beard.caf in Resources */,
 				298524071A2725C300A851F5 /* Loki.png in Resources */,
+				2966437F1A29AC760016A152 /* Cabbage.caf in Resources */,
 				29042A321A066A5200EF14B2 /* legs.png in Resources */,
+				2966438B1A29AC760016A152 /* Lettuce.caf in Resources */,
 				29DCD87D1A08E6DB001CFE2E /* غ.caf in Resources */,
 				29042A231A066A5200EF14B2 /* Beard.png in Resources */,
+				2966437E1A29AC760016A152 /* Butternut.caf in Resources */,
+				296643871A29AC760016A152 /* Garlic.caf in Resources */,
 				29042A441A066A5200EF14B2 /* anjeer.png in Resources */,
 				29FB3ECF1A1DDA36002C6B4D /* Moustache.caf in Resources */,
 				29042A481A066A5200EF14B2 /* cheery.png in Resources */,
@@ -982,10 +1107,12 @@
 				29042A471A066A5200EF14B2 /* chakotra.png in Resources */,
 				29FB3ECD1A1DDA36002C6B4D /* Liver.caf in Resources */,
 				29FB3E9D1A1DDA09002C6B4D /* Strawberry.caf in Resources */,
+				296643781A29AC760016A152 /* Asparagus.caf in Resources */,
 				298524161A2726F600A851F5 /* Corn.png in Resources */,
 				29FB3EC21A1DDA36002C6B4D /* Eye.caf in Resources */,
 				29FB3E831A1DDA09002C6B4D /* Apricot.caf in Resources */,
 				29FB3ECB1A1DDA36002C6B4D /* Knee.caf in Resources */,
+				296643951A29AC760016A152 /* Turnip.caf in Resources */,
 				29042A331A066A5200EF14B2 /* lips.png in Resources */,
 				29DCD86E1A08E6DB001CFE2E /* خ.caf in Resources */,
 				29FB3E9F1A1DDA09002C6B4D /* Watermelon.caf in Resources */,
@@ -1002,20 +1129,28 @@
 				29FB3E991A1DDA09002C6B4D /* PineApple.caf in Resources */,
 				298523F91A2725C300A851F5 /* cabbage.png in Resources */,
 				29042A5B1A066A5200EF14B2 /* raspberry.png in Resources */,
+				2966438E1A29AC760016A152 /* Onion.caf in Resources */,
 				29FB3E821A1DDA09002C6B4D /* apple.caf in Resources */,
+				296643891A29AC760016A152 /* GreenBean.caf in Resources */,
 				29DCD86B1A08E6DB001CFE2E /* ج.caf in Resources */,
 				29042A451A066A5200EF14B2 /* Arroo.png in Resources */,
+				2966437B1A29AC760016A152 /* BellPepper.caf in Resources */,
 				29DEBA921A06599300619813 /* Images.xcassets in Resources */,
+				296643861A29AC760016A152 /* Cucumber.caf in Resources */,
 				29DCD8681A08E6DB001CFE2E /* ت.caf in Resources */,
 				29DCD86F1A08E6DB001CFE2E /* د.caf in Resources */,
 				29F459631A0DDE1E0057B10A /* Arrow.png in Resources */,
 				29042A4C1A066A5200EF14B2 /* GulSalibi.png in Resources */,
+				296643821A29AC760016A152 /* Celery.caf in Resources */,
+				296643841A29AC760016A152 /* Corn.caf in Resources */,
 				29DCD8871A08E6DB001CFE2E /* و.caf in Resources */,
 				29042A461A066A5200EF14B2 /* arroo1.png in Resources */,
 				298523FD1A2725C300A851F5 /* Chili.png in Resources */,
 				29DDDEED1A0763040043CF8F /* Alif.caf in Resources */,
 				29DCD87F1A08E6DB001CFE2E /* ق.caf in Resources */,
+				296643801A29AC760016A152 /* Carrot.caf in Resources */,
 				29FB3E941A1DDA09002C6B4D /* Nectarine.caf in Resources */,
+				296643831A29AC760016A152 /* Chilli.caf in Resources */,
 				29FB3E8C1A1DDA09002C6B4D /* Fig.caf in Resources */,
 				2985241C1A277A8800A851F5 /* cilantro.png in Resources */,
 				298523F71A2725C300A851F5 /* bitter-melon.png in Resources */,
@@ -1024,8 +1159,11 @@
 				29FB3E8D1A1DDA09002C6B4D /* Grape.caf in Resources */,
 				29DCD8731A08E6DB001CFE2E /* ز.caf in Resources */,
 				29042A391A066A5200EF14B2 /* Neck.png in Resources */,
+				296643811A29AC760016A152 /* Cauliflower.caf in Resources */,
 				29042A2A1A066A5200EF14B2 /* Finger.png in Resources */,
 				29042A411A066A5200EF14B2 /* anaNas.png in Resources */,
+				296643921A29AC760016A152 /* Radish.caf in Resources */,
+				296643791A29AC760016A152 /* Aubergine.caf in Resources */,
 				29FB3E9A1A1DDA09002C6B4D /* Plum.caf in Resources */,
 				29042A3B1A066A5200EF14B2 /* Ribs.png in Resources */,
 				29DCD8641A08E6DB001CFE2E /* آ.caf in Resources */,
@@ -1054,6 +1192,7 @@
 				29DEBA8D1A06599300619813 /* ViewController.m in Sources */,
 				29FB3EDF1A1DEE1F002C6B4D /* VegitablesViewContoller.m in Sources */,
 				29DDDEEA1A0762F00043CF8F /* SoundManager.m in Sources */,
+				296643571A298CA40016A152 /* WebViewController.m in Sources */,
 				29FB3ED91A1DEA31002C6B4D /* FruitsViewController.m in Sources */,
 				29FB3EDC1A1DECA2002C6B4D /* BodyPartsViewController.m in Sources */,
 				29DEBA8A1A06599300619813 /* AppDelegate.m in Sources */,
