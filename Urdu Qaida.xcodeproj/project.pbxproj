@@ -68,6 +68,39 @@
 		29042A5C1A066A5200EF14B2 /* saib.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A1E1A066A5200EF14B2 /* saib.png */; };
 		29042A5D1A066A5200EF14B2 /* strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A1F1A066A5200EF14B2 /* strawberry.png */; };
 		29042A5E1A066A5200EF14B2 /* trbooz.png in Resources */ = {isa = PBXBuildFile; fileRef = 29042A201A066A5200EF14B2 /* trbooz.png */; };
+		298523F41A2725C300A851F5 /* asparagus.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D51A2725C300A851F5 /* asparagus.png */; };
+		298523F51A2725C300A851F5 /* beetroot.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D61A2725C300A851F5 /* beetroot.png */; };
+		298523F61A2725C300A851F5 /* Bell-pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D71A2725C300A851F5 /* Bell-pepper.png */; };
+		298523F71A2725C300A851F5 /* bitter-melon.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D81A2725C300A851F5 /* bitter-melon.png */; };
+		298523F81A2725C300A851F5 /* broccoli.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523D91A2725C300A851F5 /* broccoli.png */; };
+		298523F91A2725C300A851F5 /* cabbage.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523DA1A2725C300A851F5 /* cabbage.png */; };
+		298523FA1A2725C300A851F5 /* Carrotts.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523DB1A2725C300A851F5 /* Carrotts.png */; };
+		298523FB1A2725C300A851F5 /* cauliflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523DC1A2725C300A851F5 /* cauliflower.png */; };
+		298523FC1A2725C300A851F5 /* celery.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523DD1A2725C300A851F5 /* celery.png */; };
+		298523FD1A2725C300A851F5 /* Chili.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523DE1A2725C300A851F5 /* Chili.png */; };
+		298523FF1A2725C300A851F5 /* Courgette.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E01A2725C300A851F5 /* Courgette.png */; };
+		298524001A2725C300A851F5 /* cucumbers.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E11A2725C300A851F5 /* cucumbers.png */; };
+		298524011A2725C300A851F5 /* Garlic.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E21A2725C300A851F5 /* Garlic.png */; };
+		298524021A2725C300A851F5 /* ginger.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E31A2725C300A851F5 /* ginger.png */; };
+		298524031A2725C300A851F5 /* GreenBeans.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E41A2725C300A851F5 /* GreenBeans.png */; };
+		298524051A2725C300A851F5 /* leeks.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E61A2725C300A851F5 /* leeks.png */; };
+		298524061A2725C300A851F5 /* lettuce.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E71A2725C300A851F5 /* lettuce.png */; };
+		298524071A2725C300A851F5 /* Loki.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E81A2725C300A851F5 /* Loki.png */; };
+		298524081A2725C300A851F5 /* okra.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523E91A2725C300A851F5 /* okra.png */; };
+		298524091A2725C300A851F5 /* OLIVES.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523EA1A2725C300A851F5 /* OLIVES.png */; };
+		2985240A1A2725C300A851F5 /* onion.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523EB1A2725C300A851F5 /* onion.png */; };
+		2985240B1A2725C300A851F5 /* peas.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523EC1A2725C300A851F5 /* peas.png */; };
+		2985240C1A2725C300A851F5 /* potato.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523ED1A2725C300A851F5 /* potato.png */; };
+		2985240D1A2725C300A851F5 /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523EE1A2725C300A851F5 /* pumpkin.png */; };
+		2985240E1A2725C300A851F5 /* Radish.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523EF1A2725C300A851F5 /* Radish.png */; };
+		2985240F1A2725C300A851F5 /* Spinach.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523F01A2725C300A851F5 /* Spinach.png */; };
+		298524101A2725C300A851F5 /* sweetpotato.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523F11A2725C300A851F5 /* sweetpotato.png */; };
+		298524121A2725C300A851F5 /* Turnip.png in Resources */ = {isa = PBXBuildFile; fileRef = 298523F31A2725C300A851F5 /* Turnip.png */; };
+		298524141A27268000A851F5 /* Aubergine.png in Resources */ = {isa = PBXBuildFile; fileRef = 298524131A27268000A851F5 /* Aubergine.png */; };
+		298524161A2726F600A851F5 /* Corn.png in Resources */ = {isa = PBXBuildFile; fileRef = 298524151A2726F600A851F5 /* Corn.png */; };
+		298524181A27420700A851F5 /* tamato.png in Resources */ = {isa = PBXBuildFile; fileRef = 298524171A27420700A851F5 /* tamato.png */; };
+		2985241A1A2775F500A851F5 /* taro.png in Resources */ = {isa = PBXBuildFile; fileRef = 298524191A2775F500A851F5 /* taro.png */; };
+		2985241C1A277A8800A851F5 /* cilantro.png in Resources */ = {isa = PBXBuildFile; fileRef = 2985241B1A277A8800A851F5 /* cilantro.png */; };
 		29DCD8641A08E6DB001CFE2E /* آ.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD83E1A08E6DB001CFE2E /* آ.caf */; };
 		29DCD8651A08E6DB001CFE2E /* ا.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD83F1A08E6DB001CFE2E /* ا.caf */; };
 		29DCD8661A08E6DB001CFE2E /* ب.caf in Resources */ = {isa = PBXBuildFile; fileRef = 29DCD8401A08E6DB001CFE2E /* ب.caf */; };
@@ -250,6 +283,39 @@
 		29042A1E1A066A5200EF14B2 /* saib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saib.png; sourceTree = "<group>"; };
 		29042A1F1A066A5200EF14B2 /* strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry.png; sourceTree = "<group>"; };
 		29042A201A066A5200EF14B2 /* trbooz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trbooz.png; sourceTree = "<group>"; };
+		298523D51A2725C300A851F5 /* asparagus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asparagus.png; sourceTree = "<group>"; };
+		298523D61A2725C300A851F5 /* beetroot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beetroot.png; sourceTree = "<group>"; };
+		298523D71A2725C300A851F5 /* Bell-pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bell-pepper.png"; sourceTree = "<group>"; };
+		298523D81A2725C300A851F5 /* bitter-melon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bitter-melon.png"; sourceTree = "<group>"; };
+		298523D91A2725C300A851F5 /* broccoli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = broccoli.png; sourceTree = "<group>"; };
+		298523DA1A2725C300A851F5 /* cabbage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabbage.png; sourceTree = "<group>"; };
+		298523DB1A2725C300A851F5 /* Carrotts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carrotts.png; sourceTree = "<group>"; };
+		298523DC1A2725C300A851F5 /* cauliflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cauliflower.png; sourceTree = "<group>"; };
+		298523DD1A2725C300A851F5 /* celery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celery.png; sourceTree = "<group>"; };
+		298523DE1A2725C300A851F5 /* Chili.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chili.png; sourceTree = "<group>"; };
+		298523E01A2725C300A851F5 /* Courgette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Courgette.png; sourceTree = "<group>"; };
+		298523E11A2725C300A851F5 /* cucumbers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cucumbers.png; sourceTree = "<group>"; };
+		298523E21A2725C300A851F5 /* Garlic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garlic.png; sourceTree = "<group>"; };
+		298523E31A2725C300A851F5 /* ginger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ginger.png; sourceTree = "<group>"; };
+		298523E41A2725C300A851F5 /* GreenBeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenBeans.png; sourceTree = "<group>"; };
+		298523E61A2725C300A851F5 /* leeks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leeks.png; sourceTree = "<group>"; };
+		298523E71A2725C300A851F5 /* lettuce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lettuce.png; sourceTree = "<group>"; };
+		298523E81A2725C300A851F5 /* Loki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loki.png; sourceTree = "<group>"; };
+		298523E91A2725C300A851F5 /* okra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = okra.png; sourceTree = "<group>"; };
+		298523EA1A2725C300A851F5 /* OLIVES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OLIVES.png; sourceTree = "<group>"; };
+		298523EB1A2725C300A851F5 /* onion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onion.png; sourceTree = "<group>"; };
+		298523EC1A2725C300A851F5 /* peas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peas.png; sourceTree = "<group>"; };
+		298523ED1A2725C300A851F5 /* potato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potato.png; sourceTree = "<group>"; };
+		298523EE1A2725C300A851F5 /* pumpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpkin.png; sourceTree = "<group>"; };
+		298523EF1A2725C300A851F5 /* Radish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radish.png; sourceTree = "<group>"; };
+		298523F01A2725C300A851F5 /* Spinach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spinach.png; sourceTree = "<group>"; };
+		298523F11A2725C300A851F5 /* sweetpotato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sweetpotato.png; sourceTree = "<group>"; };
+		298523F31A2725C300A851F5 /* Turnip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turnip.png; sourceTree = "<group>"; };
+		298524131A27268000A851F5 /* Aubergine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aubergine.png; sourceTree = "<group>"; };
+		298524151A2726F600A851F5 /* Corn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Corn.png; sourceTree = "<group>"; };
+		298524171A27420700A851F5 /* tamato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamato.png; sourceTree = "<group>"; };
+		298524191A2775F500A851F5 /* taro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taro.png; sourceTree = "<group>"; };
+		2985241B1A277A8800A851F5 /* cilantro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cilantro.png; sourceTree = "<group>"; };
 		29DCD83E1A08E6DB001CFE2E /* آ.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "آ.caf"; sourceTree = "<group>"; };
 		29DCD83F1A08E6DB001CFE2E /* ا.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ا.caf"; sourceTree = "<group>"; };
 		29DCD8401A08E6DB001CFE2E /* ب.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ب.caf"; sourceTree = "<group>"; };
@@ -463,6 +529,46 @@
 			path = Fruits;
 			sourceTree = "<group>";
 		};
+		298523D41A2725C300A851F5 /* Vegitables */ = {
+			isa = PBXGroup;
+			children = (
+				298524131A27268000A851F5 /* Aubergine.png */,
+				298523D51A2725C300A851F5 /* asparagus.png */,
+				298523D61A2725C300A851F5 /* beetroot.png */,
+				298523D71A2725C300A851F5 /* Bell-pepper.png */,
+				298523D81A2725C300A851F5 /* bitter-melon.png */,
+				298523D91A2725C300A851F5 /* broccoli.png */,
+				298523DA1A2725C300A851F5 /* cabbage.png */,
+				298523DB1A2725C300A851F5 /* Carrotts.png */,
+				298523DC1A2725C300A851F5 /* cauliflower.png */,
+				298523DD1A2725C300A851F5 /* celery.png */,
+				2985241B1A277A8800A851F5 /* cilantro.png */,
+				298523DE1A2725C300A851F5 /* Chili.png */,
+				298523E01A2725C300A851F5 /* Courgette.png */,
+				298524151A2726F600A851F5 /* Corn.png */,
+				298523E11A2725C300A851F5 /* cucumbers.png */,
+				298523E21A2725C300A851F5 /* Garlic.png */,
+				298523E31A2725C300A851F5 /* ginger.png */,
+				298523E41A2725C300A851F5 /* GreenBeans.png */,
+				298523E61A2725C300A851F5 /* leeks.png */,
+				298523E71A2725C300A851F5 /* lettuce.png */,
+				298523E81A2725C300A851F5 /* Loki.png */,
+				298523E91A2725C300A851F5 /* okra.png */,
+				298523EA1A2725C300A851F5 /* OLIVES.png */,
+				298523EB1A2725C300A851F5 /* onion.png */,
+				298523EC1A2725C300A851F5 /* peas.png */,
+				298523ED1A2725C300A851F5 /* potato.png */,
+				298523EE1A2725C300A851F5 /* pumpkin.png */,
+				298523EF1A2725C300A851F5 /* Radish.png */,
+				298523F01A2725C300A851F5 /* Spinach.png */,
+				298523F11A2725C300A851F5 /* sweetpotato.png */,
+				298524171A27420700A851F5 /* tamato.png */,
+				298524191A2775F500A851F5 /* taro.png */,
+				298523F31A2725C300A851F5 /* Turnip.png */,
+			);
+			path = Vegitables;
+			sourceTree = "<group>";
+		};
 		29DDDEEB1A0762F90043CF8F /* Alif bay pay Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,6 +636,7 @@
 		29DEBA831A06599300619813 /* Urdu Qaida */ = {
 			isa = PBXGroup;
 			children = (
+				298523D41A2725C300A851F5 /* Vegitables */,
 				29FB3EA01A1DDA14002C6B4D /* Body Parts Sounds */,
 				29FB3DEB1A1DD9A9002C6B4D /* Fruits Sounds */,
 				29F459621A0DDE1E0057B10A /* Arrow.png */,
@@ -736,6 +843,7 @@
 				29DCD8781A08E6DB001CFE2E /* ص.caf in Resources */,
 				29FB3EC41A1DDA36002C6B4D /* Finger.caf in Resources */,
 				29042A3E1A066A5200EF14B2 /* aam.png in Resources */,
+				298523FC1A2725C300A851F5 /* celery.png in Resources */,
 				29042A511A066A5200EF14B2 /* Khrboz.png in Resources */,
 				29FB3E851A1DDA09002C6B4D /* Banana.caf in Resources */,
 				29FB3ED31A1DDA36002C6B4D /* Nose.caf in Resources */,
@@ -748,8 +856,11 @@
 				29042A251A066A5200EF14B2 /* brain.png in Resources */,
 				29FB3EC11A1DDA36002C6B4D /* Ear.caf in Resources */,
 				29042A261A066A5200EF14B2 /* chin.png in Resources */,
+				298524061A2725C300A851F5 /* lettuce.png in Resources */,
 				29FB3E911A1DDA09002C6B4D /* Lemon.caf in Resources */,
+				298524141A27268000A851F5 /* Aubergine.png in Resources */,
 				29FB3ECC1A1DDA36002C6B4D /* Lip.caf in Resources */,
+				2985240F1A2725C300A851F5 /* Spinach.png in Resources */,
 				29DCD8751A08E6DB001CFE2E /* ژ.caf in Resources */,
 				29DCD8791A08E6DB001CFE2E /* ض.caf in Resources */,
 				29DCD8831A08E6DB001CFE2E /* م.caf in Resources */,
@@ -770,11 +881,14 @@
 				29042A591A066A5200EF14B2 /* neelaBair.png in Resources */,
 				29DCD8801A08E6DB001CFE2E /* ک.caf in Resources */,
 				29042A541A066A5200EF14B2 /* lime.png in Resources */,
+				2985240A1A2725C300A851F5 /* onion.png in Resources */,
 				29042A221A066A5200EF14B2 /* arm.png in Resources */,
+				2985240B1A2725C300A851F5 /* peas.png in Resources */,
 				29DCD8771A08E6DB001CFE2E /* ش.caf in Resources */,
 				29042A2E1A066A5200EF14B2 /* hand.png in Resources */,
 				29FB3ECA1A1DDA36002C6B4D /* Kidney.caf in Resources */,
 				29FB3EBE1A1DDA36002C6B4D /* Bone.caf in Resources */,
+				298523FB1A2725C300A851F5 /* cauliflower.png in Resources */,
 				29FB3ED11A1DDA36002C6B4D /* Nail.caf in Resources */,
 				29DCD8671A08E6DB001CFE2E /* پ.caf in Resources */,
 				29FB3E931A1DDA09002C6B4D /* Melon.caf in Resources */,
@@ -793,8 +907,11 @@
 				29FB3EBC1A1DDA36002C6B4D /* Arm.caf in Resources */,
 				29DCD87E1A08E6DB001CFE2E /* ف.caf in Resources */,
 				29042A5D1A066A5200EF14B2 /* strawberry.png in Resources */,
+				298524181A27420700A851F5 /* tamato.png in Resources */,
+				298524081A2725C300A851F5 /* okra.png in Resources */,
 				29DCD8881A08E6DB001CFE2E /* ی.caf in Resources */,
 				29FB3E8F1A1DDA09002C6B4D /* Guava.caf in Resources */,
+				298524091A2725C300A851F5 /* OLIVES.png in Resources */,
 				29DCD87A1A08E6DB001CFE2E /* ط.caf in Resources */,
 				29FB3EC31A1DDA36002C6B4D /* Face.caf in Resources */,
 				29042A291A066A5200EF14B2 /* Face.png in Resources */,
@@ -802,8 +919,10 @@
 				29FB3ED01A1DDA36002C6B4D /* Muscle.caf in Resources */,
 				29FB3E9E1A1DDA09002C6B4D /* Tangerine.caf in Resources */,
 				29FB3E861A1DDA09002C6B4D /* BlackBerry.caf in Resources */,
+				298524051A2725C300A851F5 /* leeks.png in Resources */,
 				29042A431A066A5200EF14B2 /* angoor1.png in Resources */,
 				29FB3E871A1DDA09002C6B4D /* Blueberry.caf in Resources */,
+				2985240E1A2725C300A851F5 /* Radish.png in Resources */,
 				29FB3E8B1A1DDA09002C6B4D /* DragonFruit.caf in Resources */,
 				29042A4B1A066A5200EF14B2 /* fruits.png in Resources */,
 				29042A4D1A066A5200EF14B2 /* jamn.png in Resources */,
@@ -816,20 +935,28 @@
 				29DCD8701A08E6DB001CFE2E /* ذ.caf in Resources */,
 				29042A351A066A5200EF14B2 /* lungs-md.png in Resources */,
 				29DCD86D1A08E6DB001CFE2E /* ح.caf in Resources */,
+				298523F41A2725C300A851F5 /* asparagus.png in Resources */,
 				29042A421A066A5200EF14B2 /* Anar.png in Resources */,
 				29DCD87B1A08E6DB001CFE2E /* ظ.caf in Resources */,
+				2985240D1A2725C300A851F5 /* pumpkin.png in Resources */,
 				29FB3EC81A1DDA36002C6B4D /* Hand.caf in Resources */,
+				298524101A2725C300A851F5 /* sweetpotato.png in Resources */,
 				29FB3ED41A1DDA36002C6B4D /* Rib.caf in Resources */,
+				298524031A2725C300A851F5 /* GreenBeans.png in Resources */,
 				29042A491A066A5200EF14B2 /* chiniKrwnda.png in Resources */,
+				298523FA1A2725C300A851F5 /* Carrotts.png in Resources */,
 				29042A551A066A5200EF14B2 /* magarNashpati.png in Resources */,
 				29042A531A066A5200EF14B2 /* Lemon.png in Resources */,
 				29042A3D1A066A5200EF14B2 /* thumbs.png in Resources */,
+				2985241A1A2775F500A851F5 /* taro.png in Resources */,
 				29DEBA951A06599300619813 /* LaunchScreen.xib in Resources */,
 				29DCD8741A08E6DB001CFE2E /* ڑ.caf in Resources */,
+				298523F61A2725C300A851F5 /* Bell-pepper.png in Resources */,
 				29042A581A066A5200EF14B2 /* nashpati.png in Resources */,
 				29DCD86A1A08E6DB001CFE2E /* ٹ.caf in Resources */,
 				29FB3E961A1DDA09002C6B4D /* Papaya.caf in Resources */,
 				29FB3EBD1A1DDA36002C6B4D /* Beard.caf in Resources */,
+				298524071A2725C300A851F5 /* Loki.png in Resources */,
 				29042A321A066A5200EF14B2 /* legs.png in Resources */,
 				29DCD87D1A08E6DB001CFE2E /* غ.caf in Resources */,
 				29042A231A066A5200EF14B2 /* Beard.png in Resources */,
@@ -841,16 +968,21 @@
 				29042A4A1A066A5200EF14B2 /* DragonFruit.png in Resources */,
 				29FB3EC61A1DDA36002C6B4D /* Foot.caf in Resources */,
 				29DCD8841A08E6DB001CFE2E /* ن.caf in Resources */,
+				298524121A2725C300A851F5 /* Turnip.png in Resources */,
 				29042A271A066A5200EF14B2 /* EAR.png in Resources */,
+				298524001A2725C300A851F5 /* cucumbers.png in Resources */,
+				298524011A2725C300A851F5 /* Garlic.png in Resources */,
 				29DCD8691A08E6DB001CFE2E /* ث.caf in Resources */,
 				29FB3EC71A1DDA36002C6B4D /* Hair.caf in Resources */,
 				29042A561A066A5200EF14B2 /* malta.png in Resources */,
 				29FB3E9C1A1DDA09002C6B4D /* Raspberry.caf in Resources */,
 				29FB3EC01A1DDA36002C6B4D /* Chin.caf in Resources */,
+				298523F81A2725C300A851F5 /* broccoli.png in Resources */,
 				29FB3ECE1A1DDA36002C6B4D /* Lung.caf in Resources */,
 				29042A471A066A5200EF14B2 /* chakotra.png in Resources */,
 				29FB3ECD1A1DDA36002C6B4D /* Liver.caf in Resources */,
 				29FB3E9D1A1DDA09002C6B4D /* Strawberry.caf in Resources */,
+				298524161A2726F600A851F5 /* Corn.png in Resources */,
 				29FB3EC21A1DDA36002C6B4D /* Eye.caf in Resources */,
 				29FB3E831A1DDA09002C6B4D /* Apricot.caf in Resources */,
 				29FB3ECB1A1DDA36002C6B4D /* Knee.caf in Resources */,
@@ -860,11 +992,15 @@
 				29042A2C1A066A5200EF14B2 /* Foot.png in Resources */,
 				29042A5A1A066A5200EF14B2 /* Papita.png in Resources */,
 				29DCD8851A08E6DB001CFE2E /* ں.caf in Resources */,
+				2985240C1A2725C300A851F5 /* potato.png in Resources */,
 				29042A361A066A5200EF14B2 /* moustache.png in Resources */,
+				298524021A2725C300A851F5 /* ginger.png in Resources */,
+				298523F51A2725C300A851F5 /* beetroot.png in Resources */,
 				29042A3A1A066A5200EF14B2 /* nose.png in Resources */,
 				29FB3E8E1A1DDA09002C6B4D /* GrapeFruit.caf in Resources */,
 				29042A3C1A066A5200EF14B2 /* Teeth.png in Resources */,
 				29FB3E991A1DDA09002C6B4D /* PineApple.caf in Resources */,
+				298523F91A2725C300A851F5 /* cabbage.png in Resources */,
 				29042A5B1A066A5200EF14B2 /* raspberry.png in Resources */,
 				29FB3E821A1DDA09002C6B4D /* apple.caf in Resources */,
 				29DCD86B1A08E6DB001CFE2E /* ج.caf in Resources */,
@@ -876,10 +1012,14 @@
 				29042A4C1A066A5200EF14B2 /* GulSalibi.png in Resources */,
 				29DCD8871A08E6DB001CFE2E /* و.caf in Resources */,
 				29042A461A066A5200EF14B2 /* arroo1.png in Resources */,
+				298523FD1A2725C300A851F5 /* Chili.png in Resources */,
 				29DDDEED1A0763040043CF8F /* Alif.caf in Resources */,
 				29DCD87F1A08E6DB001CFE2E /* ق.caf in Resources */,
 				29FB3E941A1DDA09002C6B4D /* Nectarine.caf in Resources */,
 				29FB3E8C1A1DDA09002C6B4D /* Fig.caf in Resources */,
+				2985241C1A277A8800A851F5 /* cilantro.png in Resources */,
+				298523F71A2725C300A851F5 /* bitter-melon.png in Resources */,
+				298523FF1A2725C300A851F5 /* Courgette.png in Resources */,
 				29DCD87C1A08E6DB001CFE2E /* ع.caf in Resources */,
 				29FB3E8D1A1DDA09002C6B4D /* Grape.caf in Resources */,
 				29DCD8731A08E6DB001CFE2E /* ز.caf in Resources */,

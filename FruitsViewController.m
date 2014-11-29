@@ -315,7 +315,7 @@
 
 - (IBAction)tangerines:(id)sender
 {
-    [[SoundManager sharedManager] playSound:@"Tangernie.caf"];
+    [[SoundManager sharedManager] playSound:@"Tangerine.caf"];
 }
 
 - (IBAction)passionFruit:(id)sender
