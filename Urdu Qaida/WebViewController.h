@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface WebViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic) NSString *urlString;
+- (IBAction)cancel:(id)sender;
 
 @end

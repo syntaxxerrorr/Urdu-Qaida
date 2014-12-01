@@ -14,17 +14,22 @@
 
 @implementation WebViewController
 
+@synthesize webView;
+@synthesize urlString;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:requestObj];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-#warning WebView Pending
 
 /*
 #pragma mark - Navigation
@@ -36,4 +41,8 @@
 }
 */
 
+- (IBAction)cancel:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

@@ -29,7 +29,13 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XUc-xe-sUK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="CGZ-aA-2wy"/>
+                                    <navigationItem id="CGZ-aA-2wy">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="q9h-Vz-uFe">
+                                            <connections>
+                                                <action selector="cancel:" destination="VEi-Eg-i35" id="6Ex-uN-aeb"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                                 <variation key="heightClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -50,10 +56,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="ZcP-Ar-yJN" id="rqD-L4-5ar"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O3X-4a-njC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1946" y="-1095"/>
+            <point key="canvasLocation" x="2128" y="-1183.5"/>
         </scene>
         <!--Fruits View Controller-->
         <scene sceneID="6VX-pa-C9U">
@@ -204,7 +213,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VEi-Eg-i35" kind="presentation" id="RhL-Uw-hOJ"/>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="grapeSegue" modalTransitionStyle="partialCurl" id="RhL-Uw-hOJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwB-c1-jap">
@@ -212,6 +221,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="pomegranateSegue" modalTransitionStyle="partialCurl" id="eC8-1V-vD8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIY-d2-my1">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -231,18 +243,27 @@
                                         <include reference="Hmp-DO-c9k"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="guavaSegue" modalTransitionStyle="partialCurl" id="fMx-0q-v5x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWQ-Ht-Bv8">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="strawberrySegue" modalTransitionStyle="partialCurl" id="nuz-of-xsK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlD-gx-uvu">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="pineappleSegue" id="zN8-eo-8En"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sT-ed-tkf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -1036,24 +1057,36 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="plumSegue" id="sZJ-p5-CHV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOD-Ef-Rcf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="nectarineSegue" id="EjT-e6-Aaq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYN-QN-eAa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="mangoSegue" id="BdA-bi-B58"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSI-Si-sRp">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VEi-Eg-i35" kind="presentation" identifier="peachSegue" id="I6y-jW-kDC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
@@ -1223,7 +1256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CI-ya-su1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2401" y="-360"/>
+            <point key="canvasLocation" x="2383" y="-360"/>
         </scene>
         <!--Body Parts View Controller-->
         <scene sceneID="zbD-jc-eYr">
@@ -1699,7 +1732,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTQ-b6-RJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3022" y="-360"/>
+            <point key="canvasLocation" x="3004" y="-360"/>
         </scene>
         <!--Body Parts View Controller-->
         <scene sceneID="pB5-UH-ul4">
@@ -20240,4 +20273,7 @@
         <image name="thumbs.png" width="210" height="298"/>
         <image name="trbooz.png" width="200" height="146"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eC8-1V-vD8"/>
+    </inferredMetricsTieBreakers>
 </document>

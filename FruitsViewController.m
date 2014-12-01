@@ -8,8 +8,12 @@
 
 #import "FruitsViewController.h"
 #import "SoundManager.h"
+#import "WebViewController.h"
+
 
 @implementation FruitsViewController
+
+#pragma Mark - Urdu Alphabets
 
 
 - (IBAction)firstButton:(id)sender //Alif Sound
@@ -201,7 +205,7 @@
     [[SoundManager sharedManager] playSound:@"ے.caf"];
 }
 
-
+#pragma Mark - Fruits Names
 
 - (IBAction)grapes:(id)sender
 {
@@ -255,7 +259,7 @@
 
 - (IBAction)bucketOfFruits:(id)sender
 {
-#warning missing sound
+#warning Missing sound of bucket of fruits
 }
 
 - (IBAction)blackBerry:(id)sender
@@ -351,5 +355,28 @@
 - (IBAction)blueBerry:(id)sender
 {
     [[SoundManager sharedManager] playSound:@"Blueberry"];
+    
 }
+
+#pragma Mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"grapeSegue"]) {
+        NSString *urlstr=@"http://www.google.com";
+        WebViewController *vc = [segue destinationViewController];
+        vc.urlString = urlstr;
+    } else if ([[segue identifier] isEqualToString:@"pomegranateSegue"]) {
+        NSString *urlstr = @"http://www.facebook.com";
+        WebViewController *vc = [segue destinationViewController];
+        vc.urlString = urlstr;
+    }else if ([[segue identifier] isEqualToString:@"pineappleSegue"]){
+        NSString *urlstr = @"";
+        WebViewController *vc = [segue destinationViewController];
+        vc.urlString = urlstr;
+    }
+}
+
+
+
 @end
